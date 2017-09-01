@@ -1,0 +1,1589 @@
+<?xml version="1.0"?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2016//EN" "http://www.ncbi.nlm.nih.gov/corehtml/query/DTD/pubmed_160101.dtd">
+<PubmedArticleSet>
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">27111822</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>4</Month>
+            <Day>25</Day>
+        </DateCreated>
+        <DateRevised>
+            <Year>2016</Year>
+            <Month>4</Month>
+            <Day>26</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1550-5049</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Apr</Month>
+                        <Day>22</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>The Journal of cardiovascular nursing</Title>
+                <ISOAbbreviation>J Cardiovasc Nurs</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Long-term Physical Activity Behavior After Completion of Traditional Versus Fast-track Cardiac Rehabilitation.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn/>
+            </Pagination>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Despite the health benefits associated with regular physical activity (PA), many cardiac patients fail to maintain optimal levels of PA after completing cardiac rehabilitation (CR). The long-term impact of different CR delivery models on the PA habits of cardiac patients is not completely understood.</AbstractText>
+                <AbstractText Label="OBJECTIVE" NlmCategory="OBJECTIVE">The purpose of this study is to use a multisensor accelerometer to compare the long-term impact of a traditional versus fast-track CR on the PA of patients with coronary artery disease 6 months after CR entry.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">Forty-four participants attended either traditional (twice a week, 12 weeks; n = 24) or fast-track (once a week, 8 weeks; n = 20) CR. Exercise capacity (ie, 6-minute walk test distance) and PA were assessed at baseline and at 12 weeks and 6 months after CR entry.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">At 12 weeks, exercise capacity increased significantly in both groups and remained elevated by the 6-month follow-up. Sedentary time decreased from baseline to 12 weeks. However, at 6 months, it was comparable with the baseline level. There was no significant change in any other PA marker (ie, steps/day, time in light and moderate-vigorous PA) over the course of the study.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">Findings support the long-term effectiveness of CR on exercise capacity irrespective of the delivery model. However, participation in CR program, whether it be a traditional or fast-track CR exercise program, may not lead to long-term PA behavior change. Thus, CR participants may benefit from structured strategies that promote long-term PA adherence in addition to facilitating exercise capacity improvement.</AbstractText>
+            </Abstract>
+            <AuthorList>
+                <Author>
+                    <LastName>Ramadi</LastName>
+                    <ForeName>Ailar</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Ailar Ramadi, PhD Research Associate, Faculty of Rehabilitation Medicine, University of Alberta, Edmonton, Canada. David M. Buijs, MSc Exercise Specialist, Northern Alberta Cardiac Rehabilitation Program, Jim Pattison Centre for Heart Health, Mazankowski Alberta Heart Institute, Edmonton, Canada. Tyler G. Threlfall, BSc Clinical Exercise Physiologist, TotalCardiology Rehabilitation and Risk Reduction Centre, Calgary, Alberta, Canada. Sandeep G. Aggarwal, MD Medical Director, TotalCardiology Rehabilitation and Risk Reduction Centre, and Associate Clinical Professor, University of Calgary, Libin Cardiovascular Institute, Alberta, Canada. Ross Arena, PhD, PT Professor and Head, Department of Physical Therapy and Integrative Physiology Laboratory, College of Applied Health Sciences, University of Illinois at Chicago. Wendy M. Rodgers, PhD Professor, Faculty of Physical Education and Recreation, University of Alberta, Edmonton, Canada. Robert G. Haennel, PhD Professor and Dean, Faculty of Rehabilitation Medicine, University of Alberta, Edmonton, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Buijs</LastName>
+                    <ForeName>David M</ForeName>
+                    <Initials>DM</Initials>
+                </Author>
+                <Author>
+                    <LastName>Threlfall</LastName>
+                    <ForeName>Tyler G</ForeName>
+                    <Initials>TG</Initials>
+                </Author>
+                <Author>
+                    <LastName>Aggarwal</LastName>
+                    <ForeName>Sandeep G</ForeName>
+                    <Initials>SG</Initials>
+                </Author>
+                <Author>
+                    <LastName>Arena</LastName>
+                    <ForeName>Ross</ForeName>
+                    <Initials>R</Initials>
+                </Author>
+                <Author>
+                    <LastName>Rodgers</LastName>
+                    <ForeName>Wendy M</ForeName>
+                    <Initials>WM</Initials>
+                </Author>
+                <Author>
+                    <LastName>Haennel</LastName>
+                    <ForeName>Robert G</ForeName>
+                    <Initials>RG</Initials>
+                </Author>
+            </AuthorList>
+            <Language>ENG</Language>
+            <PublicationTypeList>
+                <PublicationType UI="">JOURNAL ARTICLE</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>22</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <MedlineTA>J Cardiovasc Nurs</MedlineTA>
+            <NlmUniqueID>8703516</NlmUniqueID>
+            <ISSNLinking>0889-4655</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="doi">10.1097/JCN.0000000000000341</ArticleId>
+            <ArticleId IdType="pubmed">27111822</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">27111796</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>4</Month>
+            <Day>25</Day>
+        </DateCreated>
+        <DateRevised>
+            <Year>2016</Year>
+            <Month>4</Month>
+            <Day>26</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1879-3460</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>230</Volume>
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Apr</Month>
+                        <Day>16</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>International journal of food microbiology</Title>
+                <ISOAbbreviation>Int. J. Food Microbiol.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Seroprevalence of Toxoplasma gondii and direct genotyping using minisequencing in free-range pigs in Burkina Faso.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>10-15</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii">S0168-1605(16)30174-X</ELocationID>
+            <ELocationID EIdType="doi">10.1016/j.ijfoodmicro.2016.04.016</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Swine are a major source of meat for humans. As such, they can play an important role in the epidemiology of human toxoplasmosis. Therefore, we performed an epidemiological study to determine the prevalence and genotypes of Toxoplasma gondii in Burkina Fasan swine.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">The prevalence of T. gondii infection was evaluated in a 3-month prospective study at the slaughterhouse of Bobo-Dioulasso, Burkina Faso. Anti-Toxoplasma IgG titers were determined on meat juices from pig diaphragms using a commercially available ELISA assay. The DNA was extracted from 25mg of heart biopsies of seropositive animals (IgG ≥50% of the control) and the presence of T. gondii DNA was detected using a quantitative PCR assay. Genotyping was performed directly on DNA from PCR-positive biopsies using high-resolution melting and minisequencing analyses of the repeated B1 gene.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">The prevalence of carcasses positive for anti-Toxoplasma IgG was 29% (87/300) with no difference according to sex and age in contrast to the village of origin (p=0.018). Of the 87 seropositive animals, two were PCR positive (parasitic load at 64 and 128 parasites/mg of heart biopsy). Two new genotypes belonging to Type II and Type III and different from the genotypes previously described using minisequencing were identified.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">Our study provides the first T. gondii seroprevalence data in Burkina Fasan swine. In addition, this direct typing method suggests diversity of the T. gondii genotypes circulating in domestic animals in Burkina Faso. This needs to be confirmed on a wider sampling of subjects.</AbstractText>
+                <CopyrightInformation>Copyright © 2016 Elsevier B.V. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList>
+                <Author>
+                    <LastName>Bamba</LastName>
+                    <ForeName>Sanata</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institut Supérieur des Sciences de la Santé (INSSA), Université Polytechnique de Bobo-Dioulasso, Burkina Faso.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Halos</LastName>
+                    <ForeName>Lénaïg</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>JRU BIPAR ENV, ANSES, UPVM, Animal Health Laboratory, Maisons-Alfort, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Tarnagda</LastName>
+                    <ForeName>Zékiba</ForeName>
+                    <Initials>Z</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institut Supérieur des Sciences de la Santé (INSSA), Université Polytechnique de Bobo-Dioulasso, Burkina Faso; Institut de Recherche en Sciences de la Santé (IRSS), Bobo-Dioulasso, Burkina Faso.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Alanio</LastName>
+                    <ForeName>Alexandre</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Laboratoire de Parasitologie-Mycologie, Groupe hospitalier Saint Louis Lariboisière, Assistance Publique-Hôpitaux de Paris (APHP), Paris, France; Université Paris Diderot, Sorbonne Paris Cité, Paris, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Macé</LastName>
+                    <ForeName>Pauline</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>JRU BIPAR ENV, ANSES, UPVM, Animal Health Laboratory, Maisons-Alfort, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Moukoury</LastName>
+                    <ForeName>Sandrine</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Laboratoire Cerba, Cergy-Pontoise, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Sangaré</LastName>
+                    <ForeName>Ibrahim</ForeName>
+                    <Initials>I</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institut Supérieur des Sciences de la Santé (INSSA), Université Polytechnique de Bobo-Dioulasso, Burkina Faso.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Guiguemdé</LastName>
+                    <ForeName>Robert</ForeName>
+                    <Initials>R</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institut Supérieur des Sciences de la Santé (INSSA), Université Polytechnique de Bobo-Dioulasso, Burkina Faso.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Costa</LastName>
+                    <ForeName>Jean-Marc</ForeName>
+                    <Initials>JM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Laboratoire Cerba, Cergy-Pontoise, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Bretagne</LastName>
+                    <ForeName>Stéphane</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Laboratoire de Parasitologie-Mycologie, Groupe hospitalier Saint Louis Lariboisière, Assistance Publique-Hôpitaux de Paris (APHP), Paris, France; Université Paris Diderot, Sorbonne Paris Cité, Paris, France. Electronic address: stephane.bretagne@aphp.fr.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>ENG</Language>
+            <PublicationTypeList>
+                <PublicationType UI="">JOURNAL ARTICLE</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>16</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <MedlineTA>Int J Food Microbiol</MedlineTA>
+            <NlmUniqueID>8412849</NlmUniqueID>
+            <ISSNLinking>0168-1605</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">AF487550</Keyword>
+            <Keyword MajorTopicYN="N">B1 gene</Keyword>
+            <Keyword MajorTopicYN="N">Burkina Faso</Keyword>
+            <Keyword MajorTopicYN="N">Genotyping</Keyword>
+            <Keyword MajorTopicYN="N">Meat juice</Keyword>
+            <Keyword MajorTopicYN="N">Minisequencing analysis</Keyword>
+            <Keyword MajorTopicYN="N">Pig</Keyword>
+            <Keyword MajorTopicYN="N">Quantitative PCR</Keyword>
+            <Keyword MajorTopicYN="N">Repeated element</Keyword>
+            <Keyword MajorTopicYN="N">Seroprevalence</Keyword>
+            <Keyword MajorTopicYN="N">Toxoplasma gondii</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2015</Year>
+                <Month>12</Month>
+                <Day>5</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>5</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>12</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">S0168-1605(16)30174-X</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.ijfoodmicro.2016.04.016</ArticleId>
+            <ArticleId IdType="pubmed">27111796</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">27111740</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>4</Month>
+            <Day>25</Day>
+        </DateCreated>
+        <DateRevised>
+            <Year>2016</Year>
+            <Month>4</Month>
+            <Day>26</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1538-943X</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Apr</Month>
+                        <Day>25</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>ASAIO journal (American Society for Artificial Internal Organs : 1992)</Title>
+                <ISOAbbreviation>ASAIO J.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Using Hemolysis as a Novel Method for Assessment of Cytotoxicity and Blood Compatibility of Decellularized Heart Tissues.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn/>
+            </Pagination>
+            <Abstract>
+                <AbstractText NlmCategory="UNASSIGNED">Developing patient-specific transplantable organs is a promising response to the increasing need of more effective therapies for patients with organ failure. Advances in tissue engineering strategies have demonstrated favorable results; including the use of decellularized hearts as scaffolds for cardiac engineering, however, there is a need to establish methods to characterize the cytotoxicity and blood compatibility of cardiac extracellular matrix (cECM) scaffolds created by decellularization. In this study, porcine hearts were decellularized in an automated perfusion apparatus utilizing sodium dodecyl sulfate (SDS) detergent. Residual SDS was measured by a colorimetric assay. Phosphate buffered saline (PBS), distilled water (DW), and Triton X-100 washes were used to remove SDS. The efficiency of detergent removal was measured as a function of time. It was observed that using Triton-X 100 can nearly double the rate of SDS removal. An assay based on human blood hemolysis was developed to measure the remaining cytotoxicity of the cECM. The results from the hemolysis cytotoxicity assay were consistent with a standard live/dead assay using MS1 endothelial cells incubated with the cECM. This study demonstrated an effective, reliable, and relatively inexpensive method for determining the cytotoxicity and blood compatibility of decellularized cECM scaffolds.</AbstractText>
+            </Abstract>
+            <AuthorList>
+                <Author>
+                    <LastName>Momtahan</LastName>
+                    <ForeName>Nima</ForeName>
+                    <Initials>N</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>* Department of Chemical Engineering, 350CB, Brigham Young University, Provo, UT, 84602 † Department of Chemistry, Brigham Young University, Provo, UT 84602, ‡ Department of Biology, 2120 LSB, Brigham Young University, Provo, UT 84602 § Thrombodyne, Inc., 333 North 300 West, Salt Lake City, UT 84103.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Panahi</LastName>
+                    <ForeName>Tayyebeh</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+                <Author>
+                    <LastName>Poornejad</LastName>
+                    <ForeName>Nafiseh</ForeName>
+                    <Initials>N</Initials>
+                </Author>
+                <Author>
+                    <LastName>Stewart</LastName>
+                    <ForeName>Michael G</ForeName>
+                    <Initials>MG</Initials>
+                </Author>
+                <Author>
+                    <LastName>Vance</LastName>
+                    <ForeName>Brady R</ForeName>
+                    <Initials>BR</Initials>
+                </Author>
+                <Author>
+                    <LastName>Struk</LastName>
+                    <ForeName>Jeremy A</ForeName>
+                    <Initials>JA</Initials>
+                </Author>
+                <Author>
+                    <LastName>Castleton</LastName>
+                    <ForeName>Arthur A</ForeName>
+                    <Initials>AA</Initials>
+                </Author>
+                <Author>
+                    <LastName>Roeder</LastName>
+                    <ForeName>Beverly L</ForeName>
+                    <Initials>BL</Initials>
+                </Author>
+                <Author>
+                    <LastName>Sukavaneshvar</LastName>
+                    <ForeName>Sivaprasad</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author>
+                    <LastName>Cook</LastName>
+                    <ForeName>Alonzo D</ForeName>
+                    <Initials>AD</Initials>
+                </Author>
+            </AuthorList>
+            <Language>ENG</Language>
+            <PublicationTypeList>
+                <PublicationType UI="">JOURNAL ARTICLE</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>25</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <MedlineTA>ASAIO J</MedlineTA>
+            <NlmUniqueID>9204109</NlmUniqueID>
+            <ISSNLinking>1058-2916</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="doi">10.1097/MAT.0000000000000373</ArticleId>
+            <ArticleId IdType="pubmed">27111740</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">27111739</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>4</Month>
+            <Day>25</Day>
+        </DateCreated>
+        <DateRevised>
+            <Year>2016</Year>
+            <Month>4</Month>
+            <Day>26</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1538-943X</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Apr</Month>
+                        <Day>25</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>ASAIO journal (American Society for Artificial Internal Organs : 1992)</Title>
+                <ISOAbbreviation>ASAIO J.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>PATIENTS AWAITING HEART TRANSPLANTATION ON HVAD SUPPORT FOR GREATER THAN TWO YEARS.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn/>
+            </Pagination>
+            <Abstract>
+                <AbstractText NlmCategory="UNASSIGNED">Advanced heart failure patients who are classified as bridge-to-transplant (BTT) often remain on mechanical circulatory support (MCS) for long durations due to the limited supply of donor organs. Here we present the outcomes of patients who have been supported by the HeartWare® ventricular assist device (HVAD®) system for more than two years. In the HeartWare BTT and Continued Access Protocol (CAP) trial, 74 of the 382 total patients (19.4%) had more than two years of MCS with a mean time of 1045 days on device. The long-term group was more frequently female, non-white, and had INTERMACS profiles 4 - 7. Post-implant adverse event rates including bleeding, cardiac arrhythmia, infection, stroke, renal dysfunction, and right heart failure were less frequent in the long-term cohort. In addition, the long-term cohort displayed significant improvements in KCCQ, EQ-5D, and six minute walk scores from baseline values. The rate of heart transplantation was lower for the long-term cohort which may have been a result of their sex and blood type. However, most of these patients are still listed for cardiac transplantation and maintained their quality of life profiles through three years of support.</AbstractText>
+            </Abstract>
+            <AuthorList>
+                <Author>
+                    <LastName>Aaronson</LastName>
+                    <ForeName>Keith D</ForeName>
+                    <Initials>KD</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>1Division of Cardiovascular Medicine and Department of Cardiac Surgery, University of Michigan, Ann Arbor, MI, 2Department of Thoracic and Cardiovascular Surgery, Florida Hospital, Orlando, FL, 3Department of Cardiac Surgery, Mayo Clinic Rochester, Rochester, MN, 4Heart and Lung Transplant Center, Texas Heart Institute, St. Luke's Episcopal Hospital, Houston, TX, 5Departments of Internal Medicine and Cardiac Surgery, MedStar Heart Institute, Washington, DC, 6HeartWare Inc., Framingham, MA, 7Division of Cardiothoracic Surgery, University of Louisville, Louisville, KY.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Silvestry</LastName>
+                    <ForeName>Scott C</ForeName>
+                    <Initials>SC</Initials>
+                </Author>
+                <Author>
+                    <LastName>Maltais</LastName>
+                    <ForeName>Simon</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author>
+                    <LastName>Mallidi</LastName>
+                    <ForeName>Hari R</ForeName>
+                    <Initials>HR</Initials>
+                </Author>
+                <Author>
+                    <LastName>Frazier</LastName>
+                    <ForeName>O H</ForeName>
+                    <Initials>OH</Initials>
+                </Author>
+                <Author>
+                    <LastName>Boyce</LastName>
+                    <ForeName>Steven W</ForeName>
+                    <Initials>SW</Initials>
+                </Author>
+                <Author>
+                    <LastName>Leadley</LastName>
+                    <ForeName>Katrin</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+                <Author>
+                    <LastName>Najarian</LastName>
+                    <ForeName>Kevin B</ForeName>
+                    <Initials>KB</Initials>
+                </Author>
+                <Author>
+                    <LastName>Slaughter</LastName>
+                    <ForeName>Mark S</ForeName>
+                    <Initials>MS</Initials>
+                </Author>
+                <Author>
+                    <LastName>Pagani</LastName>
+                    <ForeName>Francis D</ForeName>
+                    <Initials>FD</Initials>
+                </Author>
+            </AuthorList>
+            <Language>ENG</Language>
+            <PublicationTypeList>
+                <PublicationType UI="">JOURNAL ARTICLE</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>25</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <MedlineTA>ASAIO J</MedlineTA>
+            <NlmUniqueID>9204109</NlmUniqueID>
+            <ISSNLinking>1058-2916</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="doi">10.1097/MAT.0000000000000380</ArticleId>
+            <ArticleId IdType="pubmed">27111739</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">27111694</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>4</Month>
+            <Day>25</Day>
+        </DateCreated>
+        <DateRevised>
+            <Year>2016</Year>
+            <Month>4</Month>
+            <Day>26</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1938-162X</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Apr</Month>
+                        <Day>25</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of athletic training</Title>
+                <ISOAbbreviation>J Athl Train</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Interassociation Consensus Statement on Cardiovascular Care of College Student-Athletes.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn/>
+            </Pagination>
+            <Abstract>
+                <AbstractText NlmCategory="UNASSIGNED">Cardiovascular evaluation and care of college student-athletes is gaining increasing attention from both the public and medical communities. Emerging strategies include screening of the general athlete population, recommendations of permissible levels of participation by athletes with identified cardiovascular conditions, and preparation for responding to unanticipated cardiac events in athletic venues. The primary focus has been sudden cardiac death and the utility of screening with or without advanced cardiac screening. The National Collegiate Athletic Association convened a multidisciplinary task force to address cardiovascular concerns in collegiate student-athletes and to develop consensus for an interassociation statement. This document summarizes the task force deliberations and follow-up discussions, and includes available evidence on cardiovascular risk, pre-participation evaluation, and the recognition of and response to cardiac arrest. Future recommendations for cardiac research initiatives, education, and collaboration are also provided. (J Am Coll Cardiol 2016;__:__-__)</AbstractText>
+                <CopyrightInformation>©2016 by the American College of Cardiology Foundation.</CopyrightInformation>
+            </Abstract>
+            <AuthorList>
+                <Author>
+                    <LastName>Hainline</LastName>
+                    <ForeName>Brian</ForeName>
+                    <Initials>B</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>a Sport Science Institute, National Collegiate Athletic Association, Indianapolis, Indiana;</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Drezner</LastName>
+                    <ForeName>Jonathan</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>b Department of Family Medicine, University of Washington, Seattle, Washington;</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Baggish</LastName>
+                    <ForeName>Aaron</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>c Cardiovascular Performance Program, Massachusetts General Hospital, Boston, Massachusetts;</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Harmon</LastName>
+                    <ForeName>Kimberly G</ForeName>
+                    <Initials>KG</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>b Department of Family Medicine, University of Washington, Seattle, Washington;</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Emery</LastName>
+                    <ForeName>Michael S</ForeName>
+                    <Initials>MS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>d Krannert Institute of Cardiology, Indiana University School of Medicine, Indianapolis, Indiana;</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Myerburg</LastName>
+                    <ForeName>Robert J</ForeName>
+                    <Initials>RJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>e Division of Cardiology, University of Miami Miller School of Medicine, Miami, Florida;</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Sanchez</LastName>
+                    <ForeName>Eduardo</ForeName>
+                    <Initials>E</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>f American Heart Association, Dallas, Texas;</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Molossi</LastName>
+                    <ForeName>Silvana</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>g Division of Pediatric Cardiology, Department of Pediatrics, Baylor College of Medicine, Houston, Texas; and the.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Parsons</LastName>
+                    <ForeName>John T</ForeName>
+                    <Initials>JT</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>a Sport Science Institute, National Collegiate Athletic Association, Indianapolis, Indiana;</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Thompson</LastName>
+                    <ForeName>Paul D</ForeName>
+                    <Initials>PD</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>h Division of Cardiology, Hartford Hospital, Hartford, Connecticut.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>ENG</Language>
+            <PublicationTypeList>
+                <PublicationType UI="">JOURNAL ARTICLE</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>25</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <MedlineTA>J Athl Train</MedlineTA>
+            <NlmUniqueID>9301647</NlmUniqueID>
+            <ISSNLinking>1062-6050</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">cardiac arrest</Keyword>
+            <Keyword MajorTopicYN="N">electrocardiogram</Keyword>
+            <Keyword MajorTopicYN="N">emergency action plan</Keyword>
+            <Keyword MajorTopicYN="N">pre-participation screening</Keyword>
+            <Keyword MajorTopicYN="N">student-athlete</Keyword>
+            <Keyword MajorTopicYN="N">sudden cardiac death</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="doi">10.4085/j.jacc.2016.03.527</ArticleId>
+            <ArticleId IdType="pubmed">27111694</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="In-Data-Review">
+        <PMID Version="1">27111620</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>04</Month>
+            <Day>26</Day>
+        </DateCreated>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1757-5672</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>8</Volume>
+                    <Issue>2</Issue>
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>May</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Lower urinary tract symptoms</Title>
+                <ISOAbbreviation>Low Urin Tract Symptoms</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Survey and Risk Factors for Lower Urinary Tract Storage Symptoms in Middle-Aged and Older Stroke Patients in Urban China.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>91-9</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1111/luts.12078</ELocationID>
+            <Abstract>
+                <AbstractText Label="OBJECTIVES" NlmCategory="OBJECTIVE">To evaluate the prevalence and associated risk factors of lower urinary tract symptoms (LUTS) in people with stroke. This was the first study that systematically surveyed the risk factors for LUTS in people with various lengths of stroke history in urban Chinese communities.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">A community-based, cross-sectional study was performed on 1404 residents aged over 40 years, randomly selected in the urban area of Zhengzhou, China. A questionnaire including the subjects' general health information, sociodemographic background, medical history, and the overactive bladder symptom score (OABSS) was filled by the subjects on site.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Data from 706 (63.8.9 ± 8.9 years old) stroke subjects and 698 non-stroke subjects were analyzed. The prevalence of LUTS in stroke subjects was 62.6%, significantly higher than non-stroke subjects. The prevalence in men was higher than women (P &lt; 0.01). The stroke subjects with diabetes mellitus had higher odds for LUTS than those without diabetes (P &lt; 0.05). The prevalence of LUTS was also significantly correlated with increasing age, high educational level, living alone, snoring, hypertension and coronary heart diseases (P &lt; 0.01).</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">Our study identified not only putative risk factors for LUTS in middle-aged and elderly stroke patients, but genuine factors including snoring, living environment and educational background that increased the odds of storage symptoms as well. We identified that regular exercise and living with their children were protective factors for storage symptoms in stroke patients.</AbstractText>
+                <CopyrightInformation>© 2014 Wiley Publishing Asia Pty Ltd.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Tian</LastName>
+                    <ForeName>Yudong</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Urology, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Guan</LastName>
+                    <ForeName>Yanbin</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Medicine, The Henan University of Traditional Chinese Medicine, Zhengzhou, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wen</LastName>
+                    <ForeName>Jianguo</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Urology, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shang</LastName>
+                    <ForeName>Xiaoping</ForeName>
+                    <Initials>X</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Urology, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Li</LastName>
+                    <ForeName>Jinsheng</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Urology, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Yan</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Urology, The First Affiliated Hospital of Zhengzhou University, Zhengzhou, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2014</Year>
+                <Month>11</Month>
+                <Day>18</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Australia</Country>
+            <MedlineTA>Low Urin Tract Symptoms</MedlineTA>
+            <NlmUniqueID>101506777</NlmUniqueID>
+            <ISSNLinking>1757-5664</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">epidemiologic studies</Keyword>
+            <Keyword MajorTopicYN="N">lower urinary tract symptoms</Keyword>
+            <Keyword MajorTopicYN="N">risk factors</Keyword>
+            <Keyword MajorTopicYN="N">stroke</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2014</Year>
+                <Month>3</Month>
+                <Day>28</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2014</Year>
+                <Month>7</Month>
+                <Day>21</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2014</Year>
+                <Month>8</Month>
+                <Day>6</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="aheadofprint">
+                <Year>2014</Year>
+                <Month>11</Month>
+                <Day>18</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="doi">10.1111/luts.12078</ArticleId>
+            <ArticleId IdType="pubmed">27111620</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">27111575</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>4</Month>
+            <Day>25</Day>
+        </DateCreated>
+        <DateRevised>
+            <Year>2016</Year>
+            <Month>4</Month>
+            <Day>26</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1932-8494</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Apr</Month>
+                        <Day>25</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Anatomical record (Hoboken, N.J. : 2007)</Title>
+                <ISOAbbreviation>Anat Rec (Hoboken)</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Value of formalin fixation for the prolonged preservation of rodent myocardial microanatomical organization: Evidence by MR diffusion tensor imaging.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn/>
+            </Pagination>
+            <ELocationID EIdType="doi">10.1002/ar.23359</ELocationID>
+            <Abstract>
+                <AbstractText NlmCategory="UNASSIGNED">Previous ex vivo diffusion tensor imaging (DTI) studies on formalin fixed myocardial tissue assumed that, after some initial changes in the first 48 hours since the start of fixation, DTI parameters remain stable over time. Prolonged preservation of cardiac tissue in formalin prior to imaging has been seen many times in the DTI literature as it is considered orderly. Our objective is to define the effects of the prolonged cardiac tissue exposure to formalin on tissue microanatomical organization, as this is assessed by DTI parameters. DTI experiments were conducted on eight excised rodent hearts that were fixed by immersion in formalin. The samples were randomly divided into two equinumerous groups corresponding to shorter (∼2 weeks) and more prolonged (∼ 6-8 weeks) durations of tissue exposure to formalin prior to imaging. We found that when the duration of cardiac tissue exposure to formalin before imaging increased, water diffusion became less restricted, helix angle (HA) histograms flattened out and exhibited heavier tails (even though the classic HA transmural variation was preserved), and a significant loss of inter-voxel primary diffusion orientation integrity was introduced. The prolonged preservation of cardiac tissue in formalin profoundly affected its microstructural organization, as this was assessed by DTI parameters. The accurate interpretation of diffusivity profiles necessitates awareness of the pitfalls of prolonged cardiac tissue exposure duration to formalin. The acquired knowledge works to the advantage of a proper experimental design of DTI studies of fixed hearts. This article is protected by copyright. All rights reserved.</AbstractText>
+                <CopyrightInformation>© 2016 Wiley Periodicals, Inc.</CopyrightInformation>
+            </Abstract>
+            <AuthorList>
+                <Author>
+                    <LastName>Giannakidis</LastName>
+                    <ForeName>Archontis</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>NIHR Cardiovascular Biomedical Research Unit, Royal Brompton Hospital, London, UK.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>National Heart &amp; Lung Institute, Imperial College London, London, UK.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Life Sciences Division, Lawrence Berkeley National Laboratory, Berkeley, California, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Gullberg</LastName>
+                    <ForeName>Grant T</ForeName>
+                    <Initials>GT</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Life Sciences Division, Lawrence Berkeley National Laboratory, Berkeley, California, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology &amp; Biomedical Imaging, University California San Francisco, San Francisco, California, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Pennell</LastName>
+                    <ForeName>Dudley J</ForeName>
+                    <Initials>DJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>NIHR Cardiovascular Biomedical Research Unit, Royal Brompton Hospital, London, UK.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>National Heart &amp; Lung Institute, Imperial College London, London, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Firmin</LastName>
+                    <ForeName>David N</ForeName>
+                    <Initials>DN</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>NIHR Cardiovascular Biomedical Research Unit, Royal Brompton Hospital, London, UK.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>National Heart &amp; Lung Institute, Imperial College London, London, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>ENG</Language>
+            <PublicationTypeList>
+                <PublicationType UI="">JOURNAL ARTICLE</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>25</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <MedlineTA>Anat Rec (Hoboken)</MedlineTA>
+            <NlmUniqueID>101292775</NlmUniqueID>
+            <ISSNLinking>1932-8486</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Magnetic resonance diffusion tensor imaging</Keyword>
+            <Keyword MajorTopicYN="N">diffusion anisotropy</Keyword>
+            <Keyword MajorTopicYN="N">diffusivity</Keyword>
+            <Keyword MajorTopicYN="N">fixation</Keyword>
+            <Keyword MajorTopicYN="N">formalin</Keyword>
+            <Keyword MajorTopicYN="N">helix angle</Keyword>
+            <Keyword MajorTopicYN="N">inter-voxel diffusion coherence</Keyword>
+            <Keyword MajorTopicYN="N">rat myocardial microanatomy</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2015</Year>
+                <Month>11</Month>
+                <Day>5</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2016</Year>
+                <Month>2</Month>
+                <Day>10</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>3</Month>
+                <Day>14</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="doi">10.1002/ar.23359</ArticleId>
+            <ArticleId IdType="pubmed">27111575</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">27111510</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>4</Month>
+            <Day>25</Day>
+        </DateCreated>
+        <DateRevised>
+            <Year>2016</Year>
+            <Month>4</Month>
+            <Day>26</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1476-4687</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Apr</Month>
+                        <Day>25</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Nature</Title>
+                <ISOAbbreviation>Nature</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Extra-helical binding site of a glucagon receptor antagonist.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn/>
+            </Pagination>
+            <ELocationID EIdType="doi">10.1038/nature17414</ELocationID>
+            <Abstract>
+                <AbstractText NlmCategory="UNASSIGNED">Glucagon is a 29-amino-acid peptide released from the α-cells of the islet of Langerhans, which has a key role in glucose homeostasis. Glucagon action is transduced by the class B G-protein-coupled glucagon receptor (GCGR), which is located on liver, kidney, intestinal smooth muscle, brain, adipose tissue, heart and pancreas cells, and this receptor has been considered an important drug target in the treatment of diabetes. Administration of recently identified small-molecule GCGR antagonists in patients with type 2 diabetes results in a substantial reduction of fasting and postprandial glucose concentrations. Although an X-ray structure of the transmembrane domain of the GCGR has previously been solved, the ligand (NNC0640) was not resolved. Here we report the 2.5 Å structure of human GCGR in complex with the antagonist MK-0893 (ref. 4), which is found to bind to an allosteric site outside the seven transmembrane (7TM) helical bundle in a position between TM6 and TM7 extending into the lipid bilayer. Mutagenesis of key residues identified in the X-ray structure confirms their role in the binding of MK-0893 to the receptor. The unexpected position of the binding site for MK-0893, which is structurally similar to other GCGR antagonists, suggests that glucagon activation of the receptor is prevented by restriction of the outward helical movement of TM6 required for G-protein coupling. Structural knowledge of class B receptors is limited, with only one other ligand-binding site defined-for the corticotropin-releasing hormone receptor 1 (CRF1R)-which was located deep within the 7TM bundle. We describe a completely novel allosteric binding site for class B receptors, providing an opportunity for structure-based drug design for this receptor class and furthering our understanding of the mechanisms of activation of these receptors.</AbstractText>
+            </Abstract>
+            <AuthorList>
+                <Author>
+                    <LastName>Jazayeri</LastName>
+                    <ForeName>Ali</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Heptares Therapeutics Ltd, BioPark, Broadwater Road, Welwyn Garden City, Hertfordshire AL7 3AX, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Doré</LastName>
+                    <ForeName>Andrew S</ForeName>
+                    <Initials>AS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Heptares Therapeutics Ltd, BioPark, Broadwater Road, Welwyn Garden City, Hertfordshire AL7 3AX, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Lamb</LastName>
+                    <ForeName>Daniel</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Heptares Therapeutics Ltd, BioPark, Broadwater Road, Welwyn Garden City, Hertfordshire AL7 3AX, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Krishnamurthy</LastName>
+                    <ForeName>Harini</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Heptares Therapeutics Ltd, BioPark, Broadwater Road, Welwyn Garden City, Hertfordshire AL7 3AX, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Southall</LastName>
+                    <ForeName>Stacey M</ForeName>
+                    <Initials>SM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Heptares Therapeutics Ltd, BioPark, Broadwater Road, Welwyn Garden City, Hertfordshire AL7 3AX, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Baig</LastName>
+                    <ForeName>Asma H</ForeName>
+                    <Initials>AH</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Heptares Therapeutics Ltd, BioPark, Broadwater Road, Welwyn Garden City, Hertfordshire AL7 3AX, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Bortolato</LastName>
+                    <ForeName>Andrea</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Heptares Therapeutics Ltd, BioPark, Broadwater Road, Welwyn Garden City, Hertfordshire AL7 3AX, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Koglin</LastName>
+                    <ForeName>Markus</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Heptares Therapeutics Ltd, BioPark, Broadwater Road, Welwyn Garden City, Hertfordshire AL7 3AX, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Robertson</LastName>
+                    <ForeName>Nathan J</ForeName>
+                    <Initials>NJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Heptares Therapeutics Ltd, BioPark, Broadwater Road, Welwyn Garden City, Hertfordshire AL7 3AX, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Errey</LastName>
+                    <ForeName>James C</ForeName>
+                    <Initials>JC</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Heptares Therapeutics Ltd, BioPark, Broadwater Road, Welwyn Garden City, Hertfordshire AL7 3AX, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Andrews</LastName>
+                    <ForeName>Stephen P</ForeName>
+                    <Initials>SP</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Heptares Therapeutics Ltd, BioPark, Broadwater Road, Welwyn Garden City, Hertfordshire AL7 3AX, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Teobald</LastName>
+                    <ForeName>Iryna</ForeName>
+                    <Initials>I</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Heptares Therapeutics Ltd, BioPark, Broadwater Road, Welwyn Garden City, Hertfordshire AL7 3AX, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Brown</LastName>
+                    <ForeName>Alastair J H</ForeName>
+                    <Initials>AJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Heptares Therapeutics Ltd, BioPark, Broadwater Road, Welwyn Garden City, Hertfordshire AL7 3AX, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Cooke</LastName>
+                    <ForeName>Robert M</ForeName>
+                    <Initials>RM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Heptares Therapeutics Ltd, BioPark, Broadwater Road, Welwyn Garden City, Hertfordshire AL7 3AX, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Weir</LastName>
+                    <ForeName>Malcolm</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Heptares Therapeutics Ltd, BioPark, Broadwater Road, Welwyn Garden City, Hertfordshire AL7 3AX, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Marshall</LastName>
+                    <ForeName>Fiona H</ForeName>
+                    <Initials>FH</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Heptares Therapeutics Ltd, BioPark, Broadwater Road, Welwyn Garden City, Hertfordshire AL7 3AX, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>ENG</Language>
+            <PublicationTypeList>
+                <PublicationType UI="">JOURNAL ARTICLE</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>25</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <MedlineTA>Nature</MedlineTA>
+            <NlmUniqueID>0410462</NlmUniqueID>
+            <ISSNLinking>0028-0836</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2015</Year>
+                <Month>8</Month>
+                <Day>06</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>2</Month>
+                <Day>09</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">nature17414</ArticleId>
+            <ArticleId IdType="doi">10.1038/nature17414</ArticleId>
+            <ArticleId IdType="pubmed">27111510</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">27111499</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>4</Month>
+            <Day>25</Day>
+        </DateCreated>
+        <DateRevised>
+            <Year>2016</Year>
+            <Month>4</Month>
+            <Day>26</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1439-1902</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Apr</Month>
+                        <Day>25</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>The Thoracic and cardiovascular surgeon</Title>
+                <ISOAbbreviation>Thorac Cardiovasc Surg</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Postoperative Changes in the Distal Residual Aorta after Surgery for Acute Type A Aortic Dissection: Impact of False Lumen Patency and Size of Descending Aorta.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn/>
+            </Pagination>
+            <Abstract>
+                <AbstractText NlmCategory="UNASSIGNED">Objective In the present study, we retrospectively identified and analyzed the factors that influenced progressive dilatation of the residual distal aorta after surgical repair for acute type A aortic dissection (acute type A). Methods A total of 477 patients underwent surgical repair for acute type A aortic dissection between 1995 and 2012. Postoperative and follow-up computed tomography (CT) scans of the descending aorta were available in 105 patients. We analyzed the maximum aortic diameter, total luminal area, and true luminal area of the descending thoracic and abdominal aorta. Results The mean follow-up time was 4.5 ± 3 years, and the mean time interval between CT scan investigations was 2.0 ± 2.3 years. A residual dissection membrane was observed in 80 (76%) patients, with presence of a patent false lumen (FL) in 52 patients (50%) and a thrombosed FL in 28 patients (26%).Progression of aortic disease with an increase in aortic diameter greater than 10 mm was observed in 14.3% (n = 15) of patients during follow-up. The independent predictors that influenced progressive dilation of the descending aorta by 10 mm or more were postoperative descending aortic diameter greater than 40 mm (p = 0.006; odds ratio [OR], 5.6; 95% confidence interval [CI], 1.6-19) and postoperative patent FL (p = 0.002; OR, 8.5; 95% CI, 2.2-32.3).The unadjusted 1- and 5-year freedom from reoperation was 96.9 ± 2 and 80.1 ± 5%, respectively. Marfan syndrome (p = 0.006; OR, 5.2; 95% CI, 1.6-16.9) and postoperative descending aortic diameter greater than 40 mm (p = 0.07; OR, 4.1; 95% CI, 1.4-11.6) were independent predictors of aorta-related reoperations.The mean survival at 1, 5, and 8 years was 90.7 ± 3, 82.5 ± 4, and 70 ± 6%, respectively. Previous cardiac surgery was independent predictor of midterm survival (hazard ratio, 3.6; 95% CI, 1.03-2.8; p = 0.04). Conclusions A regular follow-up CT scan is mandatory to assess progressive dilatation of the distal residual aortic arch, descending thoracic, and abdominal aorta after surgical repair of acute type A dissection, particularly in patients with a patent FL, descending aortic diameter greater than 40 mm, and/or Marfan syndrome.</AbstractText>
+                <CopyrightInformation>Georg Thieme Verlag KG Stuttgart · New York.</CopyrightInformation>
+            </Abstract>
+            <AuthorList>
+                <Author>
+                    <LastName>Leontyev</LastName>
+                    <ForeName>Sergey</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Cardiac Surgery, Heart Center, University of Leipzig, Leipzig, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Haag</LastName>
+                    <ForeName>Felix</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Cardiac Surgery, Heart Center, University of Leipzig, Leipzig, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Davierwala</LastName>
+                    <ForeName>Piroze M</ForeName>
+                    <Initials>PM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Cardiac Surgery, Heart Center, University of Leipzig, Leipzig, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Lehmkuhl</LastName>
+                    <ForeName>Lukas</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology, Heart Center, University of Leipzig, Leipzig, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Borger</LastName>
+                    <ForeName>Michael A</ForeName>
+                    <Initials>MA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Cardiac Surgery, Heart Center, University of Leipzig, Leipzig, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Etz</LastName>
+                    <ForeName>Christian D</ForeName>
+                    <Initials>CD</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Cardiac Surgery, Heart Center, University of Leipzig, Leipzig, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Misfeld</LastName>
+                    <ForeName>Martin</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Cardiac Surgery, Heart Center, University of Leipzig, Leipzig, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Gutberlet</LastName>
+                    <ForeName>Matthias</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Radiology, Heart Center, University of Leipzig, Leipzig, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Mohr</LastName>
+                    <ForeName>Friedrich W</ForeName>
+                    <Initials>FW</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Cardiac Surgery, Heart Center, University of Leipzig, Leipzig, Germany.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>ENG</Language>
+            <PublicationTypeList>
+                <PublicationType UI="">JOURNAL ARTICLE</PublicationType>
+            </PublicationTypeList>
+            <VernacularTitle/>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>25</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <MedlineTA>Thorac Cardiovasc Surg</MedlineTA>
+            <NlmUniqueID>7903387</NlmUniqueID>
+            <ISSNLinking>0171-6425</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="epublish">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>25</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="doi">10.1055/s-0036-1571813</ArticleId>
+            <ArticleId IdType="pubmed">27111499</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">27111405</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>4</Month>
+            <Day>25</Day>
+        </DateCreated>
+        <DateRevised>
+            <Year>2016</Year>
+            <Month>4</Month>
+            <Day>26</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1439-1236</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Apr</Month>
+                        <Day>25</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Sportverletzung Sportschaden : Organ der Gesellschaft fur Orthopadisch-Traumatologische Sportmedizin</Title>
+                <ISOAbbreviation>Sportverletz Sportschaden</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>[Mountaineering for the Prevention of Cardiovascular Diseases?]</ArticleTitle>
+            <Pagination>
+                <MedlinePgn/>
+            </Pagination>
+            <Abstract>
+                <AbstractText NlmCategory="UNASSIGNED">Introduction: People in Western countries are gaining more and more weight, which is mainly due to a lack of physical activity predisposing to cardiovascular illnesses. Mountaineering, in particular multi-pitch climbing, seems to have protective effects on the metabolic and cardiovascular systems because it is a low-intensity activity lasting several hours, which leads to continuous physical stimulation. Methods: Eight climbers in four two-person rope teams with a good leisure sports level and regular climbing activity completed a multi-pitch climbing route (Pfriendler 2501 metres above sea level Via Fritz/Steingletscher/Sustenpass Canton of Bern/Switzerland) with a total of seven pitches with difficulties between 4b and 5c(+) (French Scale). Climbers were monitored with heart rate gear during the whole climbing activity, which allowed us to analyse heart rates after climbing. Results: During a single climbing pitch, heart rate values increased from 86 ± 18 to 135 ± 4 beats per minute on average. The average heart rate was 126 ± 2 beats per minute, which is 67 % of the maximum heart rate on average. The whole tour lasted 5 h 55 min with an average heart rate of 108 ± 9 beats per minute being measured, yielding an average of 56 ± 5 % of the maximum heart rate. Discussion: The results point out the low intensity of multi-pitch mountaineering and imply a stimulation of fat metabolism, which highlights the potential of mountaineering for preventing metabolic diseases.</AbstractText>
+                <CopyrightInformation>© Georg Thieme Verlag KG Stuttgart · New York.</CopyrightInformation>
+            </Abstract>
+            <AuthorList>
+                <Author>
+                    <LastName>Gasser</LastName>
+                    <ForeName>B A</ForeName>
+                    <Initials>BA</Initials>
+                </Author>
+                <Author>
+                    <LastName>Hoppeler</LastName>
+                    <ForeName>H H</ForeName>
+                    <Initials>HH</Initials>
+                </Author>
+                <Author>
+                    <LastName>Waibel</LastName>
+                    <ForeName>M</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+            </AuthorList>
+            <Language>GER</Language>
+            <PublicationTypeList>
+                <PublicationType UI="">JOURNAL ARTICLE</PublicationType>
+                <PublicationType UI="">ENGLISH ABSTRACT</PublicationType>
+            </PublicationTypeList>
+            <VernacularTitle>Bergtouren als Präventivmittel von kardiovaskulären Erkrankungen?</VernacularTitle>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>25</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <MedlineTA>Sportverletz Sportschaden</MedlineTA>
+            <NlmUniqueID>8904133</NlmUniqueID>
+            <ISSNLinking>0932-0555</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="epublish">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>25</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="doi">10.1055/s-0035-1567024</ArticleId>
+            <ArticleId IdType="pubmed">27111405</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+</PubmedArticleSet>

@@ -1,0 +1,2118 @@
+<?xml version="1.0"?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2016//EN" "http://www.ncbi.nlm.nih.gov/corehtml/query/DTD/pubmed_160101.dtd">
+<PubmedArticleSet>
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">26992177</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>3</Month>
+            <Day>18</Day>
+        </DateCreated>
+        <DateRevised>
+            <Year>2016</Year>
+            <Month>3</Month>
+            <Day>19</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1557-9964</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Mar</Month>
+                        <Day>16</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>IEEE/ACM transactions on computational biology and bioinformatics / IEEE, ACM</Title>
+                <ISOAbbreviation>IEEE/ACM Trans Comput Biol Bioinform</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>An IR-based Approach Utilising Query Expansion for Plagiarism Detection in MEDLINE.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn/>
+            </Pagination>
+            <Abstract>
+                <AbstractText NlmCategory="UNASSIGNED">The identification of duplicated and plagiarised passages of text has become an increasingly active area of research. In this paper we investigate methods for plagiarism detection that aim to identify potential sources of plagiarism from MEDLINE, particularly when the original text has been modified through the replacement of words or phrases. A scalable approach based on Information Retrieval is used to perform candidate document selection - the identification of a subset of potential source documents given a suspicious text - from MEDLINE. Query expansion is performed using the ULMS Metathesaurus to deal with situations in which original documents are obfuscated. Various approaches to Word Sense Disambiguation are investigated to deal with cases where there are multiple Concept Unique Identifiers (CUIs) for a given term. Results using the proposed IR-based approach outperform a state-of-the-art baseline based on Kullback-Leibler Distance.</AbstractText>
+            </Abstract>
+            <AuthorList>
+                <Author>
+                    <LastName>Muhammad Adeel Nawab</LastName>
+                    <ForeName>Rao</ForeName>
+                    <Initials>R</Initials>
+                </Author>
+                <Author>
+                    <LastName>Stevenson</LastName>
+                    <ForeName>Mark</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author>
+                    <LastName>Clough</LastName>
+                    <ForeName>Paul</ForeName>
+                    <Initials>P</Initials>
+                </Author>
+            </AuthorList>
+            <Language>ENG</Language>
+            <PublicationTypeList>
+                <PublicationType UI="">JOURNAL ARTICLE</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>3</Month>
+                <Day>16</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <MedlineTA>IEEE/ACM Trans Comput Biol Bioinform</MedlineTA>
+            <NlmUniqueID>101196755</NlmUniqueID>
+            <ISSNLinking>1545-5963</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>3</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>3</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>3</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="doi">10.1109/TCBB.2016.2542803</ArticleId>
+            <ArticleId IdType="pubmed">26992177</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="In-Process">
+        <PMID Version="1">26422368</PMID>
+        <DateCreated>
+            <Year>2015</Year>
+            <Month>10</Month>
+            <Day>01</Day>
+        </DateCreated>
+        <DateRevised>
+            <Year>2015</Year>
+            <Month>10</Month>
+            <Day>03</Day>
+        </DateRevised>
+        <Article PubModel="Electronic-eCollection">
+            <Journal>
+                <ISSN IssnType="Electronic">1932-6203</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>10</Volume>
+                    <Issue>9</Issue>
+                    <PubDate>
+                        <Year>2015</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>PloS one</Title>
+                <ISOAbbreviation>PLoS ONE</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Harmony Search Algorithm for Word Sense Disambiguation.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>e0136614</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1371/journal.pone.0136614</ELocationID>
+            <Abstract>
+                <AbstractText>Word Sense Disambiguation (WSD) is the task of determining which sense of an ambiguous word (word with multiple meanings) is chosen in a particular use of that word, by considering its context. A sentence is considered ambiguous if it contains ambiguous word(s). Practically, any sentence that has been classified as ambiguous usually has multiple interpretations, but just one of them presents the correct interpretation. We propose an unsupervised method that exploits knowledge based approaches for word sense disambiguation using Harmony Search Algorithm (HSA) based on a Stanford dependencies generator (HSDG). The role of the dependency generator is to parse sentences to obtain their dependency relations. Whereas, the goal of using the HSA is to maximize the overall semantic similarity of the set of parsed words. HSA invokes a combination of semantic similarity and relatedness measurements, i.e., Jiang and Conrath (jcn) and an adapted Lesk algorithm, to perform the HSA fitness function. Our proposed method was experimented on benchmark datasets, which yielded results comparable to the state-of-the-art WSD methods. In order to evaluate the effectiveness of the dependency generator, we perform the same methodology without the parser, but with a window of words. The empirical results demonstrate that the proposed method is able to produce effective solutions for most instances of the datasets used.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Abed</LastName>
+                    <ForeName>Saad Adnan</ForeName>
+                    <Initials>SA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Knowledge Technology Research Group (KT), Centre for Artificial Intelligent (CAIT), Universiti Kebangsaan Malaysia, 43600 UKM Bangi, Selangor, Malaysia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tiun</LastName>
+                    <ForeName>Sabrina</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Knowledge Technology Research Group (KT), Centre for Artificial Intelligent (CAIT), Universiti Kebangsaan Malaysia, 43600 UKM Bangi, Selangor, Malaysia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Omar</LastName>
+                    <ForeName>Nazlia</ForeName>
+                    <Initials>N</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Knowledge Technology Research Group (KT), Centre for Artificial Intelligent (CAIT), Universiti Kebangsaan Malaysia, 43600 UKM Bangi, Selangor, Malaysia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <DataBankList CompleteYN="Y">
+                <DataBank>
+                    <DataBankName>figshare</DataBankName>
+                    <AccessionNumberList>
+                        <AccessionNumber>10.6084/M9.FIGSHARE.1509913</AccessionNumber>
+                    </AccessionNumberList>
+                </DataBank>
+            </DataBankList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2015</Year>
+                <Month>09</Month>
+                <Day>30</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>PLoS One</MedlineTA>
+            <NlmUniqueID>101285081</NlmUniqueID>
+            <ISSNLinking>1932-6203</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <OtherID Source="NLM">PMC4589330</OtherID>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="ecollection">
+                <Year>2015</Year>
+                <Month/>
+                <Day/>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="received">
+                <Year>2015</Year>
+                <Month>6</Month>
+                <Day>7</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2015</Year>
+                <Month>7</Month>
+                <Day>18</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="epublish">
+                <Year>2015</Year>
+                <Month>9</Month>
+                <Day>30</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2015</Year>
+                <Month>10</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2015</Year>
+                <Month>10</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2015</Year>
+                <Month>10</Month>
+                <Day>1</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="doi">10.1371/journal.pone.0136614</ArticleId>
+            <ArticleId IdType="pii">PONE-D-15-24799</ArticleId>
+            <ArticleId IdType="pubmed">26422368</ArticleId>
+            <ArticleId IdType="pmc">PMC4589330</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="In-Data-Review">
+        <PMID Version="1">26293868</PMID>
+        <DateCreated>
+            <Year>2015</Year>
+            <Month>08</Month>
+            <Day>21</Day>
+        </DateCreated>
+        <DateRevised>
+            <Year>2015</Year>
+            <Month>09</Month>
+            <Day>30</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">2364-0502</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>10</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2015</Year>
+                        <Month>Aug</Month>
+                        <Day>13</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Yearbook of medical informatics</Title>
+                <ISOAbbreviation>Yearb Med Inform</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Clinical Natural Language Processing in 2014: Foundational Methods Supporting Efficient Healthcare.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>194-8</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.15265/IY-2015-035</ELocationID>
+            <Abstract>
+                <AbstractText Label="OBJECTIVE" NlmCategory="OBJECTIVE">To summarize recent research and present a selection of the best papers published in 2014 in the field of clinical Natural Language Processing (NLP).</AbstractText>
+                <AbstractText Label="METHOD" NlmCategory="METHODS">A systematic review of the literature was performed by the two section editors of the IMIA Yearbook NLP section by searching bibliographic databases with a focus on NLP efforts applied to clinical texts or aimed at a clinical outcome. A shortlist of candidate best papers was first selected by the section editors before being peer-reviewed by independent external reviewers.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">The clinical NLP best paper selection shows that the field is tackling text analysis methods of increasing depth. The full review process highlighted five papers addressing foundational methods in clinical NLP using clinically relevant texts from online forums or encyclopedias, clinical texts from Electronic Health Records, and included studies specifically aiming at a practical clinical outcome. The increased access to clinical data that was made possible with the recent progress of de-identification paved the way for the scientific community to address complex NLP problems such as word sense disambiguation, negation, temporal analysis and specific information nugget extraction. These advances in turn allowed for efficient application of NLP to clinical problems such as cancer patient triage. Another line of research investigates online clinically relevant texts and brings interesting insight on communication strategies to convey health-related information.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">The field of clinical NLP is thriving through the contributions of both NLP researchers and healthcare professionals interested in applying NLP techniques for concrete healthcare purposes. Clinical NLP is becoming mature for practical applications with a significant clinical impact.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Névéol</LastName>
+                    <ForeName>A</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Aurélie Névéol, LIMSI CNRS UPR 3251, Rue John von Neumann, Campus Universitaire d'Orsay, 91405 Orsay cedex, France, E-mail: {neveol,pz}@limsi.fr.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zweigenbaum</LastName>
+                    <ForeName>P</ForeName>
+                    <Initials>P</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Germany</Country>
+            <MedlineTA>Yearb Med Inform</MedlineTA>
+            <NlmUniqueID>9312666</NlmUniqueID>
+            <ISSNLinking>0943-4747</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biomed Inform. 2014 Jun;49:148-58</RefSource>
+                <PMID Version="1">24508177</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biomed Inform. 2014 Apr;48:130-6</RefSource>
+                <PMID Version="1">24486562</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Artif Intell Med. 2014 Jul;61(3):137-44</RefSource>
+                <PMID Version="1">24556644</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Artif Intell Med. 2014 Jul;61(3):131-6</RefSource>
+                <PMID Version="1">24680097</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biomed Inform. 2014 Aug;50:151-61</RefSource>
+                <PMID Version="1">24380818</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int J Med Inform. 2014 Dec;83(12):983-92</RefSource>
+                <PMID Version="1">23317809</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biomed Inform. 2014 Dec;52:189-98</RefSource>
+                <PMID Version="1">24998814</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biomed Inform. 2015 Feb;53:196-207</RefSource>
+                <PMID Version="1">25451103</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Methods Inf Med. 2015;54(2):135-44</RefSource>
+                <PMID Version="1">25396220</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2014;15:373</RefSource>
+                <PMID Version="1">25432799</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biomed Inform. 2014 Aug;50:142-50</RefSource>
+                <PMID Version="1">24502938</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biomed Inform. 2014 Aug;50:173-83</RefSource>
+                <PMID Version="1">24556292</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Med Inform Assoc. 2014 Sep-Oct;21(5):808-14</RefSource>
+                <PMID Version="1">24347408</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Med Inform Assoc. 2014 Sep-Oct;21(5):910-6</RefSource>
+                <PMID Version="1">24384231</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Med Inform Assoc. 2014 Sep-Oct;21(5):833-41</RefSource>
+                <PMID Version="1">24431336</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Med Inform Assoc. 2014 Sep-Oct;21(5):842-9</RefSource>
+                <PMID Version="1">24441986</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Med Inform Assoc. 2014 Sep-Oct;21(5):858-65</RefSource>
+                <PMID Version="1">24637954</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int J Med Inform. 2014 Oct;83(10):750-67</RefSource>
+                <PMID Version="1">25106934</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biomed Inform. 2014 Oct;51:35-40</RefSource>
+                <PMID Version="1">24726853</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2014;9(11):e112774</RefSource>
+                <PMID Version="1">25393544</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMJ. 2013;346:f1990</RefSource>
+                <PMID Version="1">23550048</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Med Teach. 2014 Jan;36(1):68-72</RefSource>
+                <PMID Version="1">24195470</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Med Inform Assoc. 2014 Feb;21(e1):e163-8</RefSource>
+                <PMID Version="1">24201026</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>World J Urol. 2014 Feb;32(1):99-103</RefSource>
+                <PMID Version="1">23417341</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Med Inform Assoc. 2014 Mar-Apr;21(2):353-62</RefSource>
+                <PMID Version="1">24158091</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Epidemiol. 2014 Mar 15;179(6):749-58</RefSource>
+                <PMID Version="1">24488511</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Med Inform Assoc. 2014 May-Jun;21(3):406-13</RefSource>
+                <PMID Version="1">24001514</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Med Inform Assoc. 2014 May-Jun;21(3):448-54</RefSource>
+                <PMID Version="1">24091648</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Card Fail. 2014 Jul;20(7):459-64</RefSource>
+                <PMID Version="1">24709663</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <OtherID Source="NLM">PMC4587052</OtherID>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Awards and Prizes</Keyword>
+            <Keyword MajorTopicYN="N">Computer-Assisted</Keyword>
+            <Keyword MajorTopicYN="N">Decision Making</Keyword>
+            <Keyword MajorTopicYN="N">Medical Informatics/trends</Keyword>
+            <Keyword MajorTopicYN="N">Natural Language Processing</Keyword>
+            <Keyword MajorTopicYN="N">Semantics</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2015</Year>
+                <Month>8</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2015</Year>
+                <Month>8</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2015</Year>
+                <Month>8</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">me2015-035</ArticleId>
+            <ArticleId IdType="doi">10.15265/IY-2015-035</ArticleId>
+            <ArticleId IdType="pubmed">26293868</ArticleId>
+            <ArticleId IdType="pmc">PMC4587052</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="MEDLINE">
+        <PMID Version="1">26171081</PMID>
+        <DateCreated>
+            <Year>2015</Year>
+            <Month>07</Month>
+            <Day>14</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2016</Year>
+            <Month>04</Month>
+            <Day>08</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2016</Year>
+            <Month>02</Month>
+            <Day>18</Day>
+        </DateRevised>
+        <Article PubModel="Electronic-eCollection">
+            <Journal>
+                <ISSN IssnType="Electronic">1869-0327</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>6</Volume>
+                    <Issue>2</Issue>
+                    <PubDate>
+                        <Year>2015</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Applied clinical informatics</Title>
+                <ISOAbbreviation>Appl Clin Inform</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A Preliminary Study of Clinical Abbreviation Disambiguation in Real Time.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>364-74</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.4338/ACI-2014-10-RA-0088</ELocationID>
+            <Abstract>
+                <AbstractText Label="OBJECTIVE" NlmCategory="OBJECTIVE">To save time, healthcare providers frequently use abbreviations while authoring clinical documents. Nevertheless, abbreviations that authors deem unambiguous often confuse other readers, including clinicians, patients, and natural language processing (NLP) systems. Most current clinical NLP systems &quot;post-process&quot; notes long after clinicians enter them into electronic health record systems (EHRs). Such post-processing cannot guarantee 100% accuracy in abbreviation identification and disambiguation, since multiple alternative interpretations exist.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">Authors describe a prototype system for real-time Clinical Abbreviation Recognition and Disambiguation (rCARD) - i.e., a system that interacts with authors during note generation to verify correct abbreviation senses. The rCARD system design anticipates future integration with web-based clinical documentation systems to improve quality of healthcare records. When clinicians enter documents, rCARD will automatically recognize each abbreviation. For abbreviations with multiple possible senses, rCARD will show a ranked list of possible meanings with the best predicted sense at the top. The prototype application embodies three word sense disambiguation (WSD) methods to predict the correct senses of abbreviations. We then conducted three experments to evaluate rCARD, including 1) a performance evaluation of different WSD methods; 2) a time evaluation of real-time WSD methods; and 3) a user study of typing clinical sentences with abbreviations using rCARD.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Using 4,721 sentences containing 25 commonly observed, highly ambiguous clinical abbreviations, our evaluation showed that the best profile-based method implemented in rCARD achieved a reasonable WSD accuracy of 88.8% (comparable to SVM - 89.5%) and the cost of time for the different WSD methods are also acceptable (ranging from 0.630 to 1.649 milliseconds within the same network). The preliminary user study also showed that the extra time costs by rCARD were about 5% of total document entry time and users did not feel a significant delay when using rCARD for clinical document entry.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">The study indicates that it is feasible to integrate a real-time, NLP-enabled abbreviation recognition and disambiguation module with clinical documentation systems.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Wu</LastName>
+                    <ForeName>Y</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Biomedical Informatics, The University of Texas Health Science Center at Houston , Houston, Texas, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Denny</LastName>
+                    <ForeName>J C</ForeName>
+                    <Initials>JC</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biomedical Informatics Camridge, Vanderbilt University , Nashville, Tennessee, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rosenbloom</LastName>
+                    <ForeName>S T</ForeName>
+                    <Initials>ST</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biomedical Informatics Camridge, Vanderbilt University , Nashville, Tennessee, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Miller</LastName>
+                    <ForeName>R A</ForeName>
+                    <Initials>RA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biomedical Informatics Camridge, Vanderbilt University , Nashville, Tennessee, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Giuse</LastName>
+                    <ForeName>D A</ForeName>
+                    <Initials>DA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biomedical Informatics Camridge, Vanderbilt University , Nashville, Tennessee, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Song</LastName>
+                    <ForeName>M</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Library and Information Science, Yonsei University , Seoul, Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Xu</LastName>
+                    <ForeName>H</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Biomedical Informatics, The University of Texas Health Science Center at Houston , Houston, Texas, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>1R01GM102282</GrantID>
+                    <Acronym>GM</Acronym>
+                    <Agency>NIGMS NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R01 GM102282</GrantID>
+                    <Acronym>GM</Acronym>
+                    <Agency>NIGMS NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R01 LM010681</GrantID>
+                    <Acronym>LM</Acronym>
+                    <Agency>NLM NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R01CA141307</GrantID>
+                    <Acronym>CA</Acronym>
+                    <Agency>NCI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R01LM010681-05</GrantID>
+                    <Acronym>LM</Acronym>
+                    <Agency>NLM NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D052061">Research Support, N.I.H., Extramural</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2015</Year>
+                <Month>06</Month>
+                <Day>03</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Germany</Country>
+            <MedlineTA>Appl Clin Inform</MedlineTA>
+            <NlmUniqueID>101537732</NlmUniqueID>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc AMIA Symp. 2002;:742-6</RefSource>
+                <PMID Version="1">12463923</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Arch Pathol Lab Med. 2004 Mar;128(3):347-52</RefSource>
+                <PMID Version="1">14987146</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Arch Dis Child Fetal Neonatal Ed. 2004 Jul;89(4):F374</RefSource>
+                <PMID Version="1">15210681</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Med Inform Assoc. 2004 Jul-Aug;11(4):320-31</RefSource>
+                <PMID Version="1">15064284</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Aust Clin Rev. 1992;12(2):89-93</RefSource>
+                <PMID Version="1">1622352</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Comput Biol. 2005 Jun;12(5):554-65</RefSource>
+                <PMID Version="1">15952878</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>AMIA Annu Symp Proc. 2005;:589-93</RefSource>
+                <PMID Version="1">16779108</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Anesth Analg. 2008 Jan;106(1):192-201, table of contents</RefSource>
+                <PMID Version="1">18165578</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Arch Dis Child. 2008 Mar;93(3):204-6</RefSource>
+                <PMID Version="1">17986605</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>AMIA Annu Symp Proc. 2007;:821-5</RefSource>
+                <PMID Version="1">18693951</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Clin Pharmacol Ther. 2008 Sep;84(3):362-9</RefSource>
+                <PMID Version="1">18500243</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Arch Dis Child. 2008 Oct;93(10):816-7</RefSource>
+                <PMID Version="1">18809701</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Can Fam Physician. 2010 Jan;56(1):15-6, e1-3</RefSource>
+                <PMID Version="1">20090068</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>AMIA Annu Symp Proc. 2011;2011:1489-98</RefSource>
+                <PMID Version="1">22195213</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biomed Biotechnol. 2012;2012:580186</RefSource>
+                <PMID Version="1">22851884</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>World J Gastroenterol. 2012 Aug 28;18(32):4270-7</RefSource>
+                <PMID Version="1">22969189</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biomed Inform. 2012 Dec;45(6):1075-83</RefSource>
+                <PMID Version="1">22742938</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>AMIA Annu Symp Proc. 2012;2012:997-1003</RefSource>
+                <PMID Version="1">23304375</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>AMIA Annu Symp Proc. 2012;2012:1004-13</RefSource>
+                <PMID Version="1">23304376</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>AMIA Annu Symp Proc. 2012;2012:1310-9</RefSource>
+                <PMID Version="1">23304410</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="Y" UI="D000004">Abbreviations as Topic</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D004282">Documentation</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D006282">Health Personnel</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="Y" UI="D009323">Natural Language Processing</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D013997">Time Factors</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D014584">User-Computer Interface</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <OtherID Source="NLM">PMC4493336 [Available on 06/03/16]</OtherID>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Clinical abbreviation</Keyword>
+            <Keyword MajorTopicYN="N">clinical documentation system</Keyword>
+            <Keyword MajorTopicYN="N">machine learning</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="ecollection">
+                <Year>2015</Year>
+                <Month/>
+                <Day/>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="received">
+                <Year>2014</Year>
+                <Month>10</Month>
+                <Day>09</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2015</Year>
+                <Month>4</Month>
+                <Day>09</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="epublish">
+                <Year>2015</Year>
+                <Month>6</Month>
+                <Day>03</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2015</Year>
+                <Month>7</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2015</Year>
+                <Month>7</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>9</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pmc-release">
+                <Year>2016</Year>
+                <Month>6</Month>
+                <Day>3</Day>
+                <Hour>0</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="doi">10.4338/ACI-2014-10-RA-0088</ArticleId>
+            <ArticleId IdType="pubmed">26171081</ArticleId>
+            <ArticleId IdType="pmc">PMC4493336</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="PubMed-not-MEDLINE">
+        <PMID Version="1">25705556</PMID>
+        <DateCreated>
+            <Year>2015</Year>
+            <Month>02</Month>
+            <Day>23</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2015</Year>
+            <Month>02</Month>
+            <Day>23</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2016</Year>
+            <Month>02</Month>
+            <Day>18</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Print">2093-3681</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>21</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2015</Year>
+                        <Month>Jan</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Healthcare informatics research</Title>
+                <ISOAbbreviation>Healthc Inform Res</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Challenges and practical approaches with word sense disambiguation of acronyms and abbreviations in the clinical domain.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>35-42</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.4258/hir.2015.21.1.35</ELocationID>
+            <Abstract>
+                <AbstractText Label="OBJECTIVES" NlmCategory="OBJECTIVE">Although acronyms and abbreviations in clinical text are used widely on a daily basis, relatively little research has focused upon word sense disambiguation (WSD) of acronyms and abbreviations in the healthcare domain. Since clinical notes have distinctive characteristics, it is unclear whether techniques effective for acronym and abbreviation WSD from biomedical literature are sufficient.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">The authors discuss feature selection for automated techniques and challenges with WSD of acronyms and abbreviations in the clinical domain.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">There are significant challenges associated with the informal nature of clinical text, such as typographical errors and incomplete sentences; difficulty with insufficient clinical resources, such as clinical sense inventories; and obstacles with privacy and security for conducting research with clinical text. Although we anticipated that using sophisticated techniques, such as biomedical terminologies, semantic types, part-of-speech, and language modeling, would be needed for feature selection with automated machine learning approaches, we found instead that simple techniques, such as bag-of-words, were quite effective in many cases. Factors, such as majority sense prevalence and the degree of separateness between sense meanings, were also important considerations.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">The first lesson is that a comprehensive understanding of the unique characteristics of clinical text is important for automatic acronym and abbreviation WSD. The second lesson learned is that investigators may find that using simple approaches is an effective starting point for these tasks. Finally, similar to other WSD tasks, an understanding of baseline majority sense rates and separateness between senses is important. Further studies and practical solutions are needed to better address these issues.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Moon</LastName>
+                    <ForeName>Sungrim</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Biomedical Informatics, The University of Texas Health Science Center at Houston, Houston, TX, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>McInnes</LastName>
+                    <ForeName>Bridget</ForeName>
+                    <Initials>B</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Computer Science, Virginia Commonwealth University, Richmond, VA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Melton</LastName>
+                    <ForeName>Genevieve B</ForeName>
+                    <Initials>GB</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute for Health Informatics, University of Minnesota, Minneapolis, MN, USA. ; Department of Surgery, University of Minnesota, Minneapolis, MN, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>R01 LM009623</GrantID>
+                    <Acronym>LM</Acronym>
+                    <Agency>NLM NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2015</Year>
+                <Month>01</Month>
+                <Day>31</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Korea (South)</Country>
+            <MedlineTA>Healthc Inform Res</MedlineTA>
+            <NlmUniqueID>101534553</NlmUniqueID>
+            <ISSNLinking>2093-3681</ISSNLinking>
+        </MedlineJournalInfo>
+        <OtherID Source="NLM">PMC4330198</OtherID>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Abbreviations as Topic</Keyword>
+            <Keyword MajorTopicYN="N">Artificial Intelligence</Keyword>
+            <Keyword MajorTopicYN="N">Automated Pattern Recognition</Keyword>
+            <Keyword MajorTopicYN="N">Medical Records</Keyword>
+            <Keyword MajorTopicYN="N">Natural Language Processing</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2014</Year>
+                <Month>12</Month>
+                <Day>23</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2015</Year>
+                <Month>1</Month>
+                <Day>19</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="epublish">
+                <Year>2015</Year>
+                <Month>1</Month>
+                <Day>31</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2015</Year>
+                <Month>2</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2015</Year>
+                <Month>2</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2015</Year>
+                <Month>2</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>1</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="doi">10.4258/hir.2015.21.1.35</ArticleId>
+            <ArticleId IdType="pubmed">25705556</ArticleId>
+            <ArticleId IdType="pmc">PMC4330198</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="MEDLINE">
+        <PMID Version="1">25510606</PMID>
+        <DateCreated>
+            <Year>2015</Year>
+            <Month>03</Month>
+            <Day>09</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2015</Year>
+            <Month>12</Month>
+            <Day>15</Day>
+        </DateCompleted>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1532-0480</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>53</Volume>
+                    <PubDate>
+                        <Year>2015</Year>
+                        <Month>Feb</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of biomedical informatics</Title>
+                <ISOAbbreviation>J Biomed Inform</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Knowledge based word-concept model estimation and refinement for biomedical text mining.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>300-7</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.jbi.2014.11.015</ELocationID>
+            <ELocationID EIdType="pii" ValidYN="Y">S1532-0464(14)00267-6</ELocationID>
+            <Abstract>
+                <AbstractText>Text mining of scientific literature has been essential for setting up large public biomedical databases, which are being widely used by the research community. In the biomedical domain, the existence of a large number of terminological resources and knowledge bases (KB) has enabled a myriad of machine learning methods for different text mining related tasks. Unfortunately, KBs have not been devised for text mining tasks but for human interpretation, thus performance of KB-based methods is usually lower when compared to supervised machine learning methods. The disadvantage of supervised methods though is they require labeled training data and therefore not useful for large scale biomedical text mining systems. KB-based methods do not have this limitation. In this paper, we describe a novel method to generate word-concept probabilities from a KB, which can serve as a basis for several text mining tasks. This method not only takes into account the underlying patterns within the descriptions contained in the KB but also those in texts available from large unlabeled corpora such as MEDLINE. The parameters of the model have been estimated without training data. Patterns from MEDLINE have been built using MetaMap for entity recognition and related using co-occurrences. The word-concept probabilities were evaluated on the task of word sense disambiguation (WSD). The results showed that our method obtained a higher degree of accuracy than other state-of-the-art approaches when evaluated on the MSH WSD data set. We also evaluated our method on the task of document ranking using MEDLINE citations. These results also showed an increase in performance over existing baseline retrieval approaches.</AbstractText>
+                <CopyrightInformation>Copyright © 2014 Elsevier Inc. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Jimeno Yepes</LastName>
+                    <ForeName>Antonio</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Computing and Information Systems, The University of Melbourne, VIC 3010, Australia. Electronic address: antonio.jimeno@gmail.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Berlanga</LastName>
+                    <ForeName>Rafael</ForeName>
+                    <Initials>R</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Departamento de Lenguages y Sistemas Informáticos, Universitat Jaume I, Castellón de la Plana, 12071, Spain.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2014</Year>
+                <Month>12</Month>
+                <Day>12</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>J Biomed Inform</MedlineTA>
+            <NlmUniqueID>100970413</NlmUniqueID>
+            <ISSNLinking>1532-0464</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D000465">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D001185">Artificial Intelligence</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D019295">Computational Biology</DescriptorName>
+                <QualifierName MajorTopicYN="Y" UI="Q000379">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D057225">Data Mining</DescriptorName>
+                <QualifierName MajorTopicYN="Y" UI="Q000379">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D051188">Knowledge Bases</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D016239">MEDLINE</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D015233">Models, Statistical</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D009323">Natural Language Processing</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D011336">Probability</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="Y" UI="D012660">Semantics</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="Y" UI="D017432">Unified Medical Language System</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Biomedical literature</Keyword>
+            <Keyword MajorTopicYN="N">Information retrieval</Keyword>
+            <Keyword MajorTopicYN="N">Text mining</Keyword>
+            <Keyword MajorTopicYN="N">Word sense disambiguation</Keyword>
+            <Keyword MajorTopicYN="N">Word-concept probability</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2014</Year>
+                <Month>5</Month>
+                <Day>28</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2014</Year>
+                <Month>11</Month>
+                <Day>7</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2014</Year>
+                <Month>11</Month>
+                <Day>11</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="aheadofprint">
+                <Year>2014</Year>
+                <Month>12</Month>
+                <Day>12</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2014</Year>
+                <Month>12</Month>
+                <Day>17</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2014</Year>
+                <Month>12</Month>
+                <Day>17</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2015</Year>
+                <Month>12</Month>
+                <Day>17</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">25510606</ArticleId>
+            <ArticleId IdType="pii">S1532-0464(14)00267-6</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.jbi.2014.11.015</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="MEDLINE">
+        <PMID Version="1">25147248</PMID>
+        <DateCreated>
+            <Year>2015</Year>
+            <Month>01</Month>
+            <Day>23</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2015</Year>
+            <Month>05</Month>
+            <Day>18</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2016</Year>
+            <Month>01</Month>
+            <Day>01</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1527-974X</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>22</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2015</Year>
+                        <Month>Jan</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of the American Medical Informatics Association : JAMIA</Title>
+                <ISOAbbreviation>J Am Med Inform Assoc</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Evaluating the state of the art in disorder recognition and normalization of the clinical narrative.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>143-54</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1136/amiajnl-2013-002544</ELocationID>
+            <Abstract>
+                <AbstractText Label="OBJECTIVE" NlmCategory="OBJECTIVE">The ShARe/CLEF eHealth 2013 Evaluation Lab Task 1 was organized to evaluate the state of the art on the clinical text in (i) disorder mention identification/recognition based on Unified Medical Language System (UMLS) definition (Task 1a) and (ii) disorder mention normalization to an ontology (Task 1b). Such a community evaluation has not been previously executed. Task 1a included a total of 22 system submissions, and Task 1b included 17. Most of the systems employed a combination of rules and machine learners.</AbstractText>
+                <AbstractText Label="MATERIALS AND METHODS" NlmCategory="METHODS">We used a subset of the Shared Annotated Resources (ShARe) corpus of annotated clinical text--199 clinical notes for training and 99 for testing (roughly 180 K words in total). We provided the community with the annotated gold standard training documents to build systems to identify and normalize disorder mentions. The systems were tested on a held-out gold standard test set to measure their performance.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">For Task 1a, the best-performing system achieved an F1 score of 0.75 (0.80 precision; 0.71 recall). For Task 1b, another system performed best with an accuracy of 0.59.</AbstractText>
+                <AbstractText Label="DISCUSSION" NlmCategory="CONCLUSIONS">Most of the participating systems used a hybrid approach by supplementing machine-learning algorithms with features generated by rules and gazetteers created from the training data and from external resources.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">The task of disorder normalization is more challenging than that of identification. The ShARe corpus is available to the community as a reference standard for future studies.</AbstractText>
+                <CopyrightInformation>© The Author 2014. Published by Oxford University Press on behalf of the American Medical Informatics Association.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Pradhan</LastName>
+                    <ForeName>Sameer</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Boston Children's Hospital and Harvard Medical School, Boston, Massachusetts, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Elhadad</LastName>
+                    <ForeName>Noémie</ForeName>
+                    <Initials>N</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Columbia University, New York, New York, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>South</LastName>
+                    <ForeName>Brett R</ForeName>
+                    <Initials>BR</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>University of Utah, Salt Lake City, Utah, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Martinez</LastName>
+                    <ForeName>David</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>The University of Melbourne, Australia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Christensen</LastName>
+                    <ForeName>Lee</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>University of Utah, Salt Lake City, Utah, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Vogel</LastName>
+                    <ForeName>Amy</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Columbia University, New York, New York, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Suominen</LastName>
+                    <ForeName>Hanna</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>NICTA, The Australian National University, and University of Canberra, Canberra, Australian Capital Territory, Australia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chapman</LastName>
+                    <ForeName>Wendy W</ForeName>
+                    <Initials>WW</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>University of Utah, Salt Lake City, Utah, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Savova</LastName>
+                    <ForeName>Guergana</ForeName>
+                    <Initials>G</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Boston Children's Hospital and Harvard Medical School, Boston, Massachusetts, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>5R01GM090187</GrantID>
+                    <Acronym>GM</Acronym>
+                    <Agency>NIGMS NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>5T15LM007059</GrantID>
+                    <Acronym>LM</Acronym>
+                    <Agency>NLM NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R01LM10090</GrantID>
+                    <Acronym>LM</Acronym>
+                    <Agency>NLM NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D023362">Evaluation Studies</PublicationType>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D052061">Research Support, N.I.H., Extramural</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+                <PublicationType UI="D013486">Research Support, U.S. Gov't, Non-P.H.S.</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2014</Year>
+                <Month>08</Month>
+                <Day>21</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>J Am Med Inform Assoc</MedlineTA>
+            <NlmUniqueID>9430800</NlmUniqueID>
+            <ISSNLinking>1067-5027</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc AMIA Symp. 2000;:270-4</RefSource>
+                <PMID Version="1">11079887</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Med Inform Assoc. 2013 Dec;20(e2):e341-8</RefSource>
+                <PMID Version="1">24190931</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biomed Inform. 2003 Dec;36(6):414-32</RefSource>
+                <PMID Version="1">14759816</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biomed Inform. 2009 Oct;42(5):760-72</RefSource>
+                <PMID Version="1">19683066</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>AMIA Annu Symp Proc. 2009;2009:497-501</RefSource>
+                <PMID Version="1">20351906</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Med Inform Assoc. 2010 May-Jun;17(3):229-36</RefSource>
+                <PMID Version="1">20442139</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Med Inform Assoc. 2010 Sep-Oct;17(5):507-13</RefSource>
+                <PMID Version="1">20819853</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Med Inform Assoc. 2010 Sep-Oct;17(5):568-74</RefSource>
+                <PMID Version="1">20819866</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Clin Pharmacol Ther. 2011 Mar;89(3):379-86</RefSource>
+                <PMID Version="1">21248726</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Comput Methods Programs Biomed. 2011 Mar;101(3):324-9</RefSource>
+                <PMID Version="1">21316117</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Sci Transl Med. 2011 Apr 20;3(79):79re1</RefSource>
+                <PMID Version="1">21508311</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Crit Care Med. 2011 May;39(5):952-60</RefSource>
+                <PMID Version="1">21283005</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Med Inform Assoc. 2011 Jul-Aug;18(4):387-91</RefSource>
+                <PMID Version="1">21672908</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Med Inform Assoc. 2011 Sep-Oct;18(5):552-6</RefSource>
+                <PMID Version="1">21685143</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Med Inform Assoc. 2011 Sep-Oct;18(5):540-3</RefSource>
+                <PMID Version="1">21846785</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Ophthalmol. 2011;11:32</RefSource>
+                <PMID Version="1">22078460</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Med Inform Assoc. 2013 Sep-Oct;20(5):882-6</RefSource>
+                <PMID Version="1">23077130</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Med Inform Assoc. 2013 Sep-Oct;20(5):922-30</RefSource>
+                <PMID Version="1">23355458</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2013;8(8):e69932</RefSource>
+                <PMID Version="1">23976944</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2013 Nov 15;29(22):2909-17</RefSource>
+                <PMID Version="1">23969135</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc AMIA Symp. 2001;:17-21</RefSource>
+                <PMID Version="1">11825149</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D064229">Biological Ontologies</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D066264">Datasets as Topic</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="Y" UI="D004194">Disease</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="Y" UI="D057286">Electronic Health Records</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D006801">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D016247">Information Storage and Retrieval</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000379">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="Y" UI="D009323">Natural Language Processing</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D039061">Systematized Nomenclature of Medicine</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D017432">Unified Medical Language System</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="Y" UI="D018875">Vocabulary, Controlled</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <OtherID Source="NLM">PMC4433360</OtherID>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Clinical Notes</Keyword>
+            <Keyword MajorTopicYN="N">Disorder Identifciation</Keyword>
+            <Keyword MajorTopicYN="N">Information Extraction</Keyword>
+            <Keyword MajorTopicYN="N">Named Entity Recognition</Keyword>
+            <Keyword MajorTopicYN="N">Natural Language Processing</Keyword>
+            <Keyword MajorTopicYN="N">Word Sense Disambiguation</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="aheadofprint">
+                <Year>2014</Year>
+                <Month>8</Month>
+                <Day>21</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2014</Year>
+                <Month>8</Month>
+                <Day>23</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2014</Year>
+                <Month>8</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2015</Year>
+                <Month>5</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">25147248</ArticleId>
+            <ArticleId IdType="pii">amiajnl-2013-002544</ArticleId>
+            <ArticleId IdType="doi">10.1136/amiajnl-2013-002544</ArticleId>
+            <ArticleId IdType="pmc">PMC4433360</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="MEDLINE">
+        <PMID Version="1">24551390</PMID>
+        <DateCreated>
+            <Year>2014</Year>
+            <Month>02</Month>
+            <Day>19</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2014</Year>
+            <Month>05</Month>
+            <Day>26</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2015</Year>
+            <Month>11</Month>
+            <Day>19</Day>
+        </DateRevised>
+        <Article PubModel="Electronic-eCollection">
+            <Journal>
+                <ISSN IssnType="Electronic">1942-597X</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>2013</Volume>
+                    <PubDate>
+                        <Year>2013</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>AMIA ... Annual Symposium proceedings / AMIA Symposium. AMIA Symposium</Title>
+                <ISOAbbreviation>AMIA Annu Symp Proc</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Word Sense Disambiguation of clinical abbreviations with hyperdimensional computing.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1007-16</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText>Automated Word Sense Disambiguation in clinical documents is a prerequisite to accurate extraction of medical information. Emerging methods utilizing hyperdimensional computing present new approaches to this problem. In this paper, we evaluate one such approach, the Binary Spatter Code Word Sense Disambiguation algorithm, on 50 ambiguous abbreviation sets derived from clinical notes. This algorithm uses reversible vector transformations to encode ambiguous terms and their context-specific senses into vectors representing surrounding terms. The sense for a new context is then inferred from vectors representing the terms it contains. One-to-one BSC-WSD achieves average accuracy of 94.55% when considering the orientation and distance of neighboring terms relative to the target abbreviation, outperforming Support Vector Machine and Naïve Bayes classifiers. Furthermore, it is practical to deal with all 50 abbreviations in an identical manner using a single one-to-many BSC-WSD model with average accuracy of 93.91%, which is not possible with common machine learning algorithms.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Moon</LastName>
+                    <ForeName>Sungrim</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>The University of Texas School of Biomedical Informatics at Houston, Houston, TX.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Berster</LastName>
+                    <ForeName>Bjoern-Toby</ForeName>
+                    <Initials>BT</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Drchrono, Mountain View, CA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Xu</LastName>
+                    <ForeName>Hua</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>The University of Texas School of Biomedical Informatics at Houston, Houston, TX.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cohen</LastName>
+                    <ForeName>Trevor</ForeName>
+                    <Initials>T</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>The University of Texas School of Biomedical Informatics at Houston, Houston, TX ; National Center for Cognitive Informatics and Decision Making in Healthcare, Houston, TX.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>R01CA141307</GrantID>
+                    <Acronym>CA</Acronym>
+                    <Agency>NCI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R01LM010681</GrantID>
+                    <Acronym>LM</Acronym>
+                    <Agency>NLM NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R21LM010826-01</GrantID>
+                    <Acronym>LM</Acronym>
+                    <Agency>NLM NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D023362">Evaluation Studies</PublicationType>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D052061">Research Support, N.I.H., Extramural</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2013</Year>
+                <Month>11</Month>
+                <Day>16</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>AMIA Annu Symp Proc</MedlineTA>
+            <NlmUniqueID>101209213</NlmUniqueID>
+            <ISSNLinking>1559-4076</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc AMIA Symp. 2001;:17-21</RefSource>
+                <PMID Version="1">11825149</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>AMIA Annu Symp Proc. 2012;2012:1310-9</RefSource>
+                <PMID Version="1">23304410</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>AMIA Annu Symp Proc. 2006;:399-403</RefSource>
+                <PMID Version="1">17238371</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Psychol Rev. 2007 Jan;114(1):1-37</RefSource>
+                <PMID Version="1">17227180</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2006;7:334</RefSource>
+                <PMID Version="1">16822321</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc AMIA Symp. 2001;:189-93</RefSource>
+                <PMID Version="1">11825178</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc AMIA Symp. 2002;:742-6</RefSource>
+                <PMID Version="1">12463923</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>AMIA Annu Symp Proc. 2003;:917</RefSource>
+                <PMID Version="1">14728423</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Med Inform Assoc. 2004 Jul-Aug;11(4):320-31</RefSource>
+                <PMID Version="1">15064284</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Cognition. 1988 Mar;28(1-2):3-71</RefSource>
+                <PMID Version="1">2450716</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Annu Symp Comput Appl Med Care. 1994;:240-4</RefSource>
+                <PMID Version="1">7949927</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Comput Biol. 2005 Jun;12(5):554-65</RefSource>
+                <PMID Version="1">15952878</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>AMIA Annu Symp Proc. 2012;2012:1129-38</RefSource>
+                <PMID Version="1">23304389</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>AMIA Annu Symp Proc. 2012;2012:940-9</RefSource>
+                <PMID Version="1">23304369</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Med Inform Assoc. 2009 Nov-Dec;16(6):806-15</RefSource>
+                <PMID Version="1">19717800</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Med Inform Assoc. 2009 Jan-Feb;16(1):103-8</RefSource>
+                <PMID Version="1">18952935</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biomed Inform. 2008 Dec;41(6):1088-100</RefSource>
+                <PMID Version="1">18375190</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Arch Dis Child. 2008 Oct;93(10):816-7</RefSource>
+                <PMID Version="1">18809701</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>AMIA Annu Symp Proc. 2007;:821-5</RefSource>
+                <PMID Version="1">18693951</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="Y" UI="D000004">Abbreviations as Topic</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="Y" UI="D000465">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D001499">Bayes Theorem</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D009323">Natural Language Processing</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D060388">Support Vector Machine</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <OtherID Source="NLM">PMC3900125</OtherID>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="ecollection">
+                <Year>2013</Year>
+                <Month/>
+                <Day/>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="epublish">
+                <Year>2013</Year>
+                <Month>11</Month>
+                <Day>16</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2014</Year>
+                <Month>2</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2014</Year>
+                <Month>2</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2014</Year>
+                <Month>5</Month>
+                <Day>27</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">24551390</ArticleId>
+            <ArticleId IdType="pmc">PMC3900125</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="MEDLINE">
+        <PMID Version="1">24441986</PMID>
+        <DateCreated>
+            <Year>2014</Year>
+            <Month>08</Month>
+            <Day>13</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2014</Year>
+            <Month>10</Month>
+            <Day>13</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2015</Year>
+            <Month>09</Month>
+            <Day>02</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1527-974X</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>21</Volume>
+                    <Issue>5</Issue>
+                    <PubDate>
+                        <MedlineDate>2014 Sep-Oct</MedlineDate>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of the American Medical Informatics Association : JAMIA</Title>
+                <ISOAbbreviation>J Am Med Inform Assoc</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Word sense disambiguation in the clinical domain: a comparison of knowledge-rich and knowledge-poor unsupervised methods.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>842-9</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1136/amiajnl-2013-002133</ELocationID>
+            <Abstract>
+                <AbstractText Label="OBJECTIVE" NlmCategory="OBJECTIVE">To evaluate state-of-the-art unsupervised methods on the word sense disambiguation (WSD) task in the clinical domain. In particular, to compare graph-based approaches relying on a clinical knowledge base with bottom-up topic-modeling-based approaches. We investigate several enhancements to the topic-modeling techniques that use domain-specific knowledge sources.</AbstractText>
+                <AbstractText Label="MATERIALS AND METHODS" NlmCategory="METHODS">The graph-based methods use variations of PageRank and distance-based similarity metrics, operating over the Unified Medical Language System (UMLS). Topic-modeling methods use unlabeled data from the Multiparameter Intelligent Monitoring in Intensive Care (MIMIC II) database to derive models for each ambiguous word. We investigate the impact of using different linguistic features for topic models, including UMLS-based and syntactic features. We use a sense-tagged clinical dataset from the Mayo Clinic for evaluation.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">The topic-modeling methods achieve 66.9% accuracy on a subset of the Mayo Clinic's data, while the graph-based methods only reach the 40-50% range, with a most-frequent-sense baseline of 56.5%. Features derived from the UMLS semantic type and concept hierarchies do not produce a gain over bag-of-words features in the topic models, but identifying phrases from UMLS and using syntax does help.</AbstractText>
+                <AbstractText Label="DISCUSSION" NlmCategory="CONCLUSIONS">Although topic models outperform graph-based methods, semantic features derived from the UMLS prove too noisy to improve performance beyond bag-of-words.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">Topic modeling for WSD provides superior results in the clinical domain; however, integration of knowledge remains to be effectively exploited.</AbstractText>
+                <CopyrightInformation>Published by the BMJ Publishing Group Limited. For permission to use (where not already granted under a licence) please go to http://group.bmj.com/group/rights-licensing/permissions.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Chasin</LastName>
+                    <ForeName>Rachel</ForeName>
+                    <Initials>R</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Massachusetts Institute of Technology, Cambridge, Massachusetts, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rumshisky</LastName>
+                    <ForeName>Anna</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Computer Science, University of Massachusetts, Lowell, Massachusetts, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Uzuner</LastName>
+                    <ForeName>Ozlem</ForeName>
+                    <Initials>O</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Information Studies, University at Albany, SUNY, Albany, New York, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Szolovits</LastName>
+                    <ForeName>Peter</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Massachusetts Institute of Technology, Cambridge, Massachusetts, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>R13 LM011411</GrantID>
+                    <Acronym>LM</Acronym>
+                    <Agency>NLM NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>U54 LM008748</GrantID>
+                    <Acronym>LM</Acronym>
+                    <Agency>NLM NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>U54-LM008748</GrantID>
+                    <Acronym>LM</Acronym>
+                    <Agency>NLM NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D003160">Comparative Study</PublicationType>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D052061">Research Support, N.I.H., Extramural</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2014</Year>
+                <Month>01</Month>
+                <Day>17</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>J Am Med Inform Assoc</MedlineTA>
+            <NlmUniqueID>9430800</NlmUniqueID>
+            <ISSNLinking>1067-5027</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Crit Care Med. 2011 May;39(5):952-60</RefSource>
+                <PMID Version="1">21283005</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>AMIA Annu Symp Proc. 2011;2011:895-904</RefSource>
+                <PMID Version="1">22195148</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Med Inform Assoc. 2012 Mar-Apr;19(2):235-40</RefSource>
+                <PMID Version="1">21900701</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>AMIA Annu Symp Proc. 2012;2012:1004-13</RefSource>
+                <PMID Version="1">23304376</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>AMIA Annu Symp Proc. 2012;2012:1310-9</RefSource>
+                <PMID Version="1">23304410</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2004 Jan 1;32(Database issue):D267-70</RefSource>
+                <PMID Version="1">14681409</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>BMC Bioinformatics. 2010;11:569</RefSource>
+                <PMID Version="1">21092226</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>AMIA Annu Symp Proc. 2006;:960</RefSource>
+                <PMID Version="1">17238579</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Yearb Med Inform. 2008;:128-44</RefSource>
+                <PMID Version="1">18660887</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biomed Inform. 2008 Dec;41(6):1088-100</RefSource>
+                <PMID Version="1">18375190</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Med Inform Assoc. 2010 May-Jun;17(3):229-36</RefSource>
+                <PMID Version="1">20442139</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Bioinformatics. 2010 Nov 15;26(22):2889-96</RefSource>
+                <PMID Version="1">20934991</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>AMIA Annu Symp Proc. 2005;:589-93</RefSource>
+                <PMID Version="1">16779108</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D001499">Bayes Theorem</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="Y" UI="D057225">Data Mining</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D006801">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D051188">Knowledge Bases</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D008037">Linguistics</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D008490">Medical Informatics</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000379">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="Y" UI="D009323">Natural Language Processing</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D039061">Systematized Nomenclature of Medicine</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D009626">Terminology as Topic</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="Y" UI="D017432">Unified Medical Language System</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <OtherID Source="NLM">PMC4147600</OtherID>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Clinical Language Processing</Keyword>
+            <Keyword MajorTopicYN="N">Medical Language Processing</Keyword>
+            <Keyword MajorTopicYN="N">Natural Language Processing</Keyword>
+            <Keyword MajorTopicYN="N">Word Sense Disambiguation</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="aheadofprint">
+                <Year>2014</Year>
+                <Month>1</Month>
+                <Day>17</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2014</Year>
+                <Month>1</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2014</Year>
+                <Month>1</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2014</Year>
+                <Month>10</Month>
+                <Day>14</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">24441986</ArticleId>
+            <ArticleId IdType="pii">amiajnl-2013-002133</ArticleId>
+            <ArticleId IdType="doi">10.1136/amiajnl-2013-002133</ArticleId>
+            <ArticleId IdType="pmc">PMC4147600</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="MEDLINE">
+        <PMID Version="1">24294131</PMID>
+        <DateCreated>
+            <Year>2013</Year>
+            <Month>12</Month>
+            <Day>02</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2014</Year>
+            <Month>06</Month>
+            <Day>23</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2015</Year>
+            <Month>04</Month>
+            <Day>22</Day>
+        </DateRevised>
+        <Article PubModel="Electronic-eCollection">
+            <Journal>
+                <ISSN IssnType="Electronic">1537-744X</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>2013</Volume>
+                    <PubDate>
+                        <Year>2013</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>TheScientificWorldJournal</Title>
+                <ISOAbbreviation>ScientificWorldJournal</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A novel approach to word sense disambiguation based on topical and semantic association.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>586327</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1155/2013/586327</ELocationID>
+            <Abstract>
+                <AbstractText>Word sense disambiguation (WSD) is a fundamental problem in nature language processing, the objective of which is to identify the most proper sense for an ambiguous word in a given context. Although WSD has been researched over the years, the performance of existing algorithms in terms of accuracy and recall is still unsatisfactory. In this paper, we propose a novel approach to word sense disambiguation based on topical and semantic association. For a given document, supposing that its topic category is accurately discriminated, the correct sense of the ambiguous term is identified through the corresponding topic and semantic contexts. We firstly extract topic discriminative terms from document and construct topical graph based on topic span intervals to implement topic identification. We then exploit syntactic features, topic span features, and semantic features to disambiguate nouns and verbs in the context of ambiguous word. Finally, we conduct experiments on the standard data set SemCor to evaluate the performance of the proposed method, and the results indicate that our approach achieves relatively better performance than existing approaches.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Xin</ForeName>
+                    <Initials>X</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>College of Computer Science and Technology, Jilin University, Changchun 130012, China ; School of Computer Technology and Engineering, Changchun Institute of Technology, Changchun 130012, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zuo</LastName>
+                    <ForeName>Wanli</ForeName>
+                    <Initials>W</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Ying</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D023362">Evaluation Studies</PublicationType>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2013</Year>
+                <Month>10</Month>
+                <Day>31</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>ScientificWorldJournal</MedlineTA>
+            <NlmUniqueID>101131163</NlmUniqueID>
+            <ISSNLinking>1537-744X</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Pattern Anal Mach Intell. 2005 Jul;27(7):1075-86</RefSource>
+                <PMID Version="1">16013755</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Am Med Inform Assoc. 2012 Mar-Apr;19(2):235-40</RefSource>
+                <PMID Version="1">21900701</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>IEEE Trans Pattern Anal Mach Intell. 2010 Apr;32(4):678-92</RefSource>
+                <PMID Version="1">20224123</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biomed Inform. 2008 Dec;41(6):1088-100</RefSource>
+                <PMID Version="1">18375190</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D000465">Algorithms</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D001185">Artificial Intelligence</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D006801">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D007802">Language</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="Y" UI="D009323">Natural Language Processing</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="Y" UI="D012660">Semantics</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <OtherID Source="NLM">PMC3833093</OtherID>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="ecollection">
+                <Year>2013</Year>
+                <Month/>
+                <Day/>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="received">
+                <Year>2013</Year>
+                <Month>8</Month>
+                <Day>22</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2013</Year>
+                <Month>9</Month>
+                <Day>11</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="epublish">
+                <Year>2013</Year>
+                <Month>10</Month>
+                <Day>31</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2013</Year>
+                <Month>12</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2014</Year>
+                <Month>6</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="doi">10.1155/2013/586327</ArticleId>
+            <ArticleId IdType="pubmed">24294131</ArticleId>
+            <ArticleId IdType="pmc">PMC3833093</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+</PubmedArticleSet>

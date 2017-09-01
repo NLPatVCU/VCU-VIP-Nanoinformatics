@@ -1,0 +1,2246 @@
+<?xml version="1.0"?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2016//EN" "http://www.ncbi.nlm.nih.gov/corehtml/query/DTD/pubmed_160101.dtd">
+<PubmedArticleSet>
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="MEDLINE">
+        <PMID Version="1">20113659</PMID>
+        <DateCreated>
+            <Year>2010</Year>
+            <Month>02</Month>
+            <Day>01</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2010</Year>
+            <Month>03</Month>
+            <Day>02</Day>
+        </DateCompleted>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Print">1008-8830</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>11</Volume>
+                    <Issue>11</Issue>
+                    <PubDate>
+                        <Year>2009</Year>
+                        <Month>Nov</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Zhongguo dang dai er ke za zhi = Chinese journal of contemporary pediatrics</Title>
+                <ISOAbbreviation>Zhongguo Dang Dai Er Ke Za Zhi</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>[Urinary leukotrience E(4) level in children with asthma].</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>909-12</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText Label="OBJECTIVE" NlmCategory="OBJECTIVE">Cysteinyl leukotriene (CysLTs) plays an important role in airway inflammation and remodeling in asthma. Measurement of urinary leukotriene E(4) (LTE(4)) is a sensitive and noninvasive method of assaying total body CysLTs level. This study aimed to evaluate the clinical significance of urinary leukotriene E(4) (LTE(4)) in childhood asthma.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">Sixty children with acute asthma were randomly divided into montelukast (leukotriene receptor antagonist) treatment and conventional treatment groups (n = 30 each). Urinary LTE(4) levels were measured using ELISA and the airway resistance Rint was assessed by the lung function instrument at the acute and the convalescence phases. Twenty healthy children were used as the control group.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Urinary LTE(4) levels in asthmatic children at the acute and the convalescence phases were significantly higher than those in the control group (p&lt;0.01). The urinary LTE(4) levels at the convalescence phase were significantly reduced compared with those at the acute phase in asthmatic children (p&lt;0.01). More significantly decreased urinary LTE(4) levels were noted in the montelukast treatment group than the conventional treatment group at the convalescence phase (p&lt;0.01). In the acute phase, there was no correlation between urinary LTE4 level and Rint in asthmatic children.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">Urinary LTE(4) level is significantly increased in children with acute asthma. Urinary LTE(4) is a useful marker for the diagnosis of asthma and can be as a predictor of asthma control and marker of susceptibility to treatment with leukotriene receptor antagonists.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>He</LastName>
+                    <ForeName>Mei-Juan</ForeName>
+                    <Initials>MJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Respiratory Medicine, Jiangxi Children's Hospital, Nanchang 330006, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chen</LastName>
+                    <ForeName>Qiang</ForeName>
+                    <Initials>Q</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Liu</LastName>
+                    <ForeName>Jian-Mei</ForeName>
+                    <Initials>JM</Initials>
+                </Author>
+            </AuthorList>
+            <Language>chi</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D004740">English Abstract</PublicationType>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>China</Country>
+            <MedlineTA>Zhongguo Dang Dai Er Ke Za Zhi</MedlineTA>
+            <NlmUniqueID>100909956</NlmUniqueID>
+            <ISSNLinking>1008-8830</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>75715-89-8</RegistryNumber>
+                <NameOfSubstance UI="D017999">Leukotriene E4</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D000403">Airway Resistance</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D001249">Asthma</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000175">diagnosis</QualifierName>
+                <QualifierName MajorTopicYN="N" UI="Q000503">physiopathology</QualifierName>
+                <QualifierName MajorTopicYN="Y" UI="Q000652">urine</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D002675">Child, Preschool</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D004797">Enzyme-Linked Immunosorbent Assay</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D005260">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D006801">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D007223">Infant</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D017999">Leukotriene E4</DescriptorName>
+                <QualifierName MajorTopicYN="Y" UI="Q000652">urine</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D008297">Male</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2010</Year>
+                <Month>2</Month>
+                <Day>2</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2010</Year>
+                <Month>2</Month>
+                <Day>2</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2010</Year>
+                <Month>3</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">1008-8830(2009)11-0909-04</ArticleId>
+            <ArticleId IdType="pubmed">20113659</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="MEDLINE">
+        <PMID Version="1">20074456</PMID>
+        <DateCreated>
+            <Year>2010</Year>
+            <Month>01</Month>
+            <Day>15</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2010</Year>
+            <Month>03</Month>
+            <Day>22</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2013</Year>
+            <Month>11</Month>
+            <Day>21</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Print">0394-6320</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>22</Volume>
+                    <Issue>4</Issue>
+                    <PubDate>
+                        <MedlineDate>2009 Oct-Dec</MedlineDate>
+                    </PubDate>
+                </JournalIssue>
+                <Title>International journal of immunopathology and pharmacology</Title>
+                <ISOAbbreviation>Int J Immunopathol Pharmacol</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>GGTI-2133, an inhibitor of geranylgeranyltransferase, inhibits infiltration of inflammatory cells into airways in mouse experimental asthma.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>929-35</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText>Statins have been proposed as a novel treatment of respiratory diseases including asthma. Although the mechanism of anti-inflammatory effect of statins is still unclear, an inhibition of protein prenylation by depleting the downstream metabolites of 3-hydroxy-3-methylglutaryl coenzyme A (HMG-CoA) reductase might be involved. To test the hypothesis, the effects of GGTI-2133, a direct inhibitor of geran ylgeranyltransferase (GGTase), on antigen-induced airway inflammation were investigated in a murine model of allergic bronchial asthma. Mice were sensitized and repeatedly challenged with ovalbumin antigen (OA). Animals were also treated with GGTI-2133 (5 mg/kg/day, i.p.) once a day before and during the antigen inhalation period. Repeated antigen inhalation caused an infiltration of inflammatory cells, especially eosinophils, into airways. Significant increases in interleukin (IL)-4, IL-13, eotaxin, thymus and activation-regulated chemokine (TARC) and leukotriene B4 (LTB4) in bronchoalveolar lavage fluids and total and OA-specific IgE in sera were also found in the antigen-exposed animals. The systemic treatments with GGTI-2133 inhibited the antigen-induced eosinophil infiltration into airways almost completely. However, interestingly, the GGTI-2133 treatment did not affect the levels of these chemotactic factors and IgE. These findings suggest that selective inhibition of GGTase is effective for eosinophilic airway inflammation such as asthma.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Chiba</LastName>
+                    <ForeName>Y</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pharmacology, School of Pharmacy, Hoshi University, Tokyo, Japan. chiba@hoshi.ac.jp</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sato</LastName>
+                    <ForeName>S</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Misawa</LastName>
+                    <ForeName>M</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Italy</Country>
+            <MedlineTA>Int J Immunopathol Pharmacol</MedlineTA>
+            <NlmUniqueID>8911335</NlmUniqueID>
+            <ISSNLinking>0394-6320</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D018927">Anti-Asthmatic Agents</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="C499538">Ccl17 protein, mouse</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D054414">Chemokine CCL17</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D004791">Enzyme Inhibitors</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="C547856">GGTI-2133</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D007093">Imidazoles</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D018793">Interleukin-13</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D009281">Naphthalenes</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>1HGW4DR56D</RegistryNumber>
+                <NameOfSubstance UI="D007975">Leukotriene B4</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>207137-56-2</RegistryNumber>
+                <NameOfSubstance UI="D015847">Interleukin-4</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>37341-29-0</RegistryNumber>
+                <NameOfSubstance UI="D007073">Immunoglobulin E</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>9006-59-1</RegistryNumber>
+                <NameOfSubstance UI="D010047">Ovalbumin</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>EC 2.5.-</RegistryNumber>
+                <NameOfSubstance UI="D019883">Alkyl and Aryl Transferases</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>GMW67QNF9C</RegistryNumber>
+                <NameOfSubstance UI="D007930">Leucine</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D019883">Alkyl and Aryl Transferases</DescriptorName>
+                <QualifierName MajorTopicYN="Y" UI="Q000037">antagonists &amp; inhibitors</QualifierName>
+                <QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D000818">Animals</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D018927">Anti-Asthmatic Agents</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000008">administration &amp; dosage</QualifierName>
+                <QualifierName MajorTopicYN="Y" UI="Q000494">pharmacology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D001249">Asthma</DescriptorName>
+                <QualifierName MajorTopicYN="Y" UI="Q000188">drug therapy</QualifierName>
+                <QualifierName MajorTopicYN="N" UI="Q000201">enzymology</QualifierName>
+                <QualifierName MajorTopicYN="N" UI="Q000276">immunology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D001992">Bronchoalveolar Lavage Fluid</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000166">cytology</QualifierName>
+                <QualifierName MajorTopicYN="N" UI="Q000276">immunology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D054414">Chemokine CCL17</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D004195">Disease Models, Animal</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D004791">Enzyme Inhibitors</DescriptorName>
+                <QualifierName MajorTopicYN="Y" UI="Q000494">pharmacology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D007093">Imidazoles</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000008">administration &amp; dosage</QualifierName>
+                <QualifierName MajorTopicYN="Y" UI="Q000494">pharmacology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D007073">Immunoglobulin E</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000097">blood</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D007274">Injections, Intraperitoneal</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D018793">Interleukin-13</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D015847">Interleukin-4</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D007930">Leucine</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000008">administration &amp; dosage</QualifierName>
+                <QualifierName MajorTopicYN="Y" UI="Q000031">analogs &amp; derivatives</QualifierName>
+                <QualifierName MajorTopicYN="N" UI="Q000494">pharmacology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D007975">Leukotriene B4</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D008297">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D051379">Mice</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D008807">Mice, Inbred BALB C</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D009281">Naphthalenes</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000008">administration &amp; dosage</QualifierName>
+                <QualifierName MajorTopicYN="Y" UI="Q000494">pharmacology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D010047">Ovalbumin</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D017368">Protein Prenylation</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D011657">Pulmonary Eosinophilia</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000201">enzymology</QualifierName>
+                <QualifierName MajorTopicYN="N" UI="Q000276">immunology</QualifierName>
+                <QualifierName MajorTopicYN="Y" UI="Q000517">prevention &amp; control</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2010</Year>
+                <Month>1</Month>
+                <Day>16</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2010</Year>
+                <Month>1</Month>
+                <Day>16</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2010</Year>
+                <Month>3</Month>
+                <Day>23</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">8</ArticleId>
+            <ArticleId IdType="pubmed">20074456</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="MEDLINE">
+        <PMID Version="1">20046412</PMID>
+        <DateCreated>
+            <Year>2010</Year>
+            <Month>01</Month>
+            <Day>04</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2010</Year>
+            <Month>04</Month>
+            <Day>02</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2014</Year>
+            <Month>12</Month>
+            <Day>04</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1976-2437</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>50</Volume>
+                    <Issue>6</Issue>
+                    <PubDate>
+                        <Year>2009</Year>
+                        <Month>Dec</Month>
+                        <Day>31</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Yonsei medical journal</Title>
+                <ISOAbbreviation>Yonsei Med. J.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Update on recent advances in the management of aspirin exacerbated respiratory disease.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>744-50</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.3349/ymj.2009.50.6.744</ELocationID>
+            <Abstract>
+                <AbstractText>Aspirin intolerant asthma (AIA) is frequently characterized as an aspirin (ASA)-exacerbated respiratory disease (AERD). It is a clinical syndrome associated with chronic severe inflammation in the upper and lower airways resulting in chronic rhinitis, sinusitis, recurrent polyposis, and asthma. AERD generally develops secondary to abnormalities in inflammatory mediators and arachidonic acid biosynthesis expression. Upper and lower airway eosinophil infiltration is a key feature of AERD; however, the exact mechanisms of such chronic eosinophilic inflammation are not fully understood. Cysteinyl leukotriene over-production may be a key factor in the induction of eosinophilic activation. Genetic studies have suggested a role for variability of genes in disease susceptibility and response to medication. Potential genetic biomarkers contributing to the AERD phenotype include HLA-DPB1*301, LTC4S, ALOX5, CYSLT, PGE2, TBXA2R, TBX21, MS4A2, IL10 -1082A &gt; G, ACE -262A &gt; T, and CRTH2 -466T &gt; C; the four-locus SNP set was composed of B2ADR 46A &gt; G, CCR3 -520T &gt; G, CysLTR1 -634C &gt; T, and FCER1B -109T &gt; C. Management of AERD is an important issue. Aspirin ingestion may result in significant morbidity and mortality, and patients must be advised regarding aspirin risk. Leukotriene receptor antagonists (LTRA) that inhibit leukotriene pathways have an established role in long-term AERD management and rhinosinusitis. Aspirin desensitization may be required for the relief of upper and lower airway symptoms in AERD patients. Future research should focus on identification of biomarkers for a comprehensive diagnostic approach.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Palikhe</LastName>
+                    <ForeName>Nami Shrestha</ForeName>
+                    <Initials>NS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Allergy and Rheumatology, Ajou University School of Medicine, Yeongtong-gu, Suwon, Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kim</LastName>
+                    <ForeName>Joo-Hee</ForeName>
+                    <Initials>JH</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Park</LastName>
+                    <ForeName>Hae-Sim</ForeName>
+                    <Initials>HS</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+                <PublicationType UI="D016454">Review</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2009</Year>
+                <Month>12</Month>
+                <Day>18</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Korea (South)</Country>
+            <MedlineTA>Yonsei Med J</MedlineTA>
+            <NlmUniqueID>0414003</NlmUniqueID>
+            <ISSNLinking>0513-5796</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D020024">Leukotriene Antagonists</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D015289">Leukotrienes</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Expert Opin Pharmacother. 2004 Mar;5(3):679-86</RefSource>
+                <PMID Version="1">15013935</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Clin Allergy. 1988 Jan;18(1):15-20</RefSource>
+                <PMID Version="1">3127083</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Allergy Clin Immunol. 2004 Mar;113(3):562-4</RefSource>
+                <PMID Version="1">15007363</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Clin Exp Allergy. 2004 Aug;34(8):1270-5</RefSource>
+                <PMID Version="1">15298569</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Drugs. 2004;64(21):2417-32</RefSource>
+                <PMID Version="1">15482000</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Allergy. 2000 Jan;55(1):11-5</RefSource>
+                <PMID Version="1">10696852</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Respir Crit Care Med. 2000 Feb;161(2 Pt 1):391-8</RefSource>
+                <PMID Version="1">10673176</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Allergy Clin Immunol. 2000 Jul;106(1 Pt 1):72-6</RefSource>
+                <PMID Version="1">10887308</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Respir Cell Mol Biol. 2000 Sep;23(3):290-6</RefSource>
+                <PMID Version="1">10970818</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Eur Respir J. 2000 Sep;16(3):432-6</RefSource>
+                <PMID Version="1">11028656</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Allergy Clin Immunol. 2000 Dec;106(6):1201-2</RefSource>
+                <PMID Version="1">11112909</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Clin Exp Allergy. 2001 Feb;31(2):219-25</RefSource>
+                <PMID Version="1">11251623</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Chest. 2002 Jan;121(1):143-50</RefSource>
+                <PMID Version="1">11796443</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Thorax. 2002 Jul;57(7):569-74</RefSource>
+                <PMID Version="1">12096197</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Clin Exp Allergy. 2002 Oct;32(10):1491-6</RefSource>
+                <PMID Version="1">12372130</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>N Engl J Med. 2002 Nov 7;347(19):1493-9</RefSource>
+                <PMID Version="1">12421891</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>N Engl J Med. 2002 Nov 7;347(19):1524-6</RefSource>
+                <PMID Version="1">12421897</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biochem Pharmacol. 2002 Dec 1;64(11):1549-57</RefSource>
+                <PMID Version="1">12429344</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Physiol Lung Cell Mol Physiol. 2003 Sep;285(3):L619-27</RefSource>
+                <PMID Version="1">12754192</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Clin Exp Allergy. 2003 Aug;33(8):1103-10</RefSource>
+                <PMID Version="1">12911785</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Eur Respir J. 1989 Feb;2(2):127-9</RefSource>
+                <PMID Version="1">2703041</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Clin Exp Allergy. 1992 Feb;22(2):283-7</RefSource>
+                <PMID Version="1">1571820</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Eur Respir J. 1993 Mar;6(3):391-9</RefSource>
+                <PMID Version="1">8386106</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Clin Exp Allergy. 1995 Jan;25(1):38-40</RefSource>
+                <PMID Version="1">7728622</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Allergy Clin Immunol. 1995 Aug;96(2):148-56</RefSource>
+                <PMID Version="1">7636051</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Respir Crit Care Med. 1996 Dec;154(6 Pt 1):1608-14</RefSource>
+                <PMID Version="1">8970343</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Clin Exp Allergy. 1997 Apr;27(4):431-7</RefSource>
+                <PMID Version="1">9146937</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Respir Crit Care Med. 1999 Jul;160(1):291-6</RefSource>
+                <PMID Version="1">10390414</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int J Epidemiol. 1999 Aug;28(4):717-22</RefSource>
+                <PMID Version="1">10480701</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Allergy. 2005 Jun;60(6):760-5</RefSource>
+                <PMID Version="1">15876305</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Clin Exp Allergy. 2005 May;35(5):585-90</RefSource>
+                <PMID Version="1">15898979</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Hum Genet. 2005 Jun;117(1):16-26</RefSource>
+                <PMID Version="1">15806396</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Pharmacogenet Genomics. 2005 Jul;15(7):483-92</RefSource>
+                <PMID Version="1">15970796</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Allergy. 2005 Sep;60(9):1139-45</RefSource>
+                <PMID Version="1">16076298</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Allergy Clin Immunol. 2005 Nov;116(5):970-5</RefSource>
+                <PMID Version="1">16275362</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Tohoku J Exp Med. 2006 Jan;208(1):49-56</RefSource>
+                <PMID Version="1">16340173</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Clin Exp Allergy. 2006 Apr;36(4):433-9</RefSource>
+                <PMID Version="1">16630147</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Clin Exp Allergy. 2006 Jul;36(7):877-83</RefSource>
+                <PMID Version="1">16839402</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>EMBO J. 2006 Oct 4;25(19):4615-27</RefSource>
+                <PMID Version="1">16990797</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Allergy Asthma Proc. 2006 Sep-Oct;27(5):341-6</RefSource>
+                <PMID Version="1">17063661</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Allergy Clin Immunol. 2007 Jan;119(1):157-64</RefSource>
+                <PMID Version="1">17208597</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Pharmacogenet Genomics. 2007 Apr;17(4):295-304</RefSource>
+                <PMID Version="1">17496729</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Pharmacogenomics. 2007 Sep;8(9):1143-50</RefSource>
+                <PMID Version="1">17924829</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>N Engl J Med. 2007 Nov 1;357(18):1841-54</RefSource>
+                <PMID Version="1">17978293</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2008 Jan 15;105(2):680-5</RefSource>
+                <PMID Version="1">18184802</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>An Pediatr (Barc). 2008 Apr;68(4):317-9</RefSource>
+                <PMID Version="1">18394373</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Clin Immunol. 2008 Jul;28(4):336-42</RefSource>
+                <PMID Version="1">18379861</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Respir Med. 2008 Aug;102(8):1132-9</RefSource>
+                <PMID Version="1">18595682</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Thorax. 2008 Dec;63(12):1076-82</RefSource>
+                <PMID Version="1">18757457</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Allergol Int. 2008 Dec;57(4):313-20</RefSource>
+                <PMID Version="1">18946233</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Clin Exp Allergy. 2008 Nov;38(11):1727-37</RefSource>
+                <PMID Version="1">18727619</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Int Arch Allergy Immunol. 2009;149(4):378-84</RefSource>
+                <PMID Version="1">19295242</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Allergy. 2009 Aug;64(8):1221-5</RefSource>
+                <PMID Version="1">19222424</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Postgrad Med. 2000 Sep 15;108(4 Suppl):40-4</RefSource>
+                <PMID Version="1">19667532</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Allergy Clin Immunol. 2009 Sep;124(3):417-21</RefSource>
+                <PMID Version="1">19482346</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Allergy. 2009 Dec;64(12):1746-52</RefSource>
+                <PMID Version="1">19385948</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Allergy. 2010 Mar;65(3):338-46</RefSource>
+                <PMID Version="1">19796209</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Pharmacol Res. 2004 Jul;50(1):1-11</RefSource>
+                <PMID Version="1">15082024</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D000818">Animals</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D055963">Asthma, Aspirin-Induced</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000188">drug therapy</QualifierName>
+                <QualifierName MajorTopicYN="Y" UI="Q000235">genetics</QualifierName>
+                <QualifierName MajorTopicYN="Y" UI="Q000276">immunology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D004804">Eosinophils</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D020022">Genetic Predisposition to Disease</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000235">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D006801">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D020024">Leukotriene Antagonists</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000627">therapeutic use</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D015289">Leukotrienes</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D008954">Models, Biological</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D011110">Polymorphism, Genetic</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000235">genetics</QualifierName>
+                <QualifierName MajorTopicYN="N" UI="Q000502">physiology</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <NumberOfReferences>59</NumberOfReferences>
+        <OtherID Source="NLM">PMC2796398</OtherID>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Aspirin</Keyword>
+            <Keyword MajorTopicYN="N">asthma</Keyword>
+            <Keyword MajorTopicYN="N">eosinophil</Keyword>
+            <Keyword MajorTopicYN="N">genetic polymorphism</Keyword>
+            <Keyword MajorTopicYN="N">leukotriene</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2009</Year>
+                <Month>10</Month>
+                <Day>16</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="epublish">
+                <Year>2009</Year>
+                <Month>12</Month>
+                <Day>18</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2010</Year>
+                <Month>1</Month>
+                <Day>5</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2010</Year>
+                <Month>1</Month>
+                <Day>5</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2010</Year>
+                <Month>4</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="doi">10.3349/ymj.2009.50.6.744</ArticleId>
+            <ArticleId IdType="pubmed">20046412</ArticleId>
+            <ArticleId IdType="pmc">PMC2796398</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="MEDLINE">
+        <PMID Version="1">20021457</PMID>
+        <DateCreated>
+            <Year>2009</Year>
+            <Month>12</Month>
+            <Day>21</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2010</Year>
+            <Month>02</Month>
+            <Day>24</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2013</Year>
+            <Month>11</Month>
+            <Day>21</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1874-4702</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>2</Volume>
+                    <Issue>2</Issue>
+                    <PubDate>
+                        <Year>2009</Year>
+                        <Month>Jun</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Current molecular pharmacology</Title>
+                <ISOAbbreviation>Curr Mol Pharmacol</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>New insights on the possible role of mast cells in aspirin-induced asthma.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>182-9</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText>Nonsteroidal anti-inflammatory drugs (NSAIDs) are major drugs used in the treatment of inflammation and pain in a wide variety of disorders. The best-known mechanism of action of NSAIDs is the inhibition of prostaglandin synthesis as a result of their action on cyclooxygenase (COX) enzymes. However, data have been accumulating through the years indicating that NSAIDs also act on other targets in cell signaling. It has been established that NSAIDs induce anti-inflammatory effects independent of COX. Acetylsalicylic acid (ASA) and other inhibitors of COX induce severe bronchospasms and asthmatic attacks in a significant population of asthmatic patients. The etiology of ASA induced asthma is complex and not fully understood, but most evidence points towards an abnormality of arachidonic acid (AA) metabolism. Since doses of ASA necessary to treat chronic inflammatory diseases appeared much higher than those required to inhibit PG synthesis, COX-independent mechanisms of NSAIDs were postulated. Recently, we have shown that NSAIDs induced expression of heat shock proteins specially HSP70. Heat shock proteins (HSPs) are normal intracellular proteins that are produced in greater amounts when cells are subjected to stress or injury. Interestingly, a potential pathogenic role for heat shock proteins in diseases such as autoimmune disease, vascular disease has been reported. Because mast cells have been reported to play a role in the pathogenesis of ASA induced asthma, a link between heat shock proteins and this disease could postulated. In this review, an overview is given on aspirin-induced asthma and the cells and mediators that may play a role therein. Mast cell signaling with regard to interaction with NSAIDs and heat shock proteins (HSPs) and toll-like receptors (TLRs) is further highlighted.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Mortaz</LastName>
+                    <ForeName>Esmaeil</ForeName>
+                    <Initials>E</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Pharmacology and Pathophysiology, Utrecht Institute for Pharmaceutical Sciences, Faculty of Science, Utrecht University, Utrecht, The Netherlands. e.mortaz@uu.nl</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Engels</LastName>
+                    <ForeName>Ferdi</ForeName>
+                    <Initials>F</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Nijkamp</LastName>
+                    <ForeName>Frans P</ForeName>
+                    <Initials>FP</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Redegeld</LastName>
+                    <ForeName>Frank A</ForeName>
+                    <Initials>FA</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D016454">Review</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United Arab Emirates</Country>
+            <MedlineTA>Curr Mol Pharmacol</MedlineTA>
+            <NlmUniqueID>101467997</NlmUniqueID>
+            <ISSNLinking>1874-4672</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D000894">Anti-Inflammatory Agents, Non-Steroidal</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D018840">HSP70 Heat-Shock Proteins</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D015289">Leukotrienes</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D051193">Toll-Like Receptors</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>27415-26-5</RegistryNumber>
+                <NameOfSubstance UI="C075750">8-epi-prostaglandin F2alpha</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>27YG812J1I</RegistryNumber>
+                <NameOfSubstance UI="D016718">Arachidonic Acid</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>B7IN85G1HY</RegistryNumber>
+                <NameOfSubstance UI="D015237">Dinoprost</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>EC 1.14.99.1</RegistryNumber>
+                <NameOfSubstance UI="D011451">Prostaglandin-Endoperoxide Synthases</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>EC 3.1.3.-</RegistryNumber>
+                <NameOfSubstance UI="D010744">Phosphoric Monoester Hydrolases</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>R16CO5Y76E</RegistryNumber>
+                <NameOfSubstance UI="D001241">Aspirin</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D000894">Anti-Inflammatory Agents, Non-Steroidal</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000009">adverse effects</QualifierName>
+                <QualifierName MajorTopicYN="Y" UI="Q000494">pharmacology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D016718">Arachidonic Acid</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D001241">Aspirin</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000009">adverse effects</QualifierName>
+                <QualifierName MajorTopicYN="Y" UI="Q000494">pharmacology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D055963">Asthma, Aspirin-Induced</DescriptorName>
+                <QualifierName MajorTopicYN="Y" UI="Q000276">immunology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D015237">Dinoprost</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000031">analogs &amp; derivatives</QualifierName>
+                <QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D018840">HSP70 Heat-Shock Proteins</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D006801">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D015289">Leukotrienes</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D008407">Mast Cells</DescriptorName>
+                <QualifierName MajorTopicYN="Y" UI="Q000187">drug effects</QualifierName>
+                <QualifierName MajorTopicYN="N" UI="Q000276">immunology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D010744">Phosphoric Monoester Hydrolases</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D011451">Prostaglandin-Endoperoxide Synthases</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D051193">Toll-Like Receptors</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <NumberOfReferences>85</NumberOfReferences>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2009</Year>
+                <Month>12</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2009</Year>
+                <Month>12</Month>
+                <Day>22</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2010</Year>
+                <Month>2</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">20021457</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="MEDLINE">
+        <PMID Version="1">20008883</PMID>
+        <DateCreated>
+            <Year>2009</Year>
+            <Month>12</Month>
+            <Day>17</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2010</Year>
+            <Month>03</Month>
+            <Day>19</Day>
+        </DateCompleted>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1943-5665</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>6</Volume>
+                    <Issue>8</Issue>
+                    <PubDate>
+                        <Year>2009</Year>
+                        <Month>Dec</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Proceedings of the American Thoracic Society</Title>
+                <ISOAbbreviation>Proc Am Thorac Soc</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Obstructive lung disease from conception to old age: differences in the treatment of adults and children with asthma.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>720-3</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1513/pats.200907-059DP</ELocationID>
+            <Abstract>
+                <AbstractText>Achieving asthma control is the focus of asthma management. Inhaled corticosteroids are the most effective treatment for asthma in children and adults, with no evidence that the magnitude of benefit differs between adults and school-aged children. Leukotriene inhibitors are more widely used in children than in adults. This may be because provoking stimuli, such as environmental allergens and frequent exercise, are more important asthma triggers in children or because parental concerns about the side effects of treatment with ICS. Inhaled corticosteroid/long-acting inhaled beta(2)-agonist combinations may not be as effective in children as in they are adults in improving asthma control and reducing asthma exacerbations.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>O'Byrne</LastName>
+                    <ForeName>Paul M</ForeName>
+                    <Initials>PM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Firestone Institute for Respiratory Health, St. Joseph's Hospital and Department of Medicine, McMaster University, Hamilton, Ontario, Canada. obyrnep@mcmaster.ca</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D016454">Review</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Proc Am Thorac Soc</MedlineTA>
+            <NlmUniqueID>101203596</NlmUniqueID>
+            <ISSNLinking>1546-3222</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D000305">Adrenal Cortex Hormones</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D000319">Adrenergic beta-Antagonists</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D015289">Leukotrienes</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D000280">Administration, Inhalation</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D000305">Adrenal Cortex Hormones</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000008">administration &amp; dosage</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D000319">Adrenergic beta-Antagonists</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000627">therapeutic use</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D000328">Adult</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D001249">Asthma</DescriptorName>
+                <QualifierName MajorTopicYN="Y" UI="Q000188">drug therapy</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D002648">Child</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D006801">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D015289">Leukotrienes</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <NumberOfReferences>51</NumberOfReferences>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2009</Year>
+                <Month>12</Month>
+                <Day>17</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2009</Year>
+                <Month>12</Month>
+                <Day>17</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2010</Year>
+                <Month>3</Month>
+                <Day>20</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">6/8/720</ArticleId>
+            <ArticleId IdType="doi">10.1513/pats.200907-059DP</ArticleId>
+            <ArticleId IdType="pubmed">20008883</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="MEDLINE">
+        <PMID Version="1">20008181</PMID>
+        <DateCreated>
+            <Year>2009</Year>
+            <Month>12</Month>
+            <Day>16</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2010</Year>
+            <Month>03</Month>
+            <Day>15</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2013</Year>
+            <Month>11</Month>
+            <Day>21</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1520-4383</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2009</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Hematology / the Education Program of the American Society of Hematology. American Society of Hematology. Education Program</Title>
+                <ISOAbbreviation>Hematology Am Soc Hematol Educ Program</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Asthma and sickle cell disease: two distinct diseases or part of the same process?</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>45-53</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1182/asheducation-2009.1.45</ELocationID>
+            <Abstract>
+                <AbstractText>A physician diagnosis of asthma in children and adults with sickle cell disease (SCD) has been associated with increased rates of pain and acute chest syndrome (ACS) episodes and premature death. Despite the clinical significance of a doctor's diagnosis of asthma in individuals with SCD, the criteria for a physician diagnosis of asthma are not well defined. Many features of asthma are common in individuals with SCD, including symptoms of wheezing, obstructive lung disease and airway hyper-responsiveness. However, it is not clear if these signs and symptoms of asthma reflect a physician diagnosis of asthma, or if these asthma features are related to SCD. Further complicating the diagnosis of asthma in children with SCD is the significant overlap in clinical manifestations between an asthma exacerbation and an ACS episode. Evidence supporting the concept that asthma and SCD are separate co-morbid conditions includes a similar prevalence of asthma between children with SCD and those in the general population and the observation that asthma is inherited in a familial pattern in the families of children with SCD. In contrast, there is significant evidence that asthma-like features may be associated with SCD without a diagnosis of asthma, including a higher than expected prevalence of airway hyper-responsiveness and obstructive lung disease. Regardless of whether SCD and asthma are distinct or overlapping co-morbid conditions, we recommend a systematic and complete evaluation of asthma when the diagnosis is suspected or when patients have multiple episodes of pain or ACS.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Field</LastName>
+                    <ForeName>Joshua J</ForeName>
+                    <Initials>JJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medicine, Division of Hematology, Washington University School of Medicine, St. Louis, MO 63110, USA. jfield@dom.wustl.edu</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>DeBaun</LastName>
+                    <ForeName>Michael R</ForeName>
+                    <Initials>MR</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D016454">Review</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Hematology Am Soc Hematol Educ Program</MedlineTA>
+            <NlmUniqueID>100890099</NlmUniqueID>
+            <ISSNLinking>1520-4383</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D015289">Leukotrienes</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>31C4KY9ESH</RegistryNumber>
+                <NameOfSubstance UI="D009569">Nitric Oxide</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D056586">Acute Chest Syndrome</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000175">diagnosis</QualifierName>
+                <QualifierName MajorTopicYN="Y" UI="Q000209">etiology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D000328">Adult</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D000755">Anemia, Sickle Cell</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000150">complications</QualifierName>
+                <QualifierName MajorTopicYN="N" UI="Q000401">mortality</QualifierName>
+                <QualifierName MajorTopicYN="Y" UI="Q000503">physiopathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D001249">Asthma</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000175">diagnosis</QualifierName>
+                <QualifierName MajorTopicYN="N" UI="Q000209">etiology</QualifierName>
+                <QualifierName MajorTopicYN="Y" UI="Q000503">physiopathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D016535">Bronchial Hyperreactivity</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000209">etiology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D002648">Child</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D015897">Comorbidity</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D006801">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D053208">Kaplan-Meier Estimate</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D015289">Leukotrienes</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000502">physiology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D009569">Nitric Oxide</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000502">physiology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D011379">Prognosis</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D029424">Pulmonary Disease, Chronic Obstructive</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000209">etiology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D012135">Respiratory Sounds</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000209">etiology</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <NumberOfReferences>64</NumberOfReferences>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2009</Year>
+                <Month>12</Month>
+                <Day>17</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2009</Year>
+                <Month>12</Month>
+                <Day>17</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2010</Year>
+                <Month>3</Month>
+                <Day>17</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">2009/1/45</ArticleId>
+            <ArticleId IdType="doi">10.1182/asheducation-2009.1.45</ArticleId>
+            <ArticleId IdType="pubmed">20008181</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="MEDLINE">
+        <PMID Version="1">19912318</PMID>
+        <DateCreated>
+            <Year>2010</Year>
+            <Month>01</Month>
+            <Day>26</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2010</Year>
+            <Month>05</Month>
+            <Day>11</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2015</Year>
+            <Month>11</Month>
+            <Day>19</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1365-2362</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>40</Volume>
+                    <Issue>2</Issue>
+                    <PubDate>
+                        <Year>2010</Year>
+                        <Month>Feb</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>European journal of clinical investigation</Title>
+                <ISOAbbreviation>Eur. J. Clin. Invest.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>The acute effect of smoking in healthy and asthmatic smokers.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>103-9</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1111/j.1365-2362.2009.02221.x</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Acute exposure to cigarette smoke is related to airway and systemic inflammation and oxidative stress. Little is known about the acute effect of cigarette smoking in smoking asthmatics. The aim of this study was to evaluate the acute effect of smoking in airway and systemic inflammation and oxidative stress in normal smokers and patients with properly treated well-controlled persistent asthma.</AbstractText>
+                <AbstractText Label="MATERIALS AND METHODS" NlmCategory="METHODS">Ten normal smokers and 10 smokers with moderate persistent asthma controlled with LABA and ICS were recruited. Subjects refrained from smoking for at least 12 h prior to their inclusion. We compared the effects of smoking of two cigarettes on airway obstruction, airway inflammation and oxidative stress [by measuring fraction of exhaled nitric oxide (FeNO), plus pH and 8-isoprostane in exhaled breath condensate (EBC)] before and 30, 90 and 180 min after smoking. Furthermore, we evaluated systemic oxidative stress, C-reactive protein (CRP) and serum amyloid A (SAA) and urine leukotriene E(4) (LTE(4)) before and 180 min after smoking.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">No differences were observed in EBC pH and 8-isoprostane, FeNO and systemic oxidative stress between the groups at baseline. In asthmatics, EBC pH decreased 30 min and EBC 8-isoprostane increased 90 min after smoking (P = 0.039 and P = 0.029 respectively), which was not evident in smoking controls. Serum oxidative stress increased only in asthmatic smokers at 180 min (P = 0.001). No differences were observed in SAA, CRP and urine LTE(4) levels before and after smoking.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">Acute smoking has more deleterious effects in well-controlled properly treated asthmatic smokers compared with matched normal smokers.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Papaioannou</LastName>
+                    <ForeName>A I</ForeName>
+                    <Initials>AI</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>University of Thessaly Medical School, Larissa, Greece.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Koutsokera</LastName>
+                    <ForeName>A</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tanou</LastName>
+                    <ForeName>K</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kiropoulos</LastName>
+                    <ForeName>T S</ForeName>
+                    <Initials>TS</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tsilioni</LastName>
+                    <ForeName>I</ForeName>
+                    <Initials>I</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Oikonomidi</LastName>
+                    <ForeName>S</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Liadaki</LastName>
+                    <ForeName>K</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Pournaras</LastName>
+                    <ForeName>S</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gourgoulianis</LastName>
+                    <ForeName>K I</ForeName>
+                    <Initials>KI</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kostikas</LastName>
+                    <ForeName>K</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2009</Year>
+                <Month>11</Month>
+                <Day>12</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Eur J Clin Invest</MedlineTA>
+            <NlmUniqueID>0245331</NlmUniqueID>
+            <ISSNLinking>0014-2972</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D015415">Biomarkers</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D000685">Serum Amyloid A Protein</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>27415-26-5</RegistryNumber>
+                <NameOfSubstance UI="C075750">8-epi-prostaglandin F2alpha</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>31C4KY9ESH</RegistryNumber>
+                <NameOfSubstance UI="D009569">Nitric Oxide</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>75715-89-8</RegistryNumber>
+                <NameOfSubstance UI="D017999">Leukotriene E4</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>9007-41-4</RegistryNumber>
+                <NameOfSubstance UI="D002097">C-Reactive Protein</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>B7IN85G1HY</RegistryNumber>
+                <NameOfSubstance UI="D015237">Dinoprost</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D000328">Adult</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D001249">Asthma</DescriptorName>
+                <QualifierName MajorTopicYN="Y" UI="Q000378">metabolism</QualifierName>
+                <QualifierName MajorTopicYN="N" UI="Q000503">physiopathology</QualifierName>
+                <QualifierName MajorTopicYN="N" UI="Q000652">urine</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D015415">Biomarkers</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000097">blood</QualifierName>
+                <QualifierName MajorTopicYN="N" UI="Q000652">urine</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D001944">Breath Tests</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000379">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D002097">C-Reactive Protein</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D015237">Dinoprost</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000031">analogs &amp; derivatives</QualifierName>
+                <QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D045853">Exhalation</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D005260">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D006801">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D006863">Hydrogen-Ion Concentration</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D017999">Leukotriene E4</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000652">urine</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D008297">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D008875">Middle Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D009569">Nitric Oxide</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D018384">Oxidative Stress</DescriptorName>
+                <QualifierName MajorTopicYN="Y" UI="Q000502">physiology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D012129">Respiratory Function Tests</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D000685">Serum Amyloid A Protein</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D012907">Smoking</DescriptorName>
+                <QualifierName MajorTopicYN="Y" UI="Q000009">adverse effects</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D013183">Sputum</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D013997">Time Factors</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="aheadofprint">
+                <Year>2009</Year>
+                <Month>11</Month>
+                <Day>12</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2009</Year>
+                <Month>11</Month>
+                <Day>17</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2009</Year>
+                <Month>11</Month>
+                <Day>17</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2010</Year>
+                <Month>5</Month>
+                <Day>12</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">ECI2221</ArticleId>
+            <ArticleId IdType="doi">10.1111/j.1365-2362.2009.02221.x</ArticleId>
+            <ArticleId IdType="pubmed">19912318</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="MEDLINE">
+        <PMID Version="1">19897276</PMID>
+        <DateCreated>
+            <Year>2010</Year>
+            <Month>06</Month>
+            <Day>04</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2010</Year>
+            <Month>11</Month>
+            <Day>03</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2013</Year>
+            <Month>11</Month>
+            <Day>21</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1878-3279</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>215</Volume>
+                    <Issue>7</Issue>
+                    <PubDate>
+                        <Year>2010</Year>
+                        <Month>Jul</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Immunobiology</Title>
+                <ISOAbbreviation>Immunobiology</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Choline attenuates immune inflammation and suppresses oxidative stress in patients with asthma.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>527-34</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.imbio.2009.09.004</ELocationID>
+            <Abstract>
+                <AbstractText>Asthma is a chronic immune inflammatory disease characterized by variable airflow obstruction and increased bronchial hyperreactivity (BHR). Therapeutic interventions reduce airway inflammation and relieve symptoms but associated with potential side effects that limit their usefulness. The present study was undertaken to assess the effect of choline on immune inflammation and BHR in asthma subjects. The patients of asthma (n=76) were recruited and treated with choline supplement (1500 mg twice) or standard pharmacotherapy for 6 months in two groups. The patients were evaluated by clinical, immunologic and biochemical parameters. The treatment with choline showed significant reduction in symptom/drug score and improvement in PC(20) FEV1 compared to baseline or standard pharmacotherapy (p&lt;0.01). Choline therapy significantly reduced IL-4, IL-5 and TNF-alpha level as compared to baseline or standard pharmacotherapy after 6 months (p&lt;0.01). Blood eosinophil count and total IgE levels were reduced in both the treatment groups. Cysteinyl leukotriene and leukotriene B4 were suppressed significantly by choline treatment (p&lt;0.01). This was accompanied by decreased 8-isoprostanes, a biomarker for oxidative stress after choline treatment (p&lt;0.01). Choline therapy modulates immune inflammation and suppresses oxidative stress in asthma patients. It can be used as an adjunct therapy for asthma patients.</AbstractText>
+                <CopyrightInformation>Copyright 2009 Elsevier GmbH. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Mehta</LastName>
+                    <ForeName>Amit K</ForeName>
+                    <Initials>AK</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Allergy and Immunology Section, Institute of Genomics and Integrative Biology, Delhi, India.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Singh</LastName>
+                    <ForeName>Bhanu P</ForeName>
+                    <Initials>BP</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Arora</LastName>
+                    <ForeName>Naveen</ForeName>
+                    <Initials>N</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gaur</LastName>
+                    <ForeName>Shailendra N</ForeName>
+                    <Initials>SN</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2009</Year>
+                <Month>11</Month>
+                <Day>07</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Netherlands</Country>
+            <MedlineTA>Immunobiology</MedlineTA>
+            <NlmUniqueID>8002742</NlmUniqueID>
+            <ISSNLinking>0171-2985</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D016207">Cytokines</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D015289">Leukotrienes</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>N91BDP6H0X</RegistryNumber>
+                <NameOfSubstance UI="D002794">Choline</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D000293">Adolescent</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D000328">Adult</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D001249">Asthma</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000175">diagnosis</QualifierName>
+                <QualifierName MajorTopicYN="Y" UI="Q000276">immunology</QualifierName>
+                <QualifierName MajorTopicYN="N" UI="Q000503">physiopathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D016535">Bronchial Hyperreactivity</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D002478">Cells, Cultured</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D002794">Choline</DescriptorName>
+                <QualifierName MajorTopicYN="Y" UI="Q000494">pharmacology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D016207">Cytokines</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D004804">Eosinophils</DescriptorName>
+                <QualifierName MajorTopicYN="Y" UI="Q000187">drug effects</QualifierName>
+                <QualifierName MajorTopicYN="N" UI="Q000473">pathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D005260">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D005500">Follow-Up Studies</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D005541">Forced Expiratory Volume</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D006801">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D007165">Immunosuppression</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D007249">Inflammation</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D015289">Leukotrienes</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000378">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D008297">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D008875">Middle Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D018384">Oxidative Stress</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000187">drug effects</QualifierName>
+                <QualifierName MajorTopicYN="N" UI="Q000276">immunology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D012882">Skin Tests</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D018418">Th2 Cells</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000187">drug effects</QualifierName>
+                <QualifierName MajorTopicYN="N" UI="Q000276">immunology</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2009</Year>
+                <Month>8</Month>
+                <Day>13</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2009</Year>
+                <Month>9</Month>
+                <Day>10</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="aheadofprint">
+                <Year>2009</Year>
+                <Month>11</Month>
+                <Day>7</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2009</Year>
+                <Month>11</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2009</Year>
+                <Month>11</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2010</Year>
+                <Month>11</Month>
+                <Day>4</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">S0171-2985(09)00152-1</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.imbio.2009.09.004</ArticleId>
+            <ArticleId IdType="pubmed">19897276</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="MEDLINE">
+        <PMID Version="1">19895589</PMID>
+        <DateCreated>
+            <Year>2010</Year>
+            <Month>03</Month>
+            <Day>08</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2010</Year>
+            <Month>06</Month>
+            <Day>18</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2015</Year>
+            <Month>11</Month>
+            <Day>19</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1365-2222</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>40</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2010</Year>
+                        <Month>Jan</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Clinical and experimental allergy : journal of the British Society for Allergy and Clinical Immunology</Title>
+                <ISOAbbreviation>Clin. Exp. Allergy</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Prostaglandin E2 and cysteinyl leukotriene concentrations in sputum: association with asthma severity and eosinophilic inflammation.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>85-93</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1111/j.1365-2222.2009.03386.x</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Inflammation of the airways in asthma is associated with the production of cysteinyl leukotrienes (cysLT), prostaglandin (PG)E(2), 8-isoprostane, nitric oxide and other mediators. However, the relationship between asthma severity or eosinophilic inflammation and the concentrations of mediators in sputum is unclear.</AbstractText>
+                <AbstractText Label="OBJECTIVE" NlmCategory="OBJECTIVE">To assess sputum PGE(2), cysLT, 8-isoprostane and nitrate concentrations, as well as urinary leukotriene (LT)E(4) and 9alpha,11beta-prostaglandin (PG)F(2) concentrations, in patients with differing severities of asthma and eosinophilic or non-eosinophilic airway inflammation.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">Inflammatory cells in sputum were assessed in 12 patients with mild, 14 with moderate and 12 with severe persistent asthma, as well as in 13 control subjects. Asthmatic patients were categorized into those with eosinophilic or non-eosinophilic airway inflammation. Sputum PGE(2), cysLT and 8-isoprostane, and urinary LTE(4) were extracted on immunoaffinity sorbents, and the concentrations of all mediators were measured using enzyme immunoassays. Sputum nitrate concentrations were measured on a chemiluminescence analyzer.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Sputum PGE(2) concentrations were higher in both moderate (1710 pg/mL) and severe asthmatic (1590 pg/mL) compared with control subjects (827 pg/mL) (P&lt;0.05). CysLT concentrations were higher in moderate asthmatic compared with control or severe asthmatic subjects (P&lt;0.05). Sputum PGE(2) concentrations were lower in patients with eosinophilic (1180 pg/mL) compared with non-eosinophilic airway inflammation (2520 pg/mL) (P=0.02). In contrast, sputum cysLT and urinary LTE(4) concentrations were higher in those with eosinophilic airway inflammation (P&lt;0.05). Forced expiratory volume in 1 s was inversely correlated with sputum eosinophils in all asthmatic patients (r(s)=-0.5, P=0.002). There were no significant differences in sputum 8-isoprostane or nitrate concentrations.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">Increased airway concentrations of PGE(2) are consistent with the hypothesis that PGE(2) has a bronchoprotective and anti-inflammatory role in patients with more severe asthma. A reduced PGE(2) to cysLT ratio in the airways may adversely affect lung function and contribute to persistence of symptoms and airway remodelling in patients with eosinophilic airway inflammation.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Aggarwal</LastName>
+                    <ForeName>S</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Centre for Asthma, Allergy and Respiratory Research, Lung Institute of Western Australia, The University of Western Australia, Perth, WA, Australia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Moodley</LastName>
+                    <ForeName>Y P</ForeName>
+                    <Initials>YP</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Thompson</LastName>
+                    <ForeName>P J</ForeName>
+                    <Initials>PJ</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Misso</LastName>
+                    <ForeName>N L</ForeName>
+                    <Initials>NL</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2009</Year>
+                <Month>11</Month>
+                <Day>04</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Clin Exp Allergy</MedlineTA>
+            <NlmUniqueID>8906443</NlmUniqueID>
+            <ISSNLinking>0954-7894</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D015415">Biomarkers</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D015289">Leukotrienes</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D009566">Nitrates</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="C112381">cysteinyl-leukotriene</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>K7Q1JQR04M</RegistryNumber>
+                <NameOfSubstance UI="D015232">Dinoprostone</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>K848JZ4886</RegistryNumber>
+                <NameOfSubstance UI="D003545">Cysteine</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D000328">Adult</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D000368">Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D001249">Asthma</DescriptorName>
+                <QualifierName MajorTopicYN="Y" UI="Q000175">diagnosis</QualifierName>
+                <QualifierName MajorTopicYN="N" UI="Q000276">immunology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D015415">Biomarkers</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000032">analysis</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D003545">Cysteine</DescriptorName>
+                <QualifierName MajorTopicYN="Y" UI="Q000032">analysis</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D015232">Dinoprostone</DescriptorName>
+                <QualifierName MajorTopicYN="Y" UI="Q000032">analysis</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D018450">Disease Progression</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D004804">Eosinophils</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000276">immunology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D005260">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D006801">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D007124">Immunoenzyme Techniques</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D007249">Inflammation</DescriptorName>
+                <QualifierName MajorTopicYN="Y" UI="Q000175">diagnosis</QualifierName>
+                <QualifierName MajorTopicYN="N" UI="Q000276">immunology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D007958">Leukocyte Count</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D015289">Leukotrienes</DescriptorName>
+                <QualifierName MajorTopicYN="Y" UI="Q000032">analysis</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D008163">Luminescent Measurements</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D008297">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D008875">Middle Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D009566">Nitrates</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000032">analysis</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D013183">Sputum</DescriptorName>
+                <QualifierName MajorTopicYN="Y" UI="Q000276">immunology</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="aheadofprint">
+                <Year>2009</Year>
+                <Month>11</Month>
+                <Day>04</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2009</Year>
+                <Month>11</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2009</Year>
+                <Month>11</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2010</Year>
+                <Month>6</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">CEA3386</ArticleId>
+            <ArticleId IdType="doi">10.1111/j.1365-2222.2009.03386.x</ArticleId>
+            <ArticleId IdType="pubmed">19895589</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="MEDLINE">
+        <PMID Version="1">19894390</PMID>
+        <DateCreated>
+            <Year>2009</Year>
+            <Month>11</Month>
+            <Day>09</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2010</Year>
+            <Month>01</Month>
+            <Day>11</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2013</Year>
+            <Month>11</Month>
+            <Day>21</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Print">0255-2922</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>29</Volume>
+                    <Issue>3</Issue>
+                    <PubDate>
+                        <Year>2009</Year>
+                        <Month>Sep</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of traditional Chinese medicine = Chung i tsa chih ying wen pan / sponsored by All-China Association of Traditional Chinese Medicine, Academy of Traditional Chinese Medicine</Title>
+                <ISOAbbreviation>J Tradit Chin Med</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Effects of wuwei dilong decoction on inflammatory cells and cytokines in asthma model guinea pigs.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>220-3</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText Label="OBJECTIVE" NlmCategory="OBJECTIVE">To explore the effects and the mechanism of Wuwei Dilong Decoction (Schisandra Fruit and Earthworm Decoction) for treatment of asthma.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">The asthma guinea pig model was established with spray of ovalbumin (OVA). Fifteen days later, the guinea pigs were administered by intra-gastric perfusion of Wuwei Dilong Decoction once a day for 8 consecutive days. Blood samples were taken for testing the total leucocytes, eosinophil (EOS), lymphocytes, interferon-gamma (IFN-gamma) and leukotriene B4 (LTB4).</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">In the asthma model group, the total leucocytes, EOS and lymphocytes were all increased, with significant differences as compared with the different dosage Wuwei Dilong Decoction groups (P &lt; 0.01 or P &lt; 0.05). The serum LTB4 in the asthma model group was significantly increased and IFN-gamma decreased. After administration of Wuwei Dilong Decoction of the large, medium and small dosages, LTB4 decreased, while IFN-gamma increased (P &lt; 0.05 or P &lt; 0.01).</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">Wuwei Dilong Decoction can inhibit infiltration and diffusion of the inflammatory cells in the asthma model guinea pigs, and regulate LTB4 and IFN-gamma, which is probably one of the important mechanisms of Wuwei Dilong Decoction for relieving asthma.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Li</LastName>
+                    <ForeName>Xiang-Hua</ForeName>
+                    <Initials>XH</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Medical College of Changliang University, Jingzhou 434000, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tu</LastName>
+                    <ForeName>Xian-Yu</ForeName>
+                    <Initials>XY</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>De-Xin</ForeName>
+                    <Initials>DX</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Xu</LastName>
+                    <ForeName>Jia-Feng</ForeName>
+                    <Initials>JF</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Wen-Ying</ForeName>
+                    <Initials>WY</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>Yuan</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Du</LastName>
+                    <ForeName>Ya-Ming</ForeName>
+                    <Initials>YM</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>China</Country>
+            <MedlineTA>J Tradit Chin Med</MedlineTA>
+            <NlmUniqueID>8211546</NlmUniqueID>
+            <ISSNLinking>0255-2922</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D004365">Drugs, Chinese Herbal</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="C546141">wuwei dilong</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>1HGW4DR56D</RegistryNumber>
+                <NameOfSubstance UI="D007975">Leukotriene B4</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>82115-62-6</RegistryNumber>
+                <NameOfSubstance UI="D007371">Interferon-gamma</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D000704">Analysis of Variance</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D000818">Animals</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D001249">Asthma</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000097">blood</QualifierName>
+                <QualifierName MajorTopicYN="Y" UI="Q000188">drug therapy</QualifierName>
+                <QualifierName MajorTopicYN="N" UI="Q000473">pathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D004195">Disease Models, Animal</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D004305">Dose-Response Relationship, Drug</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D004365">Drugs, Chinese Herbal</DescriptorName>
+                <QualifierName MajorTopicYN="Y" UI="Q000627">therapeutic use</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D004797">Enzyme-Linked Immunosorbent Assay</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D004804">Eosinophils</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000187">drug effects</QualifierName>
+                <QualifierName MajorTopicYN="N" UI="Q000473">pathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D006168">Guinea Pigs</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D007371">Interferon-gamma</DescriptorName>
+                <QualifierName MajorTopicYN="Y" UI="Q000097">blood</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D007958">Leukocyte Count</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D007962">Leukocytes</DescriptorName>
+                <QualifierName MajorTopicYN="Y" UI="Q000187">drug effects</QualifierName>
+                <QualifierName MajorTopicYN="N" UI="Q000473">pathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D007975">Leukotriene B4</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000097">blood</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D008214">Lymphocytes</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000187">drug effects</QualifierName>
+                <QualifierName MajorTopicYN="N" UI="Q000473">pathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="Y" UI="D008516">Medicine, Chinese Traditional</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D011897">Random Allocation</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D016896">Treatment Outcome</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2009</Year>
+                <Month>11</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2009</Year>
+                <Month>11</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2010</Year>
+                <Month>1</Month>
+                <Day>12</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">19894390</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+</PubmedArticleSet>

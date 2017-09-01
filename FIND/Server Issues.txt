@@ -1,0 +1,7 @@
+- AuthorIDs are not generated correctly. As of now, they're generated randomly. The database is set to "auto-increment" AuthorIDs.
+This can cause issues when generated AuthorIDs already exist in the database. The database will then increment it automatically.
+This breaks the database connection between "Authors" and "PublicationAuthors" tables respectively. Therefore, when selecting/deleting data
+authors might be lingering in the "Authors" table due to mis-matched AuthorIDs.
+
+- With introduction of PublishYear, DateCreated and DateCompleted have not place to store within the database. Therefore, I cannot display them
+under WebUI Client CGi script. They are now blank.

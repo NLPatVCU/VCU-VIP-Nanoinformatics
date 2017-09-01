@@ -1,0 +1,1354 @@
+<?xml version="1.0"?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2016//EN" "http://www.ncbi.nlm.nih.gov/corehtml/query/DTD/pubmed_160101.dtd">
+<PubmedArticleSet>
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">27111865</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>4</Month>
+            <Day>25</Day>
+        </DateCreated>
+        <DateRevised>
+            <Year>2016</Year>
+            <Month>4</Month>
+            <Day>26</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2168-6114</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Apr</Month>
+                        <Day>25</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>JAMA internal medicine</Title>
+                <ISOAbbreviation>JAMA Intern Med</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Quality of Care for White and Hispanic Medicare Advantage Enrollees in the United States and Puerto Rico.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn/>
+            </Pagination>
+            <ELocationID EIdType="doi">10.1001/jamainternmed.2016.0267</ELocationID>
+            <Abstract>
+                <AbstractText Label="Importance" NlmCategory="UNASSIGNED">Geographic, racial, and ethnic variations in quality of care and outcomes have been well documented among the Medicare population. Few data exist on beneficiaries living in Puerto Rico, three-quarters of whom enroll in Medicare Advantage (MA).</AbstractText>
+                <AbstractText Label="Objective" NlmCategory="UNASSIGNED">To determine the quality of care provided to white and Hispanic MA enrollees in the United States and Puerto Rico.</AbstractText>
+                <AbstractText Label="Design, Setting, and Participants" NlmCategory="UNASSIGNED">A cross-sectional study of MA enrollees in 2011 was conducted, including white enrollees in the United States (n = 6 289 374), Hispanic enrollees in the United States (n = 795 039), and Hispanic enrollees in Puerto Rico (n = 267 016). The study was conducted from January 1, 2011, to December 31, 2011; data analysis took place from January 19, 2015, to January 2, 2016.</AbstractText>
+                <AbstractText Label="Main Outcomes and Measures" NlmCategory="UNASSIGNED">Seventeen performance measures related to diabetes mellitus (including hemoglobin A1c control, retinal eye examination, low-density lipoprotein cholesterol control, nephropathy screening, and blood pressure control), cardiovascular disease (including low-density lipoprotein cholesterol control, blood pressure control, and use of a β-blocker after myocardial infarction), cancer screening (colorectal and breast), and appropriate medications (including systemic corticosteroids and bronchodilators for chronic obstructive pulmonary disease [COPD] and disease-modifying antirheumatic drugs).</AbstractText>
+                <AbstractText Label="Results" NlmCategory="UNASSIGNED">Of the 7.35 million MA enrollees in the United States and Puerto Rico in our study, 1.06 million (14.4%) were Hispanic. Approximately 25.1% of all Hispanic MA enrollees resided in Puerto Rico, which was more than those residing in any state. For 15 of the 17 measures assessed, Hispanic MA enrollees in Puerto Rico received worse care compared with Hispanics in the United States, with absolute differences in performance rates ranging from 2.2 percentage points for blood pressure control in diabetes mellitus (P = .03) to 31.3 percentage points for use of disease-modifying antirheumatic drug therapy (P &lt; .01). Adjusted performance differences between Hispanic MA enrollees in Puerto Rico and Hispanic MA enrollees in the United States exceeded 20 percentage points for 3 measures: use of disease-modifying antirheumatic drug therapy (-23.8 percentage points [95% CI, -30.9 to -16.8]), use of systemic corticosteroid in COPD exacerbation (-21.3 percentage points [95% CI, -27.5 to -15.1]), and use of bronchodilator therapy in COPD exacerbation (-22.7 percentage points [95% CI, -27.7 to -17.6]).</AbstractText>
+                <AbstractText Label="Conclusions and Relevance" NlmCategory="UNASSIGNED">We found modest differences in care between white and Hispanic MA enrollees in the United States but substantially worse care for enrollees in Puerto Rico compared with their US counterparts. Major efforts are needed to improve care delivery on the island to a level equivalent to the United States.</AbstractText>
+            </Abstract>
+            <AuthorList>
+                <Author>
+                    <LastName>Rivera-Hernandez</LastName>
+                    <ForeName>Maricruz</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Center for Gerontology and Health Care Research, School of Public Health, Brown University, Providence, Rhode Island.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Leyva</LastName>
+                    <ForeName>Bryan</ForeName>
+                    <Initials>B</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>medical student, The Warren Alpert Medical School, Brown University, Providence, Rhode Island.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Keohane</LastName>
+                    <ForeName>Laura M</ForeName>
+                    <Initials>LM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Health Policy, Vanderbilt University, Nashville, Tennessee.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Trivedi</LastName>
+                    <ForeName>Amal N</ForeName>
+                    <Initials>AN</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Center for Gerontology and Health Care Research, School of Public Health, Brown University, Providence, Rhode Island4Providence Veterans Affairs Medical Center, Providence, Rhode Island.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>ENG</Language>
+            <PublicationTypeList>
+                <PublicationType UI="">JOURNAL ARTICLE</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>25</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <MedlineTA>JAMA Intern Med</MedlineTA>
+            <NlmUniqueID>101589534</NlmUniqueID>
+            <ISSNLinking>2168-6106</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">2516766</ArticleId>
+            <ArticleId IdType="doi">10.1001/jamainternmed.2016.0267</ArticleId>
+            <ArticleId IdType="pubmed">27111865</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">27111724</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>4</Month>
+            <Day>25</Day>
+        </DateCreated>
+        <DateRevised>
+            <Year>2016</Year>
+            <Month>4</Month>
+            <Day>26</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1878-7487</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>41</Volume>
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Apr</Month>
+                        <Day>12</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of forensic and legal medicine</Title>
+                <ISOAbbreviation>J Forensic Leg Med</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Postmortem diagnosis of drug-induced anaphylactic death.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>28-29</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii">S1752-928X(16)30007-5</ELocationID>
+            <ELocationID EIdType="doi">10.1016/j.jflm.2016.04.005</ELocationID>
+            <Abstract>
+                <AbstractText NlmCategory="UNASSIGNED">Kounis syndrome is defined as the concurrence of acute coronary syndromes including coronary spasm, acute myocardial infarction, and stent thrombosis, together with conditions associated with mast cell and platelet activation, involving interrelated and interacting inflammatory cells. Mast cells influence the inflammatory process decisively, though they are numerically inferior in this inflammatory cascade. Accumulation of eosinophils and mast cells in the splenic red pulp is frequently observed in anaphylactic deaths and can be considered a reliable finding for the postmortem diagnosis of this condition. Moreover, a high concentration of mast cell tryptase in serum and increased numbers of eosinophils and mast cells in the spleen make the diagnosis of anaphylactic death almost conclusive. Increased mast cell tryptase levels in postmortem serum, individually considered, do not allow the diagnosis of anaphylaxis-related death to be reached. On the other hand, neither does identification of mast cells and eosinophils within the coronary artery wall and the myocardium, individually considered, allow the hypothesis of anaphylaxis-related death to be formulated.</AbstractText>
+                <CopyrightInformation>Copyright © 2016 Elsevier Ltd and Faculty of Forensic and Legal Medicine. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList>
+                <Author>
+                    <LastName>Palmiere</LastName>
+                    <ForeName>Cristian</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>CURML, University Center of Legal Medicine, Lausanne University Hospital, chemin de la Vulliette 4, 1000, Lausanne 25, Switzerland. Electronic address: cristian.palmiere@chuv.ch.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>ENG</Language>
+            <PublicationTypeList>
+                <PublicationType UI="">LETTER</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>12</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <MedlineTA>J Forensic Leg Med</MedlineTA>
+            <NlmUniqueID>101300022</NlmUniqueID>
+            <ISSNLinking>1752-928X</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Anaphylaxis</Keyword>
+            <Keyword MajorTopicYN="N">Eosinophils</Keyword>
+            <Keyword MajorTopicYN="N">Mast cells</Keyword>
+            <Keyword MajorTopicYN="N">Postmortem biochemistry</Keyword>
+            <Keyword MajorTopicYN="N">Tryptase</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>3</Month>
+                <Day>31</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>1</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">S1752-928X(16)30007-5</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.jflm.2016.04.005</ArticleId>
+            <ArticleId IdType="pubmed">27111724</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="In-Data-Review">
+        <PMID Version="1">27111307</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>04</Month>
+            <Day>26</Day>
+        </DateCreated>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1308-4488</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>44</Volume>
+                    <Issue>2</Issue>
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Mar</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Türk Kardiyoloji Derneği arşivi : Türk Kardiyoloji Derneğinin yayın organıdır</Title>
+                <ISOAbbreviation>Turk Kardiyol Dern Ars</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Neurologic outcome in patients with cardiac arrest complicating ST elevation myocardial infarction treated by mild therapeutic hypothermia: The experience of a tertiary institution.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>100-4</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.5543/tkda.2015.76436</ELocationID>
+            <Abstract>
+                <AbstractText Label="OBJECTIVE" NlmCategory="OBJECTIVE">Therapeutic hypothermia improves neurologic prognosis after cardiac arrest. The aim of this study was to report clinical experience with intravascular method of cooling in patients with cardiac arrest resulting from ST-segment elevation myocardial infarction (STEMI).</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">Thirteen patients (11 male, 2 famele; mean age was 39.6±9.4 years) who had undergone mild therapeutic hypothermia (MTH) by intravascular cooling after cardiac arrest due to STEMI were included. Clinical, demographic, and procedural data were analyzed. Neurologic outcome was assessed by Cerebral Performance Category (CPC) score.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Anterior STEMI was observed in 9 patients. One patient died of cardiogenic shock complicating STEMI. Mean cardiopulmonary resuscitation (CPR) duration and door-to-invasive cooling were 32.9±20.1 and 286.1±182.3 minutes, respectively. Precooling Glasgow Coma Scale score was 3 in 9 subjects. Twelve patients were discharged, 11 with CPC scores of 1 at 1-year follow-up. No major complication related to procedure was observed.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">In comatose survivors of STEMI, therapeutic hypothermia by intravascular method is a feasible and safe treatment modality.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Aruğaslan</LastName>
+                    <ForeName>Emre</ForeName>
+                    <Initials>E</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Cardiology, Dr. Siyami Ersek Cardiovascular and Thoracic Surgery Training and Research Hospital, İstanbul, Turkey. dremrearugaslan@gmail.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Karaca</LastName>
+                    <ForeName>Mehmet</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Cardiology, Dr. Siyami Ersek Cardiovascular and Thoracic Surgery Training and Research Hospital, İstanbul, Turkey.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Özcan</LastName>
+                    <ForeName>Kazım Serhan</ForeName>
+                    <Initials>KS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Cardiology, Dr. Siyami Ersek Cardiovascular and Thoracic Surgery Training and Research Hospital, İstanbul, Turkey.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zengin</LastName>
+                    <ForeName>Ahmet</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Cardiology, Dr. Siyami Ersek Cardiovascular and Thoracic Surgery Training and Research Hospital, İstanbul, Turkey.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tatlısu</LastName>
+                    <ForeName>Mustafa Adem</ForeName>
+                    <Initials>MA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Cardiology, Dr. Siyami Ersek Cardiovascular and Thoracic Surgery Training and Research Hospital, İstanbul, Turkey.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bozbeyoğlu</LastName>
+                    <ForeName>Emrah</ForeName>
+                    <Initials>E</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Cardiology, Dr. Siyami Ersek Cardiovascular and Thoracic Surgery Training and Research Hospital, İstanbul, Turkey.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Satılmış</LastName>
+                    <ForeName>Seçkin</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Cardiology, Dr. Siyami Ersek Cardiovascular and Thoracic Surgery Training and Research Hospital, İstanbul, Turkey.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yıldırımtürk</LastName>
+                    <ForeName>Özlem</ForeName>
+                    <Initials>Ö</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Cardiology, Dr. Siyami Ersek Cardiovascular and Thoracic Surgery Training and Research Hospital, İstanbul, Turkey.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yekeler</LastName>
+                    <ForeName>İbrahim</ForeName>
+                    <Initials>İ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Cardiovascular Surgery, Siyami Ersek Cardiovascular and Thoracic Surgery Training and Research Hospital, İstanbul, Turkey.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Nurkalem</LastName>
+                    <ForeName>Zekeriya</ForeName>
+                    <Initials>Z</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Cardiology, Medipol University Faculty of Medicine, İstanbul, Turkey.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Turkey</Country>
+            <MedlineTA>Turk Kardiyol Dern Ars</MedlineTA>
+            <NlmUniqueID>9426239</NlmUniqueID>
+            <ISSNLinking>1016-5169</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">27111307</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="In-Data-Review">
+        <PMID Version="1">27111304</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>04</Month>
+            <Day>26</Day>
+        </DateCreated>
+        <Article PubModel="Electronic-eCollection">
+            <Journal>
+                <ISSN IssnType="Electronic">1932-6203</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>11</Volume>
+                    <Issue>4</Issue>
+                    <PubDate>
+                        <Year>2016</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>PloS one</Title>
+                <ISOAbbreviation>PLoS ONE</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Comparing the Clinical Outcomes between Drug Eluting Stents and Bare Metal Stents in Patients with Insulin-Treated Type 2 Diabetes Mellitus: A Systematic Review and Meta-Analysis of 10 Randomized Controlled Trials.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>e0154064</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1371/journal.pone.0154064</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Several studies have shown Drug Eluting Stents (DES) to be better compared to Bare Metal Stents (BMS) in patients with type 2 Diabetes Mellitus (T2DM). Since, the adverse clinical outcomes in patients with Insulin-Treated Type 2 Diabetes Mellitus (ITDM) implanted with DES and BMS have not been previously studied, we aim to compare the clinical outcomes in similar patients with cardiovascular diseases, treated with DES and BMS.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">Randomized Controlled Trials (RCTs) comparing patients treated with DES and BMS were searched from PubMed and EMBASE databases. Outcome data for the patients with ITDM were carefully extracted. Major Adverse Cardiac Events (MACEs), mortality, Target Vessel Revascularization (TVR), Target Lesion Revascularization (TLR), Myocardial Infarction (MI) and Stent Thrombosis (ST) were considered as the clinical endpoints for this analysis. Odds ratios (OR) with 95% confidence intervals (CIs) were calculated and the pooled analyses were performed with RevMan 5.3 software.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Ten RCTs consisting of 830 patients with ITDM (477 patients in the DES group and 353 patients in the BMS group) from a total number of 9,141 patients were included in this analysis. During a follow-up period from one month to one year, MACEs were not increased with the use of DES in these patients with ITDM. At 9 months, MACEs were significantly lower in the DES group with OR: 0.40, 95% CI: 0.23-0.72; P = 0.002 with no increase in mortality. TVR and TLR also favored the DES group with OR: 0.44, 95% CI: 0.22-0.88, P = 0.02 and OR: 0.28, 95% CI: 0.14-0.53; P = 0.0001 respectively at 9 months, and OR: 0.46, 95% CI: 0.23-0.94, P = 0.03 and OR: 0.28, 95% CI: 0.14-0.55; P = 0.0003 respectively at one year. Results for MI, and ST were not statistically significant.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">Compared to BMS, DES were associated with a significantly lower rate of repeated revascularization, without any increase in MACEs or mortality in these patients with ITDM during a follow up period of one year. However, due to the very small population size, further studies with a larger number of randomized patients are required to completely solve this issue.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Bundhun</LastName>
+                    <ForeName>Pravesh Kumar</ForeName>
+                    <Initials>PK</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Cardiovascular Diseases, the First Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, 530021, P. R. China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bhurtu</LastName>
+                    <ForeName>Akash</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Guangxi Medical University, Nanning, Guangxi, 530021, P. R. China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Soogund</LastName>
+                    <ForeName>Mohammad Zafooruddin Sani</ForeName>
+                    <Initials>MZ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Guangxi Medical University, Nanning, Guangxi, 530021, P. R. China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Long</LastName>
+                    <ForeName>Man-Yun</ForeName>
+                    <Initials>MY</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Institute of Cardiovascular Diseases, the First Affiliated Hospital of Guangxi Medical University, Nanning, Guangxi, 530021, P. R. China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>04</Month>
+                <Day>25</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>PLoS One</MedlineTA>
+            <NlmUniqueID>101285081</NlmUniqueID>
+            <ISSNLinking>1932-6203</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="ecollection">
+                <Year>2016</Year>
+                <Month/>
+                <Day/>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>2</Month>
+                <Day>4</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>7</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="epublish">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>25</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="doi">10.1371/journal.pone.0154064</ArticleId>
+            <ArticleId IdType="pii">PONE-D-16-04926</ArticleId>
+            <ArticleId IdType="pubmed">27111304</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">27111286</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>4</Month>
+            <Day>25</Day>
+        </DateCreated>
+        <DateRevised>
+            <Year>2016</Year>
+            <Month>4</Month>
+            <Day>26</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1530-0307</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Apr</Month>
+                        <Day>25</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Laboratory investigation; a journal of technical methods and pathology</Title>
+                <ISOAbbreviation>Lab. Invest.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Fibulin-2 is essential for angiotensin II-induced myocardial fibrosis mediated by transforming growth factor (TGF)-β.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn/>
+            </Pagination>
+            <ELocationID EIdType="doi">10.1038/labinvest.2016.52</ELocationID>
+            <Abstract>
+                <AbstractText NlmCategory="UNASSIGNED">Fibrosis is an ominous pathological process in failing myocardium, but its pathogenesis is poorly understood. We recently reported that loss of an extracellular matrix (ECM) protein, fibulin-2, protected against ventricular dysfunction after myocardial infarction (MI) in association with absence of activation of transforming growth factor (TGF)-β signaling and suppressed upregulation of ECM protein expression during myocardial remodeling. Here we investigated the role of fibulin-2 in the development of myocardial hypertrophy and fibrosis induced by continuous pressor-dosage of angiotensin II (Ang II) infusion. Both wild type (WT) and fibulin-2 null (Fbln2KO) mice developed comparable hypertension and myocardial hypertrophy by Ang II infusion. However, myocardial fibrosis with significant upregulation of collagen type I and III mRNA was only seen in WT but not in Fbln2KO mice.Transforming growth factor (TGF)-β1 mRNA and its downstream signal, Smad2, were significantly upregulated in WT by Ang II, whereas there were no Ang II-induced changes in Flbn2KO, suggesting fibulin-2 is necessary for Ang II-induced TGF-β signaling that induces myocardial fibrosis. To test whether fibulin-2 is sufficient for Ang II-induced TGF-β upregulation, isolated Flbn2KO cardiac fibroblasts were treated with Ang II after transfecting with fibulin-2 expression vector or pretreating with recombinant fibulin-2 protein. Ang II-induced TGF-β signaling in Fbln2KO cells was partially rescued by exogenous fibulin-2, suggesting that fibulin-2 is required and probably sufficient for Ang II-induced TGF-β activation. Smad2 phosphorylation was induced just by adding recombinant fibulin-2 to KO cells, suggesting that extracellular interaction between fibulin-2 and latent TGF-β triggered initial TGF-β activation. Our study indicates that Ang II cannot induce TGF-β activation without fibulin-2 and that fibulin-2 has an essential role in Ang II-induced TGF-β signaling and subsequent myocardial fibrosis. Fibulin-2 can be considered as a critical regulator of TGF-β that induces myocardial fibrosis.Laboratory Investigation advance online publication, 25 April 2016; doi:10.1038/labinvest.2016.52.</AbstractText>
+            </Abstract>
+            <AuthorList>
+                <Author>
+                    <LastName>Khan</LastName>
+                    <ForeName>Shaukat A</ForeName>
+                    <Initials>SA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Nemours Biomedical Research and Nemours Cardiac Center, Nemours/Alfred I. duPont Hospital for Children, Wilmington, DE, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Dong</LastName>
+                    <ForeName>Hailong</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Nemours Biomedical Research and Nemours Cardiac Center, Nemours/Alfred I. duPont Hospital for Children, Wilmington, DE, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Joyce</LastName>
+                    <ForeName>Jennifer</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Nemours Biomedical Research and Nemours Cardiac Center, Nemours/Alfred I. duPont Hospital for Children, Wilmington, DE, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Sasaki</LastName>
+                    <ForeName>Takako</ForeName>
+                    <Initials>T</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biochemistry, Oita University School of Medicine, Oita, Japan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Chu</LastName>
+                    <ForeName>Mon-Li</ForeName>
+                    <Initials>ML</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Dermatology and Cutaneous Biology, Thomas Jefferson University, Philadelphia, PA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Tsuda</LastName>
+                    <ForeName>Takeshi</ForeName>
+                    <Initials>T</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Nemours Biomedical Research and Nemours Cardiac Center, Nemours/Alfred I. duPont Hospital for Children, Wilmington, DE, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>ENG</Language>
+            <PublicationTypeList>
+                <PublicationType UI="">JOURNAL ARTICLE</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>25</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <MedlineTA>Lab Invest</MedlineTA>
+            <NlmUniqueID>0376617</NlmUniqueID>
+            <ISSNLinking>0023-6837</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>1</Month>
+                <Day>4</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2016</Year>
+                <Month>3</Month>
+                <Day>14</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>3</Month>
+                <Day>20</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">labinvest201652</ArticleId>
+            <ArticleId IdType="doi">10.1038/labinvest.2016.52</ArticleId>
+            <ArticleId IdType="pubmed">27111286</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">27111228</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>4</Month>
+            <Day>25</Day>
+        </DateCreated>
+        <DateRevised>
+            <Year>2016</Year>
+            <Month>4</Month>
+            <Day>26</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2151-4658</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Apr</Month>
+                        <Day>25</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Arthritis care &amp; research</Title>
+                <ISOAbbreviation>Arthritis Care Res (Hoboken)</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Risk of cardiovascular morbidity in patients with psoriatic arthritis: A meta-analysis of observational studies.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn/>
+            </Pagination>
+            <ELocationID EIdType="doi">10.1002/acr.22926</ELocationID>
+            <Abstract>
+                <AbstractText Label="OBJECTIVES" NlmCategory="OBJECTIVE">To assess the magnitude of risk of cardiovascular and cerebrovascular morbidity in patients with psoriatic arthritis (PsA) compared with the general population through a systematic review and a meta-analysis of observational studies.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">We searched Medline, EMBase, and Cochrane databases as well as abstract archives from rheumatology conferences. Observational studies that met the following criteria were assessed by 2 researchers: 1) PsA diagnosis; 2) Cardiovascular or cerebrovascular outcomes; 3) Comparison group of individuals without psoriasis and rheumatic diseases; 4) case-control, cross-sectional or cohort studies. We calculated weighted-pooled summary estimates of the maximally adjusted effect size estimates for cardiovascular and cerebrovascular diseases using the random-effects model, and tested for heterogeneity using the I(2) statistic.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Eleven studies met the inclusion criteria, comprising 32,973 patients with PsA. There was a 43% increased risk of cardiovascular diseases in patients with PsA compared with the general population (pooled Odds Ratio (OR) 1.43, 95% Confidence Interval (CI) 1.24, 1.66). The risk of incident cardiovascular events was increased by 55% (pooled OR 1.22-1.96). Morbidity risks for myocardial infarction, cerebrovascular diseases and heart failure were increased by 68%, 22% and 31%, respectively (pooled OR 1.68, 95% CI 1.31-2.15; pooled OR 1.22, 95% CI 1.05-1.41 and pooled OR 1.31 95% CI 1.11, 1.55, respectively). We identified significant heterogeneity in all main analyses (P &lt; 0.001).</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">Cardiovascular and cerebrovascular morbidity is increased by 43% and 22%, respectively, in patients with PsA compared with the general population. This article is protected by copyright. All rights reserved.</AbstractText>
+                <CopyrightInformation>© 2016, American College of Rheumatology.</CopyrightInformation>
+            </Abstract>
+            <AuthorList>
+                <Author>
+                    <LastName>Polachek</LastName>
+                    <ForeName>Ari</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>University of Toronto, Toronto Western Hospital, Toronto, Ontario, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Touma</LastName>
+                    <ForeName>Zahi</ForeName>
+                    <Initials>Z</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>University of Toronto, Toronto Western Hospital, Centre for Prognosis Studies in the Rheumatic Diseases, Toronto, Ontario, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Anderson</LastName>
+                    <ForeName>Melanie</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>University Health Network, Toronto, Ontario, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Eder</LastName>
+                    <ForeName>Lihi</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>University of Toronto, Women's College Research Institute, Women's College Hospital, Toronto, Ontario, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>ENG</Language>
+            <PublicationTypeList>
+                <PublicationType UI="">JOURNAL ARTICLE</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>25</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <MedlineTA>Arthritis Care Res (Hoboken)</MedlineTA>
+            <NlmUniqueID>101518086</NlmUniqueID>
+            <ISSNLinking>2151-464X</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Atherosclerosis</Keyword>
+            <Keyword MajorTopicYN="N">Cardiovascular diseases</Keyword>
+            <Keyword MajorTopicYN="N">Psoriatic arthritis</Keyword>
+            <Keyword MajorTopicYN="N">myocardial infarction</Keyword>
+            <Keyword MajorTopicYN="N">stroke</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>2</Month>
+                <Day>12</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>4</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>19</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="doi">10.1002/acr.22926</ArticleId>
+            <ArticleId IdType="pubmed">27111228</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="In-Data-Review">
+        <PMID Version="1">27111210</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>04</Month>
+            <Day>26</Day>
+        </DateCreated>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">2149-2271</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>16</Volume>
+                    <Issue>4</Issue>
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Apr</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Anatolian journal of cardiology</Title>
+                <ISOAbbreviation>Anatol J Cardiol</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>A case of constrictive pericarditis due to angiosarcoma mimicking acute ST elevation myocardial infarction.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>E7-8</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.14744/AnatolJCardiol.2016.6869</ELocationID>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Barış</LastName>
+                    <ForeName>Veysel Özgür</ForeName>
+                    <Initials>VÖ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Cardiology, Faculty of Medicine, Ankara University, Ankara-Turkey. veyselozgurbaris@yahoo.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Göksülük</LastName>
+                    <ForeName>Hüseyin</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Cardiology, Faculty of Medicine, Ankara University, Ankara-Turkey.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Candemir</LastName>
+                    <ForeName>Başar</ForeName>
+                    <Initials>B</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Cardiology, Faculty of Medicine, Ankara University, Ankara-Turkey.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Okçu Heper</LastName>
+                    <ForeName>Aylin</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pathology, Faculty of Medicine, Ankara University, Ankara-Turkey.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Turkey</Country>
+            <MedlineTA>Anatol J Cardiol</MedlineTA>
+            <NlmUniqueID>101652981</NlmUniqueID>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">27111210</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="In-Data-Review">
+        <PMID Version="1">27111206</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>04</Month>
+            <Day>26</Day>
+        </DateCreated>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">2149-2271</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>16</Volume>
+                    <Issue>4</Issue>
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Apr</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Anatolian journal of cardiology</Title>
+                <ISOAbbreviation>Anatol J Cardiol</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Admission serum potassium level is associated with in-hospital and long-term mortality in ST-elevation myocardial infarction.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>302</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.14744/AnatolJCardiol.2016.7066</ELocationID>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Cerit</LastName>
+                    <ForeName>Levent</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Cardiology, Near East University, Nicosia-Cyprus. drcerit@hotmail.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016422">Letter</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Turkey</Country>
+            <MedlineTA>Anatol J Cardiol</MedlineTA>
+            <NlmUniqueID>101652981</NlmUniqueID>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">27111206</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">27111175</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>4</Month>
+            <Day>25</Day>
+        </DateCreated>
+        <DateRevised>
+            <Year>2016</Year>
+            <Month>4</Month>
+            <Day>26</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1874-1754</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>215</Volume>
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Apr</Month>
+                        <Day>14</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>International journal of cardiology</Title>
+                <ISOAbbreviation>Int. J. Cardiol.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Can your heart handle the spice: A case of acute myocardial infarction and left ventricular apical thrombus.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>129-131</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii">S0167-5273(16)30735-5</ELocationID>
+            <ELocationID EIdType="doi">10.1016/j.ijcard.2016.04.055</ELocationID>
+            <AuthorList>
+                <Author>
+                    <LastName>Shah</LastName>
+                    <ForeName>Mahek</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Cardiology, Lehigh Valley Hospital Network, Allentown, PA, United States. Electronic address: dr.mahekshah@yahoo.co.in.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Garg</LastName>
+                    <ForeName>Jalaj</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Cardiology, Lehigh Valley Hospital Network, Allentown, PA, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Patel</LastName>
+                    <ForeName>Brijesh</ForeName>
+                    <Initials>B</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Cardiology, Lehigh Valley Hospital Network, Allentown, PA, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Guthier</LastName>
+                    <ForeName>Justin</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Cardiology, Lehigh Valley Hospital Network, Allentown, PA, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Freudenberger</LastName>
+                    <ForeName>Ronald S</ForeName>
+                    <Initials>RS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Cardiology, Lehigh Valley Hospital Network, Allentown, PA, United States.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>ENG</Language>
+            <PublicationTypeList>
+                <PublicationType UI="">JOURNAL ARTICLE</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>14</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <MedlineTA>Int J Cardiol</MedlineTA>
+            <NlmUniqueID>8200291</NlmUniqueID>
+            <ISSNLinking>0167-5273</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Marijuana</Keyword>
+            <Keyword MajorTopicYN="N">Myocardial infarction</Keyword>
+            <Keyword MajorTopicYN="N">Spice</Keyword>
+            <Keyword MajorTopicYN="N">Synthetic cannabinoids</Keyword>
+            <Keyword MajorTopicYN="N">Ventricular thrombus</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>2</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>10</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">S0167-5273(16)30735-5</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.ijcard.2016.04.055</ArticleId>
+            <ArticleId IdType="pubmed">27111175</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">27111168</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>4</Month>
+            <Day>25</Day>
+        </DateCreated>
+        <DateRevised>
+            <Year>2016</Year>
+            <Month>4</Month>
+            <Day>26</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1874-1754</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>215</Volume>
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Apr</Month>
+                        <Day>11</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>International journal of cardiology</Title>
+                <ISOAbbreviation>Int. J. Cardiol.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Clinical outcomes of drug-eluting stents versus bare-metal stents in patients with cardiogenic shock complicating acute myocardial infarction.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>98-104</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii">S0167-5273(16)30689-1</ELocationID>
+            <ELocationID EIdType="doi">10.1016/j.ijcard.2016.04.014</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">To investigate the cardiovascular (CV) outcomes of drug-eluting stents (DESs) versus bare-metal stents (BMSs) in patients with acute myocardial infarction (AMI) complicated by cardiogenic shock (CS).</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">Data from the Taiwan National Health Insurance Research Database was analyzed between January 1, 2007 and December 31, 2011. A total of 3051 AMI patients in CS were selected as the study cohort. Their clinical outcomes were evaluated by comparing 1017 subjects who used DESs to 2034 matched subjects who used BMSs.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">The risk of the primary composite outcome (i.e., death, myocardial infarction, stroke, and coronary revascularization) was significantly lower in the DES group compared with the BMS group [56.1% vs. 66.2%, hazard ratio (HR), 0.74; 95% CI, 0.67-0.81] with a mean follow-up of 1.35years. The patients who received DESs had a lower risk of coronary revascularization (HR, 0.78; 95% CI, 0.67-0.91) and death (HR, 0.70; 95% CI, 0.62-0.79) than those who used BMSs. However, the risks of myocardial infarction (HR, 0.89; 95% CI, 0.66-1.18), ischemic stroke (HR, 1.02; 95% CI, 0.67-1.53) and major bleeding (HR, 0.80; 95% CI, 0.56-1.14) were similar between the two groups.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">Among patients with CS complicating AMI, DES implantation significantly reduced the risk of percutaneous coronary revascularization and death compared to BMS implantation.</AbstractText>
+                <CopyrightInformation>Copyright © 2015 Elsevier Ireland Ltd. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList>
+                <Author>
+                    <LastName>Chen</LastName>
+                    <ForeName>Dong-Yi</ForeName>
+                    <Initials>DY</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Cardiology, Department of Internal Medicine, Chang Gung Memorial Hospital, Chang Gung University College of Medicine, Taoyuan, Taiwan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Mao</LastName>
+                    <ForeName>Chun-Tai</ForeName>
+                    <Initials>CT</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Cardiology, Department of Internal Medicine, Chang Gung Memorial Hospital, Keelung, Taiwan,; Chang Gung University College of Medicine, Taoyuan, Taiwan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Tsai</LastName>
+                    <ForeName>Ming-Lung</ForeName>
+                    <Initials>ML</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Cardiology, Department of Internal Medicine, Chang Gung Memorial Hospital, Chang Gung University College of Medicine, Taoyuan, Taiwan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Chen</LastName>
+                    <ForeName>Shao-Wei</ForeName>
+                    <Initials>SW</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Cardiothoracic and Vascular Surgery, Chang Gung Memorial Hospital, Chang Gung University College of Medicine, Taoyuan, Taiwan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Lin</LastName>
+                    <ForeName>Yu-Sheng</ForeName>
+                    <Initials>YS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Cardiology, Department of Internal Medicine, Chang Gung Memorial Hospital, Chiayi, Taiwan; Chang Gung University College of Medicine, Taoyuan, Taiwan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Hsieh</LastName>
+                    <ForeName>I-Chang</ForeName>
+                    <Initials>IC</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Cardiology, Department of Internal Medicine, Chang Gung Memorial Hospital, Chang Gung University College of Medicine, Taoyuan, Taiwan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Hung</LastName>
+                    <ForeName>Ming-Jui</ForeName>
+                    <Initials>MJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Cardiology, Department of Internal Medicine, Chang Gung Memorial Hospital, Keelung, Taiwan,; Chang Gung University College of Medicine, Taoyuan, Taiwan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Wang</LastName>
+                    <ForeName>Chao-Hung</ForeName>
+                    <Initials>CH</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Cardiology, Department of Internal Medicine, Chang Gung Memorial Hospital, Keelung, Taiwan,; Chang Gung University College of Medicine, Taoyuan, Taiwan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Wen</LastName>
+                    <ForeName>Ming-Shien</ForeName>
+                    <Initials>MS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Cardiology, Department of Internal Medicine, Chang Gung Memorial Hospital, Chang Gung University College of Medicine, Taoyuan, Taiwan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Cherng</LastName>
+                    <ForeName>Wen-Jin</ForeName>
+                    <Initials>WJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Cardiology, Department of Internal Medicine, Chang Gung Memorial Hospital, Keelung, Taiwan,; Chang Gung University College of Medicine, Taoyuan, Taiwan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Chen</LastName>
+                    <ForeName>Tien-Hsing</ForeName>
+                    <Initials>TH</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Cardiology, Department of Internal Medicine, Chang Gung Memorial Hospital, Keelung, Taiwan,; Chang Gung University College of Medicine, Taoyuan, Taiwan. Electronic address: skyheart7687@gmail.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>ENG</Language>
+            <PublicationTypeList>
+                <PublicationType UI="">JOURNAL ARTICLE</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>11</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <MedlineTA>Int J Cardiol</MedlineTA>
+            <NlmUniqueID>8200291</NlmUniqueID>
+            <ISSNLinking>0167-5273</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Acute myocardial infarction</Keyword>
+            <Keyword MajorTopicYN="N">Bare-metal stent</Keyword>
+            <Keyword MajorTopicYN="N">Cardiogenic shock</Keyword>
+            <Keyword MajorTopicYN="N">Drug-eluting stent</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>2</Month>
+                <Day>3</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>2</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">S0167-5273(16)30689-1</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.ijcard.2016.04.014</ArticleId>
+            <ArticleId IdType="pubmed">27111168</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+</PubmedArticleSet>

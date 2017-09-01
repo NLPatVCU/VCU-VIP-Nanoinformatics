@@ -1,0 +1,14 @@
+copy favicon.ico C:\xampp\htdocs
+copy FIND_admin.html C:\xampp\htdocs
+copy FIND_client.html C:\xampp\htdocs
+copy style1.css C:\xampp\htdocs
+copy jquery.min.js C:\xampp\htdocs
+copy jquery.sidecontent.js C:\xampp\htdocs
+copy loader.gif C:\xampp\htdocs
+copy favicon.ico C:\xampp\cgi-bin
+copy results_admin.cgi C:\xampp\cgi-bin
+copy results_client.cgi C:\xampp\cgi-bin
+copy dbdeleteadmin.cgi C:\xampp\cgi-bin
+copy style1.css C:\xampp\cgi-bin
+copy jquery.min.js C:\xampp\cgi-bin
+copy loader.gif C:\xampp\cgi-bin

@@ -1,0 +1,141 @@
+Note: These commands were executed in Ubuntu 15.10. They might not work on other flavors of Linux.
+
+
+To install Perl Core Dependencies:
+----------------------------------
+sudo perl -MCPAN -e shell
+install Text::Unidecode
+install XML::Twig
+
+(ServerV3.pl can now be executed successfully).
+
+
+To install MySQL:
+-----------------
+sudo apt-get install mysql-common
+sudo apt-get install mysql-client
+sudo apt-get install mysql-server
+
+Set Username: root, Password: password
+Or edit scripts to reflect the changed credentials. If not errors will occur when connecting to the database.
+
+To execute MySQL script (might need to use "sudo"):
+mysql -p
+(type MySQL password)
+source "FiND_DB_Updated_V4 (Linux).sql"
+
+"MySQL Workbench" was installed from Ubuntu Software Center. This is a useful tool to see what's going on
+within the database behind the scenes. Also useful to drop the database as well as run the script again,
+creating a fresh database.
+
+
+To install Apache2 Web Server:
+------------------------------
+sudo apt-get install apache2
+
+(Apache Service Commands)
+sudo service apache2 start
+sudo service apache2 restart
+sudo service apache2 reload
+sudo service apache2 stop
+"or"
+sudo /etc/init.d/apache2 start
+sudo /etc/init.d/apache2 stop
+
+
+
+Important Directories:
+----------------------
+Default HTDOCS/Web Directory: /var/www/html		(Place HTML files here)
+Default CGI-BIN Directory: /usr/lib/cgi-bin		(Place CGI files here)
+"000-default.conf" Directory: /etc/apache2/sites-enabled/000-default.conf	(symbolic link)
+			      /etc/apache2/sites-available/000-default.conf	(actual file)
+(Directories might require sufficient permission to access)
+(Note: These directories can be changed, but changes must be reflected in the "000-default.conf" file)
+
+
+Now "000-default.conf" Requires Editing (requires permissions):
+---------------------------------------------------------------
+http://perlmaven.com/perl-cgi-script-with-apache2	<==== Best tutorial so far!!!!!!!!!!!!!
+http://www.techrepublic.com/blog/diy-it-guy/diy-enable-cgi-on-your-apache-server/
+http://how-to.linuxcareer.com/simple-cgi-and-apache-examples-on-ubuntu-linux
+
+
+Add this:
+
+	 ScriptAlias /cgi-bin/ /usr/lib/cgi-bin
+         <Directory "/usr/lib/cgi-bin">
+                 AllowOverride None
+                 Options +ExecCGI -MultiViews +SymLinksIfOwnerMatch
+                 Require all granted
+         </Directory>
+
+after "DocumentRoot" line. (Note you can change the cgi-bin directory by editing the above ScriptAlias).
+
+
+After editing "000-default.conf" file, these commands need to be ran which enable CGI modules.
+
+ls -l /etc/apache2/mods-enabled/ | grep cgi
+ls -l /etc/apache2/mods-available/ | grep cgi
+
+Then create symbolic links from the mods-enabled to mods-available directory for the two cgid.* files.
+
+ln -s /etc/apache2/mods-available/cgid.load /etc/apache2/mods-enabled/
+ln -s /etc/apache2/mods-available/cgid.conf /etc/apache2/mods-enabled/
+ls -l /etc/apache2/mods-enabled/ | grep cgi
+
+After this is done, restart/reload apache2 from terminal with command:
+
+service apache2 reload
+
+Apache CGI is now configured and enabled.
+
+
+
+Preparing CGI scripts to be ran via web server.
+-----------------------------------------------
+
+Now all CGI files will need to change mode to linux executable prior to running in web server.
+
+run "chmod +x "directory"/"file"
+ie.
+chmod +x /usr/lib/cgi-bin/results_admin.cgi
+chmod +x /usr/lib/cgi-bin/results_client.cgi
+
+
+Note: Files might be in DOS format which will need to be converted to Unix/Linux format
+
+sudo apt-get install dos2unix
+dos2unix "directory"/"file" will take care of this.
+ie.
+dos2unix /usr/lib/cgi-bin/results_admin.cgi
+dos2unix /usr/lib/cgi-bin/results_client.cgi
+
+That's it!!!! You should now be able to connect to the FiND server through your Apache localhost
+web server running the FiND WebUI html pages respectively.
+
+
+
+To Run File Manager In Super-Mode: (Enables Read/Write/Execute Access To Directories Without Permissions):
+----------------------------------
+sudo nautilus (easiest method)
+
+or run chmod 755 on both directories ie.
+
+sudo chmod 755 /var/www/html
+sudo chown root.root /var/www/html
+
+sudo chmod 755 /usr/lib/cgi-bin
+sudo chown root.root /usr/lib/cgi-bin
+
+sudo chmod 755 /etc/apache2/sites-available
+sudo chown root.root /etc/apache2/sites-available
+
+
+
+/////////////////////////////////////// Extra Commands //////////////////////////////////////////////////
+
+( Not known if really needed )
+sudo adduser <username> www-data
+sudo chown -R www-data:www-data /var/www
+sudo chmod -R g+rw /var/www

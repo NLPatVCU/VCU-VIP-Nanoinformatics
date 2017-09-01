@@ -1,0 +1,2 @@
+4/27/2017 11:33:36 - PubMedXMLParser::New: Debug On
+4/27/2017 11:33:36 - PubMedXMLParser::New - No XML String Argument To Parse

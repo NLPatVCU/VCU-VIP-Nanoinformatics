@@ -1,0 +1,1624 @@
+<?xml version="1.0"?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2016//EN" "http://www.ncbi.nlm.nih.gov/corehtml/query/DTD/pubmed_160101.dtd">
+<PubmedArticleSet>
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="In-Data-Review">
+        <PMID Version="1">27111670</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>04</Month>
+            <Day>26</Day>
+        </DateCreated>
+        <Article PubModel="Electronic-eCollection">
+            <Journal>
+                <ISSN IssnType="Electronic">1932-6203</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>11</Volume>
+                    <Issue>4</Issue>
+                    <PubDate>
+                        <Year>2016</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>PloS one</Title>
+                <ISOAbbreviation>PLoS ONE</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>European Non-Communicable Respiratory Disease Research, 2002-13: Bibliometric Study of Outputs and Funding.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>e0154197</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1371/journal.pone.0154197</ELocationID>
+            <Abstract>
+                <AbstractText>This study was conducted in order to map European research in chronic respiratory diseases (CRDs). It was intended to assist the European Commission and other research funders to identify gaps and overlaps in their portfolios, and to suggest ways in which they could improve the effectiveness of their support and increase the impact of the research on patient care and on the reduction of the incidence of the CRDs. Articles and reviews were identified in the Web of Science on research in six non-communicable respiratory diseases that were published in 2002-13 from 31 European countries. They represented only 0.8% of biomedical research output but these diseases accounted for 4.7% of the European disease burden, as measured by Disability-Adjusted Life Years (DALYs), so the sub-field is seriously under-researched. Europe is prominent in the sub-field and published 56% of the world total, with the UK the most productive and publishing more than France and Italy, the next two countries, combined. Asthma and Chronic Obstructive Pulmonary Disease (COPD) were the diseases with the most publications and the highest citation rates. They also received the most funding, with around two acknowledgments per paper (in 2009-13), whereas cystic fibrosis and emphysema averaged only one. Just over 37% of papers had no specific funding and depended on institutional support from universities and hospitals.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Begum</LastName>
+                    <ForeName>Mursheda</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Cancer Studies, Division of Cancer Epidemiology and Population Health, Guy's Hospital, King's College London, London, United Kingdom.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lewison</LastName>
+                    <ForeName>Grant</ForeName>
+                    <Initials>G</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Cancer Studies, Division of Cancer Epidemiology and Population Health, Guy's Hospital, King's College London, London, United Kingdom.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wright</LastName>
+                    <ForeName>John S F</ForeName>
+                    <Initials>JS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>LSE Health, Department of Social Policy, London School of Economics and Political Science, London, United Kingdom.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Pallari</LastName>
+                    <ForeName>Elena</ForeName>
+                    <Initials>E</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Cancer Studies, Division of Cancer Epidemiology and Population Health, Guy's Hospital, King's College London, London, United Kingdom.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sullivan</LastName>
+                    <ForeName>Richard</ForeName>
+                    <Initials>R</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Cancer Studies, Division of Cancer Epidemiology and Population Health, Guy's Hospital, King's College London, London, United Kingdom.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>04</Month>
+                <Day>25</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>PLoS One</MedlineTA>
+            <NlmUniqueID>101285081</NlmUniqueID>
+            <ISSNLinking>1932-6203</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="ecollection">
+                <Year>2016</Year>
+                <Month/>
+                <Day/>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="received">
+                <Year>2015</Year>
+                <Month>10</Month>
+                <Day>5</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>10</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="epublish">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>25</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="doi">10.1371/journal.pone.0154197</ArticleId>
+            <ArticleId IdType="pii">PONE-D-15-43723</ArticleId>
+            <ArticleId IdType="pubmed">27111670</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">27111445</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>4</Month>
+            <Day>25</Day>
+        </DateCreated>
+        <DateRevised>
+            <Year>2016</Year>
+            <Month>4</Month>
+            <Day>26</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1941-2703</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Apr</Month>
+                        <Day>25</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of aerosol medicine and pulmonary drug delivery</Title>
+                <ISOAbbreviation>J Aerosol Med Pulm Drug Deliv</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Btk Inhibitor RN983 Delivered by Dry Powder Nose-only Aerosol Inhalation Inhibits Bronchoconstriction and Pulmonary Inflammation in the Ovalbumin Allergic Mouse Model of Asthma.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn/>
+            </Pagination>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">In allergen-induced asthma, activated mast cells start the lung inflammatory process with degranulation, cytokine synthesis, and mediator release. Bruton's tyrosine kinase (Btk) activity is required for the mast cell activation during IgE-mediated secretion.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">This study characterized a novel inhaled Btk inhibitor RN983 in vitro and in ovalbumin allergic mouse models of the early (EAR) and late (LAR) asthmatic response.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">RN983 potently, selectively, and reversibly inhibited the Btk enzyme. RN983 displayed functional activities in human cell-based assays in multiple cell types, inhibiting IgG production in B-cells with an IC50 of 2.5 ± 0.7 nM and PGD2 production from mast cells with an IC50 of 8.3 ± 1.1 nM. RN983 displayed similar functional activities in the allergic mouse model of asthma when delivered as a dry powder aerosol by nose-only inhalation. RN983 was less potent at inhibiting bronchoconstriction (IC50(RN983) = 59 μg/kg) than the β-agonist salbutamol (IC50(salbutamol) = 15 μg/kg) in the mouse model of the EAR. RN983 was more potent at inhibiting the antigen induced increase in pulmonary inflammation (IC50(RN983) = &lt;3 μg/kg) than the inhaled corticosteroid budesonide (IC50(budesonide) = 27 μg/kg) in the mouse model of the LAR.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">Inhalation of aerosolized RN983 may be effective as a stand-alone asthma therapy or used in combination with inhaled steroids and β-agonists in severe asthmatics due to its potent inhibition of mast cell activation.</AbstractText>
+            </Abstract>
+            <AuthorList>
+                <Author>
+                    <LastName>Phillips</LastName>
+                    <ForeName>Jonathan E</ForeName>
+                    <Initials>JE</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Hoffmann-La Roche Inc. , Pharma Research and Early Development, DTA Inflammation, Nutley, New Jersey.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Renteria</LastName>
+                    <ForeName>Lorena</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Hoffmann-La Roche Inc. , Pharma Research and Early Development, DTA Inflammation, Nutley, New Jersey.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Burns</LastName>
+                    <ForeName>Lisa</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Hoffmann-La Roche Inc. , Pharma Research and Early Development, DTA Inflammation, Nutley, New Jersey.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Harris</LastName>
+                    <ForeName>Paul</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Hoffmann-La Roche Inc. , Pharma Research and Early Development, DTA Inflammation, Nutley, New Jersey.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Peng</LastName>
+                    <ForeName>Ruoqi</ForeName>
+                    <Initials>R</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Hoffmann-La Roche Inc. , Pharma Research and Early Development, DTA Inflammation, Nutley, New Jersey.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Bauer</LastName>
+                    <ForeName>Carla M T</ForeName>
+                    <Initials>CM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Hoffmann-La Roche Inc. , Pharma Research and Early Development, DTA Inflammation, Nutley, New Jersey.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Laine</LastName>
+                    <ForeName>Dramane</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Hoffmann-La Roche Inc. , Pharma Research and Early Development, DTA Inflammation, Nutley, New Jersey.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Stevenson</LastName>
+                    <ForeName>Christopher S</ForeName>
+                    <Initials>CS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Hoffmann-La Roche Inc. , Pharma Research and Early Development, DTA Inflammation, Nutley, New Jersey.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>ENG</Language>
+            <PublicationTypeList>
+                <PublicationType UI="">JOURNAL ARTICLE</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>25</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <MedlineTA>J Aerosol Med Pulm Drug Deliv</MedlineTA>
+            <NlmUniqueID>101475057</NlmUniqueID>
+            <ISSNLinking>1941-2711</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">dust feed</Keyword>
+            <Keyword MajorTopicYN="N">inhaled therapy</Keyword>
+            <Keyword MajorTopicYN="N">jet mill</Keyword>
+            <Keyword MajorTopicYN="N">lung function</Keyword>
+            <Keyword MajorTopicYN="N">pharmacokinetics</Keyword>
+            <Keyword MajorTopicYN="N">pre-clinical</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="doi">10.1089/jamp.2015.1210</ArticleId>
+            <ArticleId IdType="pubmed">27111445</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">27111254</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>4</Month>
+            <Day>25</Day>
+        </DateCreated>
+        <DateRevised>
+            <Year>2016</Year>
+            <Month>4</Month>
+            <Day>26</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1099-0496</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Apr</Month>
+                        <Day>25</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Pediatric pulmonology</Title>
+                <ISOAbbreviation>Pediatr. Pulmonol.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Interaction between 25-hydroxyvitamin D and variants at 17q12-21 on respiratory infections.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn/>
+            </Pagination>
+            <ELocationID EIdType="doi">10.1002/ppul.23421</ELocationID>
+            <Abstract>
+                <AbstractText Label="OBJECTIVES" NlmCategory="OBJECTIVE">25-hydroxyvitamin D (25[OH]D) deficiency and genetic variants at the 17q12-21 locus are independent risk factors for respiratory tract infections (RTIs). We aimed to investigate whether the effect of 25(OH)D at birth and 1 year of age and the polymorphism at the 17q12-21 locus, or interactions between these two factors, increase susceptibility to RTIs in the first year of life.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">We tested cord-blood (CB) 25(OH)D at birth and 1 year of age and genotypes of a variant at the 17q12-21 locus for associations with RTIs, particularly lower respiratory tract infections (LRTIs), and determined whether there exist interactions between 25(OH)D and 17q12-21 genotypes in a birth cohort of 473 infants.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">The levels of CB 25(OH)D inversely associate with development of RTIs and LRTIs during the first year of life. There exists an inverse association of 25(OH)D at birth, but not at 1 year, with the risk of acquiring LRTIs in early infancy (adjusted odds ratio [aOR], 2.37; 95% confidence interval [CI]: 1.23-4.60; P = 0.010 and aOR, 0.50; 95%CI: 0.23-1.12; P = 0.094). We have also found a significant interaction between CB 25(OH)D and a variant at the 17q12-21 locus with respect to the development of early LRTIs, such that associations between a variant at the 17q12-21 locus and LRTIs are restricted to infants with low CB 25(OH)D concentrations (P for interaction = 0.013). In addition, when infants with a variant at the 17q12-21 locus had been exposed to chronic 25(OH)D deficiency over the first year, their risk of LRTIs was increased.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">CB 25(OH)D deficiency during fetal life contribute to the development of LRTIs in genetically susceptible infants. Pediatr Pulmonol. © 2016 Wiley Periodicals, Inc.</AbstractText>
+                <CopyrightInformation>© 2016 Wiley Periodicals, Inc.</CopyrightInformation>
+            </Abstract>
+            <AuthorList>
+                <Author>
+                    <LastName>Sheen</LastName>
+                    <ForeName>Youn Ho</ForeName>
+                    <Initials>YH</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pediatrics, CHA Gangnam Medical Center, CHA University School of Medicine, Seoul, Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Lee</LastName>
+                    <ForeName>Eun</ForeName>
+                    <Initials>E</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pediatrics, Inje University Haeundae Paik Hospital, Busan, Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Kang</LastName>
+                    <ForeName>Mi-Jin</ForeName>
+                    <Initials>MJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Asan Institute for Life Sciences, University of Ulsan College of Medicine, Seoul, Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Yu</LastName>
+                    <ForeName>Ho-Sung</ForeName>
+                    <Initials>HS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Asan Institute for Life Sciences, University of Ulsan College of Medicine, Seoul, Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Ahn</LastName>
+                    <ForeName>Kangmo</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pediatrics, Samsung Medical Center, Sungkyunkwan University School of Medicine, and the Environmental Health Center for Atopic Diseases, Samsung Medical Center, Seoul, Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Kim</LastName>
+                    <ForeName>Kyung Won</ForeName>
+                    <Initials>KW</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pediatrics, Yonsei University College of Medicine, Seoul, Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Yang</LastName>
+                    <ForeName>Song-I</ForeName>
+                    <Initials>SI</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pediatrics, Hallym Sacred Heart Hospital, Hallym University College of Medicine, Anyang, Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Jung</LastName>
+                    <ForeName>Young-Ho</ForeName>
+                    <Initials>YH</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pediatrics, CHA Gangnam Medical Center, CHA University School of Medicine, Seoul, Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Lee</LastName>
+                    <ForeName>Kyung-Ju</ForeName>
+                    <Initials>KJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Asan Institute for Life Sciences, University of Ulsan College of Medicine, Seoul, Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Chang</LastName>
+                    <ForeName>Hyoung Yoon</ForeName>
+                    <Initials>HY</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Psychiatry, Ajou University School of Medicine, Suwon, Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Shin</LastName>
+                    <ForeName>Hye Lim</ForeName>
+                    <Initials>HL</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Asan Institute for Life Sciences, University of Ulsan College of Medicine, Seoul, Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Choi</LastName>
+                    <ForeName>Kil Yong</ForeName>
+                    <Initials>KY</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Asan Institute for Life Sciences, University of Ulsan College of Medicine, Seoul, Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Kim</LastName>
+                    <ForeName>Hyung Young</ForeName>
+                    <Initials>HY</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pediatrics, Pusan National University Yangsan Hospital, Yangsan, Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Seo</LastName>
+                    <ForeName>Ju-Hee</ForeName>
+                    <Initials>JH</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pediatrics, Korea Cancer Center, Seoul, Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Kwon</LastName>
+                    <ForeName>Ji-Won</ForeName>
+                    <Initials>JW</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pediatrics, Seoul National University Bundang Hospital, Seongnam, Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Kim</LastName>
+                    <ForeName>Byoung-Ju</ForeName>
+                    <Initials>BJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Environmental Health, University of Cincinnati College of Medicine, Cincinnati, Ohio.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Kim</LastName>
+                    <ForeName>Hyo-Bin</ForeName>
+                    <Initials>HB</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pediatrics, Inje University Sanggye Paik Hospital, Seoul, Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Lee</LastName>
+                    <ForeName>So-Yeon</ForeName>
+                    <Initials>SY</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pediatrics, Hallym Sacred Heart Hospital, Hallym University College of Medicine, Anyang, Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Suh</LastName>
+                    <ForeName>Dong In</ForeName>
+                    <Initials>DI</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pediatrics, Seoul National University College of Medicine, Seoul, Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Yang</LastName>
+                    <ForeName>Hyeon-Jong</ForeName>
+                    <Initials>HJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pediatrics, Soonchunhyang University School of Medicine, Seoul, Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Choi</LastName>
+                    <ForeName>Suk-Joo</ForeName>
+                    <Initials>SJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Obstetrics and Gynecology, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Oh</LastName>
+                    <ForeName>Soo-Young</ForeName>
+                    <Initials>SY</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Obstetrics and Gynecology, Samsung Medical Center, Sungkyunkwan University School of Medicine, Seoul, Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Kwon</LastName>
+                    <ForeName>Ja-Young</ForeName>
+                    <Initials>JY</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Obstetrics and Gynecology, Yonsei University College of Medicine, Seoul, Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Kim</LastName>
+                    <ForeName>Soo Hyun</ForeName>
+                    <Initials>SH</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Obstetrics and Gynecology, CHA Gangnam Medical Center, CHA University School of Medicine, Seoul, Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Won</LastName>
+                    <ForeName>Hye-Sung</ForeName>
+                    <Initials>HS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Obstetrics and Gynecology, Asan Medical Center, University of Ulsan College of Medicine, Seoul, Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Kim</LastName>
+                    <ForeName>Eun-Jin</ForeName>
+                    <Initials>EJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Allergy and Chronic Respiratory Diseases, Center for Biomedical Science, Korea National Institute of Health, Cheongju, Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Lee</LastName>
+                    <ForeName>Jeom Kyu</ForeName>
+                    <Initials>JK</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Allergy and Chronic Respiratory Diseases, Center for Biomedical Science, Korea National Institute of Health, Cheongju, Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Hong</LastName>
+                    <ForeName>Soo-Jong</ForeName>
+                    <Initials>SJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pediatrics, Childhood Asthma Atopy Center, Environmental Health Center, Asan Medical Center, University of Ulsan College of Medicine, Seoul, Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>ENG</Language>
+            <PublicationTypeList>
+                <PublicationType UI="">JOURNAL ARTICLE</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>25</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <MedlineTA>Pediatr Pulmonol</MedlineTA>
+            <NlmUniqueID>8510590</NlmUniqueID>
+            <ISSNLinking>1099-0496</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">17q12-21</Keyword>
+            <Keyword MajorTopicYN="N">cohort study</Keyword>
+            <Keyword MajorTopicYN="N">gene-environment interaction</Keyword>
+            <Keyword MajorTopicYN="N">polymorphism</Keyword>
+            <Keyword MajorTopicYN="N">prenatal programming</Keyword>
+            <Keyword MajorTopicYN="N">respiratory tract infections</Keyword>
+            <Keyword MajorTopicYN="N">vitamin D</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2015</Year>
+                <Month>10</Month>
+                <Day>14</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2016</Year>
+                <Month>2</Month>
+                <Day>20</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>2</Month>
+                <Day>24</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="doi">10.1002/ppul.23421</ArticleId>
+            <ArticleId IdType="pubmed">27111254</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">27110987</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>4</Month>
+            <Day>25</Day>
+        </DateCreated>
+        <DateRevised>
+            <Year>2016</Year>
+            <Month>4</Month>
+            <Day>26</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1879-1026</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>562</Volume>
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Apr</Month>
+                        <Day>22</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>The Science of the total environment</Title>
+                <ISOAbbreviation>Sci. Total Environ.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Direct cost saving potential in medication costs due to a reduction in outdoor air pollution for the Brussels Capital Region.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>760-765</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="pii">S0048-9697(16)30703-3</ELocationID>
+            <ELocationID EIdType="doi">10.1016/j.scitotenv.2016.04.022</ELocationID>
+            <Abstract>
+                <AbstractText Label="INTRODUCTION" NlmCategory="BACKGROUND">The adverse health effects of exposure to air pollution have been well-established and include mortality, hospital admissions, emergency department visits, etc, but also less severe outcomes such as medication use and purchase. The economic impact, an additional motivator for policy, has been studied primarily for the more severe outcomes.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">Purchase data of reimbursed medications typically prescribed for asthma and chronic obstructive pulmonary disease, were obtained through the mandatory Belgian health insurance system. A time series analyses approach was used to model daily sales on daily air pollution concentrations (NO2, PM10 and PM2.5) for residents of the Brussels Capital Region as a whole. In addition, a higher geographical resolution of both sales and pollutant concentrations allowed for a multi-sector approach. Annual savings were estimated for the scenario of a 10% reduction in each of the pollutants.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Medication purchase was significantly associated with NO2 concentrations, leading to an annual cost saving potential of € 107,845 [95%CI: € 71,483-€ 143,823] in R03 sales (WHO classification for drugs of obstructive airway diseases). Saving potentials of PM10 and PM2.5 were not significant. Estimates were not sensitive to the geographical resolution, however, higher precision can be obtained with higher resolution data, subject to the condition that the number of sales is sufficiently large.</AbstractText>
+                <CopyrightInformation>Copyright © 2016. Published by Elsevier B.V.</CopyrightInformation>
+            </Abstract>
+            <AuthorList>
+                <Author>
+                    <LastName>Simons</LastName>
+                    <ForeName>Koen</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Unit Health and Environment, Scientific Institute of Public Health, Juliette Wytsmanstraat 14, 1050 Brussels, Belgium; Department of Biostatistics and Medical Informatics - Public Health, Faculty of Medicine and Pharmacy, Vrije Universiteit Brussel, Laarbeeklaan 103, 1090 Brussels, Belgium.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Devos</LastName>
+                    <ForeName>Stefanie</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Interuniversity Centre for Health Economics Research, Faculty of Medicine and Pharmacy, Vrije Universiteit Brussel, Laarbeeklaan 103, 1090 Brussels, Belgium.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Putman</LastName>
+                    <ForeName>Koen</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Interuniversity Centre for Health Economics Research, Faculty of Medicine and Pharmacy, Vrije Universiteit Brussel, Laarbeeklaan 103, 1090 Brussels, Belgium.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Coomans</LastName>
+                    <ForeName>Danny</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biostatistics and Medical Informatics - Public Health, Faculty of Medicine and Pharmacy, Vrije Universiteit Brussel, Laarbeeklaan 103, 1090 Brussels, Belgium.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Van Nieuwenhuyse</LastName>
+                    <ForeName>An</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Unit Health and Environment, Scientific Institute of Public Health, Juliette Wytsmanstraat 14, 1050 Brussels, Belgium.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Buyl</LastName>
+                    <ForeName>Ronald</ForeName>
+                    <Initials>R</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biostatistics and Medical Informatics - Public Health, Faculty of Medicine and Pharmacy, Vrije Universiteit Brussel, Laarbeeklaan 103, 1090 Brussels, Belgium.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>ENG</Language>
+            <PublicationTypeList>
+                <PublicationType UI="">JOURNAL ARTICLE</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>22</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <MedlineTA>Sci Total Environ</MedlineTA>
+            <NlmUniqueID>0330500</NlmUniqueID>
+            <ISSNLinking>0048-9697</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Air pollution</Keyword>
+            <Keyword MajorTopicYN="N">Direct costs</Keyword>
+            <Keyword MajorTopicYN="N">Medication sales</Keyword>
+            <Keyword MajorTopicYN="N">Time series analysis</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>2</Month>
+                <Day>12</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>4</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>4</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">S0048-9697(16)30703-3</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.scitotenv.2016.04.022</ArticleId>
+            <ArticleId IdType="pubmed">27110987</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="In-Data-Review">
+        <PMID Version="1">27110944</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>04</Month>
+            <Day>26</Day>
+        </DateCreated>
+        <Article PubModel="Electronic-eCollection">
+            <Journal>
+                <ISSN IssnType="Electronic">1932-6203</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>11</Volume>
+                    <Issue>4</Issue>
+                    <PubDate>
+                        <Year>2016</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>PloS one</Title>
+                <ISOAbbreviation>PLoS ONE</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Prenatal, Perinatal and Neonatal Risk Factors for Intellectual Disability: A Systemic Review and Meta-Analysis.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>e0153655</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1371/journal.pone.0153655</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">The etiology of non-genetic intellectual disability (ID) is not fully known, and we aimed to identify the prenatal, perinatal and neonatal risk factors for ID.</AbstractText>
+                <AbstractText Label="METHOD" NlmCategory="METHODS">PubMed and Embase databases were searched for studies that examined the association between pre-, peri- and neonatal factors and ID risk (keywords &quot;intellectual disability&quot; or &quot;mental retardation&quot; or &quot;ID&quot; or &quot;MR&quot; in combination with &quot;prenatal&quot; or &quot;pregnancy&quot; or &quot;obstetric&quot; or &quot;perinatal&quot; or &quot;neonatal&quot;. The last search was updated on September 15, 2015. Summary effect estimates (pooled odds ratios) were calculated for each risk factor using random effects models, with tests for heterogeneity and publication bias.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Seventeen studies with 55,344 patients and 5,723,749 control individuals were eligible for inclusion in our analysis, and 16 potential risk factors were analyzed. Ten prenatal factors (advanced maternal age, maternal black race, low maternal education, third or more parity, maternal alcohol use, maternal tobacco use, maternal diabetes, maternal hypertension, maternal epilepsy and maternal asthma), one perinatal factor (preterm birth) and two neonatal factors (male sex and low birth weight) were significantly associated with increased risk of ID.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">This systemic review and meta-analysis provides a comprehensive evidence-based assessment of the risk factors for ID. Future studies are encouraged to focus on perinatal and neonatal risk factors and the combined effects of multiple factors.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Huang</LastName>
+                    <ForeName>Jichong</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pediatrics, West China Second University Hospital, Sichuan University, Chengdu, 610041, China.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Key Laboratory of Obstetric &amp; Gynecologic and Pediatric Diseases and Birth Defects of Ministry of Education, Sichuan University, Chengdu, 610041, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhu</LastName>
+                    <ForeName>Tingting</ForeName>
+                    <Initials>T</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pediatrics, West China Second University Hospital, Sichuan University, Chengdu, 610041, China.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Key Laboratory of Obstetric &amp; Gynecologic and Pediatric Diseases and Birth Defects of Ministry of Education, Sichuan University, Chengdu, 610041, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Qu</LastName>
+                    <ForeName>Yi</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pediatrics, West China Second University Hospital, Sichuan University, Chengdu, 610041, China.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Key Laboratory of Obstetric &amp; Gynecologic and Pediatric Diseases and Birth Defects of Ministry of Education, Sichuan University, Chengdu, 610041, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mu</LastName>
+                    <ForeName>Dezhi</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pediatrics, West China Second University Hospital, Sichuan University, Chengdu, 610041, China.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Key Laboratory of Obstetric &amp; Gynecologic and Pediatric Diseases and Birth Defects of Ministry of Education, Sichuan University, Chengdu, 610041, China.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pediatrics, University of California San Francisco, San Francisco, CA, 94143, United States of America.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>04</Month>
+                <Day>25</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>PLoS One</MedlineTA>
+            <NlmUniqueID>101285081</NlmUniqueID>
+            <ISSNLinking>1932-6203</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="ecollection">
+                <Year>2016</Year>
+                <Month/>
+                <Day/>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>1</Month>
+                <Day>13</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>2</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="epublish">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>25</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="doi">10.1371/journal.pone.0153655</ArticleId>
+            <ArticleId IdType="pii">PONE-D-16-01256</ArticleId>
+            <ArticleId IdType="pubmed">27110944</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="In-Data-Review">
+        <PMID Version="1">27110860</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>04</Month>
+            <Day>26</Day>
+        </DateCreated>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">2090-262X</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>91</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Mar</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>The Journal of the Egyptian Public Health Association</Title>
+                <ISOAbbreviation>J Egypt Public Health Assoc</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Environmental risk factors and the associated morbidity in a periurban area, Alexandria, Egypt.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>44-51</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1097/01.EPX.0000480930.70965.83</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">According to the WHO, nearly 24% of the global disease burden is attributable to environmental risk factors (RFs). People living in periurban areas are particularly at risk due to lack of basic sanitation requirements.</AbstractText>
+                <AbstractText Label="OBJECTIVE" NlmCategory="OBJECTIVE">To investigate the possible association between environmental RFs and disease prevalence for a community living in a periurban area in Alexandria, Egypt.</AbstractText>
+                <AbstractText Label="MATERIALS AND METHODS" NlmCategory="METHODS">A cross-sectional study was conducted in 2012. The study sample consisted of 355 families. An interviewing questionnaire and an observation checklist were used for data collection. In addition, 10 drinking water samples were randomly collected for physical, chemical, and bacteriological analyses. The questionnaire included questions on indoor environmental RFs as well as morbidity in the study sample, and the observation checklist covered outdoor environmental RFs. The environmental risk was determined using a risk score whose calculation was based upon the presence/absence of 10 indoor and 12 outdoor environmental RFs. The association between risk scores and 14 morbidities was investigated using unconditional logistic regression analysis, expressed as odds ratio (OR) and 95% confidence interval (CI).</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">A significant association was found between the total environmental risk score and respiratory diseases (OR=2.298, 95% CI: 1.231-4.291), diarrhea (OR=2.083, 95% CI: 1.102-3.939), liver diseases (OR=2.491, 95% CI: 1.067-5.819), skin diseases (OR=1.821, 95% CI: 1.012-3.310), and bronchial asthma (OR=2.228, 95% CI: 1.066-4.565). Noncommunicable diseases such as cardiovascular diseases and musculoskeletal diseases did not show any significant association with environmental RFs.</AbstractText>
+                <AbstractText Label="CONCLUSION AND RECOMMENDATIONS" NlmCategory="CONCLUSIONS">Environmental RFs have an adverse impact on health within communities living in periurban areas. It is recommended that sanitation be improved and various outdoor environmental RFs be addressed in these underprivileged areas, as well as health education campaigns be organized aiming at raising the awareness of residents on indoor environmental RFs and ways to prevent them.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Moussa</LastName>
+                    <ForeName>Mayada R</ForeName>
+                    <Initials>MR</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>aEnvironmental Health Department, High Institute of Public Health, Alexandria University, Alexandria, Egypt bHamdan Bin Mohammed Smart University, Dubai, United Arab Emirates cSchool of Health and Environmental Studies at Hamdan Bin Mohamed Smart University, Health Studies Department dFaculty of Dentistry, King Abdul-Aziz University, Jeddah, Kingdom of Saudi Arabia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hussein</LastName>
+                    <ForeName>Rim A</ForeName>
+                    <Initials>RA</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>El-Naggar</LastName>
+                    <ForeName>Hesham M</ForeName>
+                    <Initials>HM</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>J Egypt Public Health Assoc</MedlineTA>
+            <NlmUniqueID>7505602</NlmUniqueID>
+            <ISSNLinking>0013-2446</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="doi">10.1097/01.EPX.0000480930.70965.83</ArticleId>
+            <ArticleId IdType="pii">00004765-201603000-00008</ArticleId>
+            <ArticleId IdType="pubmed">27110860</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="PubMed-not-MEDLINE">
+        <PMID Version="1">27110133</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>04</Month>
+            <Day>25</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2016</Year>
+            <Month>04</Month>
+            <Day>25</Day>
+        </DateCompleted>
+        <Article PubModel="Electronic-eCollection">
+            <Journal>
+                <ISSN IssnType="Electronic">1178-6965</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>9</Volume>
+                    <PubDate>
+                        <Year>2016</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of asthma and allergy</Title>
+                <ISOAbbreviation>J Asthma Allergy</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Benralizumab: a unique IL-5 inhibitor for severe asthma.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>71-81</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.2147/JAA.S78049</ELocationID>
+            <Abstract>
+                <AbstractText>The presence of eosinophilic inflammation is a characteristic feature of chronic and acute inflammation in asthma. An estimated 5%-10% of the 300 million people worldwide who suffer from asthma have a severe form. Patients with eosinophilic airway inflammation represent approximately 40%-60% of this severe asthmatic population. This form of asthma is often uncontrolled, marked by refractoriness to standard therapy, and shows persistent airway eosinophilia despite glucocorticoid therapy. This paper reviews personalized novel therapies, more specifically benralizumab, a humanized anti-IL-5Rα antibody, while also being the first to provide an algorithm for potential candidates who may benefit from anti-IL-5Rα therapy.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Tan</LastName>
+                    <ForeName>Laren D</ForeName>
+                    <Initials>LD</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Pulmonary and Critical Care Medicine, Department of Internal Medicine, School of Medicine, Loma Linda University, Loma Linda, CA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bratt</LastName>
+                    <ForeName>Jennifer M</ForeName>
+                    <Initials>JM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Pulmonary, Critical Care and Sleep Medicine, Department of Internal Medicine, School of Medicine, University of California Davis, Sacramento, CA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Godor</LastName>
+                    <ForeName>Dorottya</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>School of Medicine, Semmelweis University, Budapest, Hungary.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Louie</LastName>
+                    <ForeName>Samuel</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Pulmonary, Critical Care and Sleep Medicine, Department of Internal Medicine, School of Medicine, University of California Davis, Sacramento, CA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kenyon</LastName>
+                    <ForeName>Nicholas J</ForeName>
+                    <Initials>NJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Pulmonary, Critical Care and Sleep Medicine, Department of Internal Medicine, School of Medicine, University of California Davis, Sacramento, CA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D016454">Review</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>04</Month>
+                <Day>04</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>New Zealand</Country>
+            <MedlineTA>J Asthma Allergy</MedlineTA>
+            <NlmUniqueID>101543450</NlmUniqueID>
+            <ISSNLinking>1178-6965</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">IL-5</Keyword>
+            <Keyword MajorTopicYN="N">IL-5Rα</Keyword>
+            <Keyword MajorTopicYN="N">MEDI-563</Keyword>
+            <Keyword MajorTopicYN="N">asthma</Keyword>
+            <Keyword MajorTopicYN="N">asthma treatments</Keyword>
+            <Keyword MajorTopicYN="N">benralizumab</Keyword>
+            <Keyword MajorTopicYN="N">eosinophils</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="ecollection">
+                <Year>2016</Year>
+                <Month/>
+                <Day/>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="epublish">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>04</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>1</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="doi">10.2147/JAA.S78049</ArticleId>
+            <ArticleId IdType="pii">jaa-9-071</ArticleId>
+            <ArticleId IdType="pubmed">27110133</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="PubMed-not-MEDLINE">
+        <PMID Version="1">27110103</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>04</Month>
+            <Day>25</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2016</Year>
+            <Month>04</Month>
+            <Day>25</Day>
+        </DateCompleted>
+        <Article PubModel="Electronic-eCollection">
+            <Journal>
+                <ISSN IssnType="Electronic">1177-889X</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>10</Volume>
+                    <PubDate>
+                        <Year>2016</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Patient preference and adherence</Title>
+                <ISOAbbreviation>Patient Prefer Adherence</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Non-adherence to inhaled corticosteroids and the risk of asthma exacerbations in children.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>531-8</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.2147/PPA.S92824</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Non-adherence to inhaled corticosteroids (ICSs) is a major risk factor for poor asthma control in children. However, little is known about the effect of adherence to ICS on the incidence of asthma exacerbations. The objective of this study was to examine the effect of poor adherence to ICS on the risk of exacerbations in children with asthma.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">In this nested case-control study using data from the Dutch PHARMO Record Linkage System, children aged 5-12 years who had an asthma exacerbation needing oral corticosteroids or hospital admission were matched to patients without exacerbations. Refill adherence was calculated as medication possession ratio from ICS-dispensing records. Data were analyzed using a multivariable multiplicative intensity regression model.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">A total of 646 children were included, of whom 36 had one or more asthma exacerbations. The medication possession ratio was 67.9% (standard deviation [SD] 30.2%) in children with an exacerbation versus 54.2% (SD 35.6%) in the control group. In children using long-acting beta-agonist, good adherence to ICS was associated with a higher risk of asthma exacerbations: relative risk 4.34 (95% confidence interval: 1.20-15.64).</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">In children with persistent asthma needing long-acting beta-agonist, good adherence to ICS was associated with an increased risk of asthma exacerbations. Possible explanations include better motivation for adherence to ICS in children with more severe asthma, and reduced susceptibility to the consequences of non-adherence to ICS due to overprescription of ICS to children who are in clinical remission. Further study into the background of the complex interaction between asthma and medication adherence is needed.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Vasbinder</LastName>
+                    <ForeName>Erwin C</ForeName>
+                    <Initials>EC</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Erasmus University Medical Center, Department of Hospital Pharmacy, Rotterdam, the Netherlands.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Belitser</LastName>
+                    <ForeName>Svetlana V</ForeName>
+                    <Initials>SV</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Pharmacoepidemiology and Clinical Pharmacology, Utrecht Institute for Pharmaceutical Sciences, Utrecht University, the Netherlands.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Souverein</LastName>
+                    <ForeName>Patrick C</ForeName>
+                    <Initials>PC</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Pharmacoepidemiology and Clinical Pharmacology, Utrecht Institute for Pharmaceutical Sciences, Utrecht University, the Netherlands.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>van Dijk</LastName>
+                    <ForeName>Liset</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>NIVEL, Utrecht, the Netherlands.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Vulto</LastName>
+                    <ForeName>Arnold G</ForeName>
+                    <Initials>AG</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Erasmus University Medical Center, Department of Hospital Pharmacy, Rotterdam, the Netherlands.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>van den Bemt</LastName>
+                    <ForeName>Patricia Mla</ForeName>
+                    <Initials>PM</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Erasmus University Medical Center, Department of Hospital Pharmacy, Rotterdam, the Netherlands.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>04</Month>
+                <Day>12</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>New Zealand</Country>
+            <MedlineTA>Patient Prefer Adherence</MedlineTA>
+            <NlmUniqueID>101475748</NlmUniqueID>
+            <ISSNLinking>1177-889X</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">asthma exacerbation</Keyword>
+            <Keyword MajorTopicYN="N">children</Keyword>
+            <Keyword MajorTopicYN="N">database</Keyword>
+            <Keyword MajorTopicYN="N">inhaled corticosteroids</Keyword>
+            <Keyword MajorTopicYN="N">observational study</Keyword>
+            <Keyword MajorTopicYN="N">refill adherence pharmacoepidemiology</Keyword>
+            <Keyword MajorTopicYN="N">the Netherlands</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="ecollection">
+                <Year>2016</Year>
+                <Month/>
+                <Day/>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="epublish">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>12</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>1</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="doi">10.2147/PPA.S92824</ArticleId>
+            <ArticleId IdType="pii">ppa-10-531</ArticleId>
+            <ArticleId IdType="pubmed">27110103</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="In-Data-Review">
+        <PMID Version="1">27110066</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>04</Month>
+            <Day>25</Day>
+        </DateCreated>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1466-1861</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>2016</Volume>
+                    <PubDate>
+                        <Year>2016</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Mediators of inflammation</Title>
+                <ISOAbbreviation>Mediators Inflamm.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Anti-Inflammatory Effects of GLP-1-Based Therapies beyond Glucose Control.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>3094642</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1155/2016/3094642</ELocationID>
+            <Abstract>
+                <AbstractText>Glucagon-like peptide-1 (GLP-1) is an incretin hormone mainly secreted from intestinal L cells in response to nutrient ingestion. GLP-1 has beneficial effects for glucose homeostasis by stimulating insulin secretion from pancreatic beta-cells, delaying gastric emptying, decreasing plasma glucagon, reducing food intake, and stimulating glucose disposal. Therefore, GLP-1-based therapies such as GLP-1 receptor agonists and inhibitors of dipeptidyl peptidase-4, which is a GLP-1 inactivating enzyme, have been developed for treatment of type 2 diabetes. In addition to glucose-lowering effects, emerging data suggests that GLP-1-based therapies also show anti-inflammatory effects in chronic inflammatory diseases including type 1 and 2 diabetes, atherosclerosis, neurodegenerative disorders, nonalcoholic steatohepatitis, diabetic nephropathy, asthma, and psoriasis. This review outlines the anti-inflammatory actions of GLP-1-based therapies on diseases associated with chronic inflammation in vivo and in vitro, and their molecular mechanisms of anti-inflammatory action.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Lee</LastName>
+                    <ForeName>Young-Sun</ForeName>
+                    <Initials>YS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Lee Gil Ya Cancer and Diabetes Institute, Gachon University, 7-45 Songdo-dong, Yeonsu-ku, Incheon 406-840, Republic of Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Jun</LastName>
+                    <ForeName>Hee-Sook</ForeName>
+                    <Initials>HS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Lee Gil Ya Cancer and Diabetes Institute, Gachon University, 7-45 Songdo-dong, Yeonsu-ku, Incheon 406-840, Republic of Korea; College of Pharmacy and Gachon Institute of Pharmaceutical Science, Gachon University, 7-45 Songdo-dong, Yeonsu-ku, Incheon 406-840, Republic of Korea; Gachon Medical Research Institute, Gil Hospital, Incheon 405-760, Republic of Korea.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D016454">Review</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>03</Month>
+                <Day>24</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Mediators Inflamm</MedlineTA>
+            <NlmUniqueID>9209001</NlmUniqueID>
+            <ISSNLinking>0962-9351</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2016</Year>
+                <Month>2</Month>
+                <Day>5</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2016</Year>
+                <Month>3</Month>
+                <Day>2</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>3</Month>
+                <Day>3</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="epublish">
+                <Year>2016</Year>
+                <Month>3</Month>
+                <Day>24</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="doi">10.1155/2016/3094642</ArticleId>
+            <ArticleId IdType="pubmed">27110066</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="In-Data-Review">
+        <PMID Version="1">27109820</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>04</Month>
+            <Day>25</Day>
+        </DateCreated>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1532-3064</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>114</Volume>
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>May</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Respiratory medicine</Title>
+                <ISOAbbreviation>Respir Med</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Increased serum VDBP as a risk predictor for steroid resistance in asthma patients.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>111-6</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.rmed.2016.03.011</ELocationID>
+            <ELocationID EIdType="pii" ValidYN="Y">S0954-6111(16)30041-5</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Asthmatic symptoms usually can be controlled with corticosteroids, but partly asthmatic patients do not respond to corticosteroids, steroid resistance (SR) play a significant role in the poorly responding. However, no approach can accurately predict steroid responsiveness in asthma patients, so prediction of SR with noninvasive means has become a critical issue.</AbstractText>
+                <AbstractText Label="OBJECTIVE" NlmCategory="OBJECTIVE">The aim of this study was to evaluate the difference in serum proteomes between steroid-sensitive asthma (SSA) and steroid-resistant asthma (SRA) patients and identify potential biomarkers for the prediction of SR in asthma patients.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">We performed a proteomic approach of fluorescence-based difference gel electrophoresis (DIGE) and mass spectrometry to identify biomarkers in the serum obtained from SRA and SSA patients (n = 6 in each group). The interesting biomarker was further studied using western blot and enzyme-linked immunosorbent assays (ELISA).</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Seven differentially expressed proteins between SSA and SRA group were identified. Among them, vitamin D-binding protein (VDBP) attracted our further attention as the greatest changed protein. Serum VDBP was significantly up-regulated in SRA group compared with SSA group, and the differential expression was confirmed with western blot analysis. The ELISA data showed the serum level of VDBP was significantly higher in SRA group than that in SSA and control group (496.50 ± 204.62 vs. 279.73 ± 163.65, 241.93 ± 98.58 μg/ml, respectively, p &lt; 0.01). Correlation analysis indicated serum VDBP was positively correlated with neutrophils% and monocytes% (p &lt; 0.05), but inversely correlate with serum 25OHD (p &lt; 0.05). Regression analysis showed increased serum VDBP was a risk predictor of SRA, and serum 25OHD was an independent influential factor of serum VDBP. Using the receiver operating characteristic curve, we determined the area under the curve (AUC) of VDBP was 0.792, and the optimal serum cutoff value of VDBP was 355.8 μg/ml, which can discriminate SRA from asthma patients with 65.2% sensitivity and 83.7% specificity.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">This study provides a novel overview of the difference in serum proteomes of SSA and SRA. We suppose serum VDBP may serve as a useful biomarker for predicting SR in asthma patients, and may participate in the pathogenesis of SRA.</AbstractText>
+                <CopyrightInformation>Copyright © 2016 Elsevier Ltd. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Jiang</LastName>
+                    <ForeName>Hongjuan</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Respiratory Medicine, Shandong Provincial Hospital Affiliated to Shandong University, 324 Jing Wu Road, Huai Yin District, Jinan 250021, Shandong Province, PR China. Electronic address: hongjuanjiang@163.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chi</LastName>
+                    <ForeName>Xiangyu</ForeName>
+                    <Initials>X</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Respiratory Medicine, Shandong Provincial Hospital Affiliated to Shandong University, 324 Jing Wu Road, Huai Yin District, Jinan 250021, Shandong Province, PR China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>Xuan</ForeName>
+                    <Initials>X</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Respiratory Medicine, Shandong Provincial Hospital Affiliated to Shandong University, 324 Jing Wu Road, Huai Yin District, Jinan 250021, Shandong Province, PR China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Jing</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Respiratory Medicine, Shandong Provincial Hospital Affiliated to Shandong University, 324 Jing Wu Road, Huai Yin District, Jinan 250021, Shandong Province, PR China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>03</Month>
+                <Day>18</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Respir Med</MedlineTA>
+            <NlmUniqueID>8908438</NlmUniqueID>
+            <ISSNLinking>0954-6111</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Biomarker</Keyword>
+            <Keyword MajorTopicYN="N">Proteomics</Keyword>
+            <Keyword MajorTopicYN="N">Serum</Keyword>
+            <Keyword MajorTopicYN="N">Steroid-resistant asthma</Keyword>
+            <Keyword MajorTopicYN="N">Vitamin D-binding protein</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2015</Year>
+                <Month>12</Month>
+                <Day>18</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2016</Year>
+                <Month>3</Month>
+                <Day>14</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>3</Month>
+                <Day>17</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="aheadofprint">
+                <Year>2016</Year>
+                <Month>3</Month>
+                <Day>18</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">S0954-6111(16)30041-5</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.rmed.2016.03.011</ArticleId>
+            <ArticleId IdType="pubmed">27109820</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+</PubmedArticleSet>

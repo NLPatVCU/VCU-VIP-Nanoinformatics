@@ -1,0 +1,1793 @@
+<?xml version="1.0"?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2016//EN" "http://www.ncbi.nlm.nih.gov/corehtml/query/DTD/pubmed_160101.dtd">
+<PubmedArticleSet>
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="PubMed-not-MEDLINE">
+        <PMID Version="1">27046942</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>04</Month>
+            <Day>06</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2016</Year>
+            <Month>04</Month>
+            <Day>06</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2016</Year>
+            <Month>04</Month>
+            <Day>07</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Print">0353-8109</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>24</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Feb</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Acta informatica medica : AIM : journal of the Society for Medical Informatics of Bosnia &amp; Herzegovina : časopis Društva za medicinsku informatiku BiH</Title>
+                <ISOAbbreviation>Acta Inform Med</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Maximum Time of the Effect of Antileukotriene - Zileuton in Treatment of Patients with Bronchial Asthma.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>16-9</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.5455/aim.2016.24.16-19</ELocationID>
+            <Abstract>
+                <AbstractText Label="OBJECTIVE" NlmCategory="OBJECTIVE">Maximum time of the effect of antileukotriene substances - Zileuton in the treatment of patients with bronchial asthma and increased bronchial reactivity and of the salbutamol as agonist of the beta2 adrenergic receptor studied in this work.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">Parameters of the lung function are determined with Body plethysmography. Raw and ITGV were registered and specific resistance (SRaw) was calculated. Zileuton (Zyflo, tbl. 600 mg), producer Cornerstone Therapeutics, USA was used in the research.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Results of this research, in patients with bronchial asthma, indicate that antileukotriene substances-Zileuton administered in a dose of 600 mg first day (oral route of administration 4 × 1 tbl.) has not caused significant decrease of the specific resistance of the airways (SRaw) (p value 0.1 &gt; Alpha 0.05), whereas Zileuton administered two days in a row, in a dose of 600 mg (4 × 1 tbl. a day), has caused significant decrease of the specific resistance of the airways (SRaw) (P value 0.03 &lt; Alpha 0.05). Effect of the control with salbutamol (beta2-adrenergic receptor agonist) is efficient in the removal of the increased bronchomotor tone, causing significant decrease of the resistance (Raw), respectively of the specific resistance (SRaw), (p value 0.05 = Alpha 0.05).</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">Formation of leukotrienes depends on the lypoxygenation of the arachidonic acid by 5-lypoxygenase. Zileuton is an active and powerful inhibitor of the activity of 5- lypoxygenase and as such inhibits generation of its products. Consequently, besides inhibition of cys-LTs', zileuton also inhibits the formation of leukotriene B4 (LTB4), which is a powerful chemotactic of other eicosanoids too, which depend on the synthesis of lekotriene A4 (LTA4). This suggests that the effect of antileukotrienes (Zileuton) is not immediate after oral administration, but the powerful effect of the Zileuton seen only after two days of inhibition of cys-LTs', and inhibition of leukotriene B4 (LTB4) and A4 (LTA4).</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Morina</LastName>
+                    <ForeName>Naim</ForeName>
+                    <Initials>N</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pharmacy, Faculty of Medicine. University of Prishtina. Clinical Centre, Mother Theresa Str., Prishtina. Kosova.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Boçari</LastName>
+                    <ForeName>Gëzim</ForeName>
+                    <Initials>G</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pharmacology, Faculty of Medicine. University of Tirana, Albania.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Iljazi</LastName>
+                    <ForeName>Ali</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Kosovo Occupational Health Institute, Clinical Centre N.N., Gjakova, Kosova.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hyseini</LastName>
+                    <ForeName>Kadir</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Universe College, Bardhosh, Kosove.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Halac</LastName>
+                    <ForeName>Gunay</ForeName>
+                    <Initials>G</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Universe College, Bardhosh, Kosove.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>02</Month>
+                <Day>02</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Bosnia and Herzegovina</Country>
+            <MedlineTA>Acta Inform Med</MedlineTA>
+            <NlmUniqueID>101147064</NlmUniqueID>
+            <ISSNLinking>0353-8109</ISSNLinking>
+        </MedlineJournalInfo>
+        <OtherID Source="NLM">PMC4789724</OtherID>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Respiratory system</Keyword>
+            <Keyword MajorTopicYN="N">salbutamol</Keyword>
+            <Keyword MajorTopicYN="N">zileuton</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2015</Year>
+                <Month>11</Month>
+                <Day>21</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>1</Month>
+                <Day>16</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="epublish">
+                <Year>2016</Year>
+                <Month>2</Month>
+                <Day>02</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>6</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>6</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>6</Day>
+                <Hour>6</Hour>
+                <Minute>1</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="doi">10.5455/aim.2016.24.16-19</ArticleId>
+            <ArticleId IdType="pii">AIM-24-16</ArticleId>
+            <ArticleId IdType="pubmed">27046942</ArticleId>
+            <ArticleId IdType="pmc">PMC4789724</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="In-Data-Review">
+        <PMID Version="1">27011244</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>03</Month>
+            <Day>25</Day>
+        </DateCreated>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1958-5381</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>32</Volume>
+                    <Issue>3</Issue>
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Mar</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Médecine sciences : M/S</Title>
+                <ISOAbbreviation>Med Sci (Paris)</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>[Role of fractalkine/CX3CL1 and its receptor CX3CR1 in allergic diseases].</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>260-6</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1051/medsci/20163203010</ELocationID>
+            <Abstract>
+                <AbstractText>Allergic asthma and atopic dermatitis are diseases mainly resulting from the activation of Th2 cells, that produce cytokines favouring IgE production and eosinophilia but also of Th1 cells, that contribute to inflammation chronicity. Lymphocyte recruitment and retention of Th cells in target organs are 2 key events for asthma and atopic dermatitis pathogenesis. While lymphocyte migration is regulated by chemokines and lipid mediators such as leukotrienes and prostaglandins, factors involved in lymphocyte retention and survival within inflammatory tissues remain poorly understood. Recent works show that, in allergic diseases, there is an increased expression of fractalkine/CX3CL1 and its unique receptor CX3CR1 and that this chemokine does not act as chemoattractant. In allergic asthma, CX3CR1 expression regulates Th2 and Th1 cell survival in the inflammatory lung, while, in atopic dermatitis, it regulate Th2 and Th1 cell retention into the inflammatory site. Use of peptides blocking fractalkine binding to its receptor is currently tested in the treatment of asthma and atopic dermatitis.</AbstractText>
+                <CopyrightInformation>© 2016 médecine/sciences – Inserm.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Julia</LastName>
+                    <ForeName>Valérie</ForeName>
+                    <Initials>V</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>CNRS, Inserm, université de Nice-Sophia Antipolis, institut de pharmacologie moléculaire et cellulaire, 660, route des Lucioles, 06560 Valbonne, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Staumont-Salle</LastName>
+                    <ForeName>Delphine</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Université de Lille, Inserm, CHU Lille, European genomic institute of diabetes, institut Pasteur de Lille, U1011 - récepteurs nucléaires, maladies cardiovasculaires et diabète, 59000 Lille, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Dombrowicz</LastName>
+                    <ForeName>David</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Université de Lille, Inserm, CHU Lille, European genomic institute of diabetes, institut Pasteur de Lille, U1011 - récepteurs nucléaires, maladies cardiovasculaires et diabète, 59000 Lille, France.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>fre</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D004740">English Abstract</PublicationType>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <VernacularTitle>Rôle de la fractalkine/CX3CL1 et de son récepteur CX3CR1 dans les pathologies allergiques.</VernacularTitle>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>03</Month>
+                <Day>23</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>France</Country>
+            <MedlineTA>Med Sci (Paris)</MedlineTA>
+            <NlmUniqueID>8710980</NlmUniqueID>
+            <ISSNLinking>0767-0974</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="epublish">
+                <Year>2016</Year>
+                <Month>3</Month>
+                <Day>23</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>3</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>3</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>3</Month>
+                <Day>25</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="doi">10.1051/medsci/20163203010</ArticleId>
+            <ArticleId IdType="pii">medsci20163203p260</ArticleId>
+            <ArticleId IdType="pubmed">27011244</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="PubMed-not-MEDLINE">
+        <PMID Version="1">26985325</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>03</Month>
+            <Day>17</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2016</Year>
+            <Month>03</Month>
+            <Day>17</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2016</Year>
+            <Month>03</Month>
+            <Day>19</Day>
+        </DateRevised>
+        <Article PubModel="Electronic-eCollection">
+            <Journal>
+                <ISSN IssnType="Electronic">1948-5875</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>7</Volume>
+                    <Issue>3</Issue>
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Mar</Month>
+                        <Day>10</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>ACS medicinal chemistry letters</Title>
+                <ISOAbbreviation>ACS Med Chem Lett</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Discovery of 3-Substituted 1H-Indole-2-carboxylic Acid Derivatives as a Novel Class of CysLT1 Selective Antagonists.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>335-9</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1021/acsmedchemlett.5b00482</ELocationID>
+            <Abstract>
+                <AbstractText>The indole derivative, 3-((E)-3-((3-((E)-2-(7-chloroquinolin-2yl)vinyl)phenyl)amino)-3-oxoprop-1-en-1-yl)-7-methoxy-1H-indole-2-carboxylic acid (17k), was identified as a novel and highly potent and selective CysLT1 antagonist with IC50 values of 0.0059 ± 0.0011 and 15 ± 4 μM for CysLT1 and CysLT2, respectively.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Chen</LastName>
+                    <ForeName>Huayan</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>State Key Laboratory of Drug Research, the National Center for Drug Screening, Shanghai Institute of Materia Medica, Chinese Academy of Sciences , Shanghai 201203, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yang</LastName>
+                    <ForeName>Hui</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>CAS Key Laboratory of Receptor Research, the National Center for Drug Screening, Shanghai Institute of Materia Medica, Chinese Academy of Sciences , Shanghai 201203, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wang</LastName>
+                    <ForeName>Zhilong</ForeName>
+                    <Initials>Z</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>CAS Key Laboratory of Receptor Research, the National Center for Drug Screening, Shanghai Institute of Materia Medica, Chinese Academy of Sciences , Shanghai 201203, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Xie</LastName>
+                    <ForeName>Xin</ForeName>
+                    <Initials>X</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>CAS Key Laboratory of Receptor Research, the National Center for Drug Screening, Shanghai Institute of Materia Medica, Chinese Academy of Sciences , Shanghai 201203, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Nan</LastName>
+                    <ForeName>Fajun</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>State Key Laboratory of Drug Research, the National Center for Drug Screening, Shanghai Institute of Materia Medica, Chinese Academy of Sciences , Shanghai 201203, China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>01</Month>
+                <Day>22</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>ACS Med Chem Lett</MedlineTA>
+            <NlmUniqueID>101521073</NlmUniqueID>
+            <ISSNLinking>1948-5875</ISSNLinking>
+        </MedlineJournalInfo>
+        <OtherID Source="NLM">PMC4789669 [Available on 03/10/17]</OtherID>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">CysLT1</Keyword>
+            <Keyword MajorTopicYN="N">CysLT2</Keyword>
+            <Keyword MajorTopicYN="N">Cysteinyl leukotrienes</Keyword>
+            <Keyword MajorTopicYN="N">asthma</Keyword>
+            <Keyword MajorTopicYN="N">selective antagonists</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="ecollection">
+                <Year>2016</Year>
+                <Month>3</Month>
+                <Day>10</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="received">
+                <Year>2015</Year>
+                <Month>12</Month>
+                <Day>14</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>1</Month>
+                <Day>22</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="epublish">
+                <Year>2016</Year>
+                <Month>1</Month>
+                <Day>22</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>3</Month>
+                <Day>18</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>3</Month>
+                <Day>18</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>3</Month>
+                <Day>18</Day>
+                <Hour>6</Hour>
+                <Minute>1</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pmc-release">
+                <Year>2017</Year>
+                <Month>3</Month>
+                <Day>10</Day>
+                <Hour>0</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="doi">10.1021/acsmedchemlett.5b00482</ArticleId>
+            <ArticleId IdType="pubmed">26985325</ArticleId>
+            <ArticleId IdType="pmc">PMC4789669</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="In-Data-Review">
+        <PMID Version="1">26869085</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>02</Month>
+            <Day>12</Day>
+        </DateCreated>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1532-2823</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>105</Volume>
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Feb</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Prostaglandins, leukotrienes, and essential fatty acids</Title>
+                <ISOAbbreviation>Prostaglandins Leukot. Essent. Fatty Acids</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Cellular signalling of cysteinyl leukotriene type 1 receptor variants CysLT1-G300S and CysLT1-I206S.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1-8</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.plefa.2015.12.004</ELocationID>
+            <ELocationID EIdType="pii" ValidYN="Y">S0952-3278(15)00183-0</ELocationID>
+            <Abstract>
+                <AbstractText>Cysteinyl-leukotrienes are pro-inflammatory lipid mediators, involved in allergic asthma, that bind the G-protein-coupled receptors CysLT1, CysLT2 and GPR99. A polymorphism in one of these receptors, CysLT1-G300S was strongly associated with atopy, whereas the CysLT1-I206S polymorphism was not. In the present work, our aim was to characterize these two variants by studying their cellular signalling. Cell surface expression of mutant receptors in transfected HEK-293 cells was comparable to that of the wild-type receptor. Compared to CysLT1-WT, production of inositol phosphates as well as IL-8 and IL-13 promoter transactivation in response to either LTD4 or LTC4 was significantly increased in CysLT1-G300S-transfected cells. Moreover, LTD4-induced phosphorylation of the signalling effector Erk, but not p38, p65 or c-Jun was higher in CysLT1-G300S-transfected cells. On the other hand, the variant CysLT1-I206S did not show a significant difference in its signal transduction compared to the wild-type receptor. Taken together, our results indicate that the variant CysLT1-G300S can induce a greater signal than the CysLT1-WT receptor, a feature that may be relevant to its association with atopy.</AbstractText>
+                <CopyrightInformation>Copyright © 2015 Elsevier Ltd. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Yaddaden</LastName>
+                    <ForeName>Louiza</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Immunology Division, Department of Pediatrics, Faculty of Medicine and Health Sciences, Université de Sherbrooke, Sherbrooke, Quebec, Canada J1H 5N4.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Véronneau</LastName>
+                    <ForeName>Steeve</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Immunology Division, Department of Pediatrics, Faculty of Medicine and Health Sciences, Université de Sherbrooke, Sherbrooke, Quebec, Canada J1H 5N4.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Thompson</LastName>
+                    <ForeName>Miles D</ForeName>
+                    <Initials>MD</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pharmacology and Toxicology, University of Toronto, Toronto, Ontario, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rola-Pleszczynski</LastName>
+                    <ForeName>Marek</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Immunology Division, Department of Pediatrics, Faculty of Medicine and Health Sciences, Université de Sherbrooke, Sherbrooke, Quebec, Canada J1H 5N4.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Stankova</LastName>
+                    <ForeName>Jana</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Immunology Division, Department of Pediatrics, Faculty of Medicine and Health Sciences, Université de Sherbrooke, Sherbrooke, Quebec, Canada J1H 5N4. Electronic address: jana.stankova@usherbrooke.ca.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2015</Year>
+                <Month>12</Month>
+                <Day>21</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Scotland</Country>
+            <MedlineTA>Prostaglandins Leukot Essent Fatty Acids</MedlineTA>
+            <NlmUniqueID>8802730</NlmUniqueID>
+            <ISSNLinking>0952-3278</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Atopy</Keyword>
+            <Keyword MajorTopicYN="N">CysLT(1)</Keyword>
+            <Keyword MajorTopicYN="N">Cysteinyl-leukotriene</Keyword>
+            <Keyword MajorTopicYN="N">Signalling</Keyword>
+            <Keyword MajorTopicYN="N">Variant</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2015</Year>
+                <Month>5</Month>
+                <Day>14</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2015</Year>
+                <Month>11</Month>
+                <Day>5</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2015</Year>
+                <Month>12</Month>
+                <Day>12</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="aheadofprint">
+                <Year>2015</Year>
+                <Month>12</Month>
+                <Day>21</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>2</Month>
+                <Day>13</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>2</Month>
+                <Day>13</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>2</Month>
+                <Day>13</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">S0952-3278(15)00183-0</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.plefa.2015.12.004</ArticleId>
+            <ArticleId IdType="pubmed">26869085</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="In-Data-Review">
+        <PMID Version="1">26859523</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>03</Month>
+            <Day>21</Day>
+        </DateCreated>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1096-1186</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>106</Volume>
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Apr</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Pharmacological research</Title>
+                <ISOAbbreviation>Pharmacol. Res.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>The hallucinogenic diterpene salvinorin A inhibits leukotriene synthesis in experimental models of inflammation.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>64-71</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.phrs.2016.01.032</ELocationID>
+            <ELocationID EIdType="pii" ValidYN="Y">S1043-6618(15)30180-8</ELocationID>
+            <Abstract>
+                <AbstractText>Leukotrienes (LTs) are lipid mediators derived from arachidonic acid (AA) involved in a number of autoimmune/inflammatory disorders including asthma, allergic rhinitis and cardiovascular diseases. Salvinorin A (SA), a diterpene isolated from the hallucinogenic plant Salvia divinorum, is a well-established analgesic compound, but its anti-inflammatory properties are under-researched and its effects on LT production is unknown to date. Here, we studied the possible effect of SA on LT production and verified its actions on experimental models of inflammation in which LTs play a prominent role. Peritoneal macrophages (PM) stimulated by calcium ionophore A23187 were chosen as in vitro system to evaluate the effect of SA on LT production. Zymosan-induced peritonitis in mice and carrageenan-induced pleurisy in rats were selected as LT-related models to evaluate the effect of SA on inflammation as well as on LT biosynthesis. SA inhibited, in a concentration-dependent manner, A23187-induced LTB4 biosynthesis in isolated PM. In zymosan-induced peritonitis, SA inhibited cell infiltration, myeloperoxidase activity, vascular permeability and LTC4 production in the peritoneal cavity without decreasing the production of prostaglandin E2. In carrageenan-induced pleurisy in rats, a more sophisticated model of acute inflammation related to LTs, SA significantly inhibited LTB4 production in the inflammatory exudates, along with reducing the phlogistic process in the lung. In conclusion, SA inhibited LT production and it was effective in experimental models of inflammation in which LTs play a pivotal role. SA might be considered as a lead compound for the development of drugs useful in LTs-related diseases.</AbstractText>
+                <CopyrightInformation>Copyright © 2016 Elsevier Ltd. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Rossi</LastName>
+                    <ForeName>Antonietta</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pharmacy, University of Naples Federico II, Via Domenico Montesano 49, Naples, Italy. Electronic address: antrossi@unina.it.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Pace</LastName>
+                    <ForeName>Simona</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pharmacy, University of Naples Federico II, Via Domenico Montesano 49, Naples, Italy; Chair of Pharmaceutical/Medicinal Chemistry, Institute of Pharmacy, University of Jena, Philosophenweg 14, Jena, Germany. Electronic address: simona.pace@uni-jena.de.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tedesco</LastName>
+                    <ForeName>Federica</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pharmacy, University of Naples Federico II, Via Domenico Montesano 49, Naples, Italy. Electronic address: fed.tedesco@gmail.com.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Pagano</LastName>
+                    <ForeName>Ester</ForeName>
+                    <Initials>E</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pharmacy, University of Naples Federico II, Via Domenico Montesano 49, Naples, Italy. Electronic address: ester.pagano@unina.it.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Guerra</LastName>
+                    <ForeName>Germano</ForeName>
+                    <Initials>G</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medicine and Health Sciences, University of Molise, Campobasso, Italy. Electronic address: germano.guerra@unimol.it.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Troisi</LastName>
+                    <ForeName>Fabiana</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Chair of Pharmaceutical/Medicinal Chemistry, Institute of Pharmacy, University of Jena, Philosophenweg 14, Jena, Germany. Electronic address: fabiana.troisi@uni-jena.de.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Werner</LastName>
+                    <ForeName>Markus</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Chair of Pharmaceutical/Medicinal Chemistry, Institute of Pharmacy, University of Jena, Philosophenweg 14, Jena, Germany. Electronic address: werner.markus@uni-jena.de.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Roviezzo</LastName>
+                    <ForeName>Fiorentina</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pharmacy, University of Naples Federico II, Via Domenico Montesano 49, Naples, Italy. Electronic address: fiorentina.roviezzo@unina.it.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zjawiony</LastName>
+                    <ForeName>Jordan K</ForeName>
+                    <Initials>JK</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of BioMolecular Sciences, Division of Pharmacognosy and the Research Institute of Pharmaceutical Sciences, School of Pharmacy, University of Mississippi, University, MS 38677, USA. Electronic address: jordan@olemiss.edu.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Werz</LastName>
+                    <ForeName>Oliver</ForeName>
+                    <Initials>O</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Chair of Pharmaceutical/Medicinal Chemistry, Institute of Pharmacy, University of Jena, Philosophenweg 14, Jena, Germany. Electronic address: oliver.werz@uni-jena.de.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Izzo</LastName>
+                    <ForeName>Angelo A</ForeName>
+                    <Initials>AA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pharmacy, University of Naples Federico II, Via Domenico Montesano 49, Naples, Italy. Electronic address: aaizzo@unina.it.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Capasso</LastName>
+                    <ForeName>Raffaele</ForeName>
+                    <Initials>R</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pharmacy, University of Naples Federico II, Via Domenico Montesano 49, Naples, Italy. Electronic address: rafcapas@unina.it.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>02</Month>
+                <Day>06</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Netherlands</Country>
+            <MedlineTA>Pharmacol Res</MedlineTA>
+            <NlmUniqueID>8907422</NlmUniqueID>
+            <ISSNLinking>1043-6618</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Ca(2+)-ionophore A23187 (PubChem CID: 11957499)</Keyword>
+            <Keyword MajorTopicYN="N">Inflammation</Keyword>
+            <Keyword MajorTopicYN="N">Leukotriene B(4) (PubMed CID: 5280492)</Keyword>
+            <Keyword MajorTopicYN="N">Leukotriene C(4) (PubMed CID: 5283121)</Keyword>
+            <Keyword MajorTopicYN="N">Leukotrienes</Keyword>
+            <Keyword MajorTopicYN="N">Peritonitis</Keyword>
+            <Keyword MajorTopicYN="N">Pleurisy</Keyword>
+            <Keyword MajorTopicYN="N">Prostaglandin E(2) (PubChem CID: 5280360)</Keyword>
+            <Keyword MajorTopicYN="N">Salvinorin A</Keyword>
+            <Keyword MajorTopicYN="N">Zymosan (PubMed CID:11375554)</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2015</Year>
+                <Month>11</Month>
+                <Day>19</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2016</Year>
+                <Month>1</Month>
+                <Day>14</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>1</Month>
+                <Day>28</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="aheadofprint">
+                <Year>2016</Year>
+                <Month>2</Month>
+                <Day>6</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>2</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>2</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>2</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">26859523</ArticleId>
+            <ArticleId IdType="pii">S1043-6618(15)30180-8</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.phrs.2016.01.032</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="In-Data-Review">
+        <PMID Version="1">26830450</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>02</Month>
+            <Day>02</Day>
+        </DateCreated>
+        <DateRevised>
+            <Year>2016</Year>
+            <Month>03</Month>
+            <Day>01</Day>
+        </DateRevised>
+        <Article PubModel="Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">2045-2322</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>6</Volume>
+                    <PubDate>
+                        <Year>2016</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Scientific reports</Title>
+                <ISOAbbreviation>Sci Rep</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Leukotriene E4 is a full functional agonist for human cysteinyl leukotriene type 1 receptor-dependent gene expression.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>20461</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1038/srep20461</ELocationID>
+            <Abstract>
+                <AbstractText>Leukotriene E4 (LTE4) the most stable of the cysteinyl leukotrienes (cysLTs) binds poorly to classical type 1 (CysLT1) and 2 (CysLT2) receptors although it induces potent responses in human airways in vivo, such as bronchoconstriction, airway hyperresponsiveness and inflammatory cell influx suggesting the presence of a novel receptor that preferentially responds to LTE4. To identify such a receptor two human mast cell lines, LAD2 and LUVA, were selected that differentially responded to LTE4 when analysed by intracellular signalling and gene expression. Comparative transcriptome analysis and recombinant gene overexpression experiments revealed CysLT1 as a receptor responsible for potent LTE4-induced response in LAD2 but not in LUVA cells, an observation confirmed further by gene knockdown and selective inhibitors. Lentiviral overexpression of CysLT1 in LUVA cells augmented intracellular calcium signalling induced by LTE4 but did not restore full agonist responses at the gene expression level. Our data support a model where both an increased expression of Gαq-coupled CysLT1, and sustained intracellular calcium mobilisation and extracellular signal-regulated kinase (Erk) activation, are required for LTE4-mediated regulation of gene expression in human cells. Our study shows for the first time that CysLT1 expression is critically important for responsiveness to LTE4 within a human cell system.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Foster</LastName>
+                    <ForeName>Holly R</ForeName>
+                    <Initials>HR</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Asthma, Allergy and Lung Biology, King's College London, UK.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>MRC &amp;Asthma UK Centre in Allergic Mechanisms of Asthma, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Fuerst</LastName>
+                    <ForeName>Elisabeth</ForeName>
+                    <Initials>E</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Asthma, Allergy and Lung Biology, King's College London, UK.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>MRC &amp;Asthma UK Centre in Allergic Mechanisms of Asthma, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Branchett</LastName>
+                    <ForeName>William</ForeName>
+                    <Initials>W</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Asthma, Allergy and Lung Biology, King's College London, UK.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>MRC &amp;Asthma UK Centre in Allergic Mechanisms of Asthma, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lee</LastName>
+                    <ForeName>Tak H</ForeName>
+                    <Initials>TH</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Asthma, Allergy and Lung Biology, King's College London, UK.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>MRC &amp;Asthma UK Centre in Allergic Mechanisms of Asthma, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cousins</LastName>
+                    <ForeName>David J</ForeName>
+                    <Initials>DJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Asthma, Allergy and Lung Biology, King's College London, UK.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>MRC &amp;Asthma UK Centre in Allergic Mechanisms of Asthma, UK.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>NIHR Leicester Respiratory Biomedical Research Unit, Leicester Institute for Lung Health, Department of Infection, Immunity and Inflammation, University of Leicester, Leicester, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Woszczek</LastName>
+                    <ForeName>Grzegorz</ForeName>
+                    <Initials>G</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Asthma, Allergy and Lung Biology, King's College London, UK.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>MRC &amp;Asthma UK Centre in Allergic Mechanisms of Asthma, UK.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>G0900536</GrantID>
+                    <Agency>Medical Research Council</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>02</Month>
+                <Day>02</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Sci Rep</MedlineTA>
+            <NlmUniqueID>101563288</NlmUniqueID>
+            <ISSNLinking>2045-2322</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Allergy Clin Immunol. 2011 Mar;127(3):815-22.e1-5</RefSource>
+                <PMID Version="1">21281958</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Respir Crit Care Med. 2001 Oct 15;164(8 Pt 1):1495-500</RefSource>
+                <PMID Version="1">11704602</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biol Chem. 2000 Sep 29;275(39):30531-6</RefSource>
+                <PMID Version="1">10851239</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Allergy Clin Immunol. 2015 May;135(5):1358-66.e1-11</RefSource>
+                <PMID Version="1">25441644</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>N Engl J Med. 2002 May 30;346(22):1699-705</RefSource>
+                <PMID Version="1">12037149</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>N Engl J Med. 2002 Nov 7;347(19):1493-9</RefSource>
+                <PMID Version="1">12421891</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Leuk Res. 2003 Aug;27(8):677-82</RefSource>
+                <PMID Version="1">12801524</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Comp Biochem Physiol B. 1988;89(2):375-80</RefSource>
+                <PMID Version="1">3356141</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Eur Respir J. 1988 Dec;1(10):913-7</RefSource>
+                <PMID Version="1">2852123</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am Rev Respir Dis. 1990 Nov;142(5):1112-8</RefSource>
+                <PMID Version="1">2173457</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Lancet. 1993 Apr 17;341(8851):989-90</RefSource>
+                <PMID Version="1">8096945</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biol Chem. 1995 Jun 23;270(25):15175-80</RefSource>
+                <PMID Version="1">7797501</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 1999 Jun 24;399(6738):789-93</RefSource>
+                <PMID Version="1">10391245</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Allergy Clin Immunol. 2005 Feb;115(2):316-22</RefSource>
+                <PMID Version="1">15696087</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Am J Respir Cell Mol Biol. 2005 Dec;33(6):531-40</RefSource>
+                <PMID Version="1">16123393</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Immunol. 2007 Apr 15;178(8):5262-70</RefSource>
+                <PMID Version="1">17404310</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>N Engl J Med. 2007 Nov 1;357(18):1841-54</RefSource>
+                <PMID Version="1">17978293</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Allergy Clin Immunol. 2008 Jan;121(1):215-221.e1</RefSource>
+                <PMID Version="1">18028998</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biol Chem. 2008 Jun 13;283(24):16477-87</RefSource>
+                <PMID Version="1">18411276</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2008 Oct 28;105(43):16695-700</RefSource>
+                <PMID Version="1">18931305</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Allergy Clin Immunol. 2009 Sep;124(3):417-21</RefSource>
+                <PMID Version="1">19482346</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Exp Med. 2009 Oct 26;206(11):2543-55</RefSource>
+                <PMID Version="1">19822647</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nucleic Acids Res. 2013 Jan;41(Database issue):D1083-8</RefSource>
+                <PMID Version="1">23087376</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>PLoS One. 2013;8(3):e58305</RefSource>
+                <PMID Version="1">23472176</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biol Chem. 2013 Apr 19;288(16):10967-72</RefSource>
+                <PMID Version="1">23504326</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Allergy Clin Immunol. 2013 Jul;132(1):205-13</RefSource>
+                <PMID Version="1">23688412</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Allergy. 2014 Nov;69(11):1531-9</RefSource>
+                <PMID Version="1">25041788</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Methods Mol Biol. 2015;1272:79-89</RefSource>
+                <PMID Version="1">25563178</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Allergy Clin Immunol. 2012 Apr;129(4):1136-42</RefSource>
+                <PMID Version="1">22391114</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <OtherID Source="NLM">PMC4735867</OtherID>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2015</Year>
+                <Month>10</Month>
+                <Day>21</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2016</Year>
+                <Month>1</Month>
+                <Day>04</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>2</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>2</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>2</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">srep20461</ArticleId>
+            <ArticleId IdType="doi">10.1038/srep20461</ArticleId>
+            <ArticleId IdType="pubmed">26830450</ArticleId>
+            <ArticleId IdType="pmc">PMC4735867</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">26800862</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>1</Month>
+            <Day>23</Day>
+        </DateCreated>
+        <DateRevised>
+            <Year>2016</Year>
+            <Month>1</Month>
+            <Day>24</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Print">0300-0729</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Jan</Month>
+                        <Day>23</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Rhinology</Title>
+                <ISOAbbreviation>Rhinology</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Management of rhinosinusitis during pregnancy: systematic review and expert panel recommendations.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn/>
+            </Pagination>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Management of rhinosinusitis during pregnancy requires special considerations.</AbstractText>
+                <AbstractText Label="OBJECTIVES" NlmCategory="OBJECTIVE">1. Conduct a systematic literature review for acute and chronic rhinosinusitis (CRS) management during pregnancy. 2. Make evidence-based recommendations.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">The systematic review was conducted using MEDLINE and EMBASE databases and relevant search terms. Title, abstract and full manuscript review were conducted by two authors independently. A multispecialty panel with expertise in management of Rhinological disorders, Allergy-Immunology, and Obstetrics-Gynecology was invited to review the systematic review. Recommendations were sought on use of following for CRS management during pregnancy: oral corticosteroids; antibiotics; leukotrienes; topical corticosteroid spray/irrigations/drops; aspirin desensitization; elective surgery for CRS with polyps prior to planned pregnancy; vaginal birth versus planned Caesarian for skull base erosions/ prior CSF rhinorrhea.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Eighty-eight manuscripts underwent full review after screening 3052 abstracts. No relevant level 1, 2, or 3 studies were found. Expert panel recommendations for rhinosinusitis management during pregnancy included continuing nasal corticosteroid sprays for CRS maintenance, using pregnancy-safe antibiotics for acute rhinosinusitis and CRS exacerbations, and discontinuing aspirin desensitization for aspirin exacerbated respiratory disease. The manuscript presents detailed recommendations.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">The lack of evidence pertinent to managing rhinosinusitis during pregnancy warrants future trials. Expert recommendations constitute the current best available evidence.</AbstractText>
+            </Abstract>
+            <AuthorList>
+                <Author>
+                    <LastName>Lal</LastName>
+                    <ForeName>D</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Otolaryngology, Head and Neck Surgery, Mayo Clinic in Arizona, Phoenix, AZ, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Jategaonkar</LastName>
+                    <ForeName>A A</ForeName>
+                    <Initials>AA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>University of Arizona College of Medicine Phoenix, Phoenix, AZ, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Borish</LastName>
+                    <ForeName>L</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Departments of Medicine and Microbiology, University of Virginia, Charlottesville, VA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Chambliss</LastName>
+                    <ForeName>L R</ForeName>
+                    <Initials>LR</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Maternal Fetal Medicine, St. Josephs Hospital and Medical Center, Phoenix, AZ, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Gnagi</LastName>
+                    <ForeName>S H</ForeName>
+                    <Initials>SH</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Otolaryngology, Head and Neck Surgery, Mayo Clinic in Arizona, Phoenix, AZ, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Hwang</LastName>
+                    <ForeName>P H</ForeName>
+                    <Initials>PH</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Otolaryngology, Head and Neck Surgery, Stanford University Medical Center, Stanford, CA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Rank</LastName>
+                    <ForeName>M A</ForeName>
+                    <Initials>MA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Allergy, Asthma, and Clinical Immunology, Mayo Clinic in Arizona, Phoenix, AZ, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Stankiewicz</LastName>
+                    <ForeName>J A</ForeName>
+                    <Initials>JA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Otolaryngology, Head and Neck Surgery, Loyola University Medical Center, Maywood, IL, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Lund</LastName>
+                    <ForeName>V J</ForeName>
+                    <Initials>VJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Royal National Throat, Nose and Ear Hospital, University College London Hospitals, London, United Kingdom.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>ENG</Language>
+            <PublicationTypeList>
+                <PublicationType UI="">JOURNAL ARTICLE</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2016</Year>
+                <Month>1</Month>
+                <Day>23</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <MedlineTA>Rhinology</MedlineTA>
+            <NlmUniqueID>0347242</NlmUniqueID>
+            <ISSNLinking>0300-0729</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>1</Month>
+                <Day>24</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">1434</ArticleId>
+            <ArticleId IdType="doi">10.4193/Rhin15.228</ArticleId>
+            <ArticleId IdType="pubmed">26800862</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="PubMed-not-MEDLINE">
+        <PMID Version="1">26770217</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>01</Month>
+            <Day>15</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2016</Year>
+            <Month>01</Month>
+            <Day>15</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2016</Year>
+            <Month>01</Month>
+            <Day>18</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Print">1687-9783</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>2015</Volume>
+                    <PubDate>
+                        <Year>2015</Year>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Journal of allergy</Title>
+                <ISOAbbreviation>J Allergy (Cairo)</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Adipokines and Cysteinyl Leukotrienes in the Pathogenesis of Asthma.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>157919</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1155/2015/157919</ELocationID>
+            <Abstract>
+                <AbstractText>Background. The prevalence of obesity has increased dramatically over the last decades, and its association with asthma is being increasingly recognized. Aims. Our hypothesis is that increased leptin and decreased adiponectin levels in obese subjects play a direct role in regulating inflammation in asthmatics. We wanted to examine the hypothesis that cysteinyl leukotrienes (cys-LT), inflammatory mediators that are regulated by adipokines, are involved in the pathogenesis of asthma. Methods. We studied a population of asthmatics and nonasthmatics, who in turn were divided into obese and nonobese categories. We examined leptin and its ratio to adiponectin, in asthmatics and nonasthmatics, with and without obesity. In addition, we measured cys-LT levels in exhaled breath condensate (EBC) and in peripheral blood monocytes (PBM) in these groups. Results. Leptin levels were increased in obese asthmatics compared to obese nonasthmatics. The leptin/adiponectin (L/A) ratio was higher in obese asthmatics compared to obese nonasthmatics. EBC cys-LT levels were elevated in asthmatics compared to nonasthmatics. Discussion. Proinflammatory adipokines, released from adipose tissue, may promote an asthma phenotype through enhanced cys-LT production that may result in more prevalent and difficult to control airway disease.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Coffey</LastName>
+                    <ForeName>Michael J</ForeName>
+                    <Initials>MJ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Pulmonary and Critical Care Medicine, University of Michigan Medical Center, Ann Arbor, MI 48109, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Torretti</LastName>
+                    <ForeName>Barbara</ForeName>
+                    <Initials>B</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Pulmonary and Critical Care Medicine, University of Michigan Medical Center, Ann Arbor, MI 48109, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mancuso</LastName>
+                    <ForeName>Peter</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Pulmonary and Critical Care Medicine, University of Michigan Medical Center, Ann Arbor, MI 48109, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2015</Year>
+                <Month>12</Month>
+                <Day>06</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>J Allergy (Cairo)</MedlineTA>
+            <NlmUniqueID>101535174</NlmUniqueID>
+            <ISSNLinking>1687-9783</ISSNLinking>
+        </MedlineJournalInfo>
+        <OtherID Source="NLM">PMC4684870</OtherID>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2015</Year>
+                <Month>8</Month>
+                <Day>28</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2015</Year>
+                <Month>11</Month>
+                <Day>4</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2015</Year>
+                <Month>11</Month>
+                <Day>16</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="epublish">
+                <Year>2015</Year>
+                <Month>12</Month>
+                <Day>6</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>1</Month>
+                <Day>16</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>1</Month>
+                <Day>16</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>1</Month>
+                <Day>16</Day>
+                <Hour>6</Hour>
+                <Minute>1</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="doi">10.1155/2015/157919</ArticleId>
+            <ArticleId IdType="pubmed">26770217</ArticleId>
+            <ArticleId IdType="pmc">PMC4684870</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="MEDLINE">
+        <PMID Version="1">26746844</PMID>
+        <DateCreated>
+            <Year>2016</Year>
+            <Month>01</Month>
+            <Day>09</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2016</Year>
+            <Month>04</Month>
+            <Day>18</Day>
+        </DateCompleted>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1534-6315</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>16</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2016</Year>
+                        <Month>Jan</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Current allergy and asthma reports</Title>
+                <ISOAbbreviation>Curr Allergy Asthma Rep</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Insights into Group 2 Innate Lymphoid Cells in Human Airway Disease.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>8</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1007/s11882-015-0581-6</ELocationID>
+            <Abstract>
+                <AbstractText>Recent discoveries have led to the identification of a novel group of immune cells, the innate lymphoid cells (ILCs). The members of this group are divided into three subpopulations: ILC1s, ILC2s, and ILC3s. ILC2s produce Th2 cytokines, IL-4, IL-5, and IL-13, upon activation by epithelial cell-derived cytokines, lipid mediators (cysteinyl leukotrienes and prostaglandin D2), and TNF family member TL1A and promote structural and immune cell responses in the airways after antigen exposure. In addition, ILC2 function is also influenced by inducible T cell costimulator (ICOS)/ICOS-ligand (ICOS-L) interactions via direct contact between immune cells. The most common airway antigens are allergens and viruses which are highly linked to the induction of airway diseases with underlying type 2 inflammation including asthma and allergic rhinitis. Based on recent findings linking ILC2s and airway Th2 responses, there is intensive investigation into the role of ILC2s in human disease with the hope of a better understanding of the pathophysiology and the discovery of novel potential therapeutic targets. This review summarizes the recent advances made in elucidating ILC2 involvement in human Th2 airway disease.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Karta</LastName>
+                    <ForeName>Maya R</ForeName>
+                    <Initials>MR</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medicine, University of California San Diego, Biomedical Sciences Building, Room 5080, 9500 Gilman Drive, La Jolla, CA, 92093-0635, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Broide</LastName>
+                    <ForeName>David H</ForeName>
+                    <Initials>DH</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medicine, University of California San Diego, Biomedical Sciences Building, Room 5080, 9500 Gilman Drive, La Jolla, CA, 92093-0635, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Doherty</LastName>
+                    <ForeName>Taylor A</ForeName>
+                    <Initials>TA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medicine, University of California San Diego, Biomedical Sciences Building, Room 5080, 9500 Gilman Drive, La Jolla, CA, 92093-0635, USA. tdoherty@ucsd.edu.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>AI 107779</GrantID>
+                    <Acronym>AI</Acronym>
+                    <Agency>NIAID NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>AI 38425</GrantID>
+                    <Acronym>AI</Acronym>
+                    <Agency>NIAID NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>AI 70535</GrantID>
+                    <Acronym>AI</Acronym>
+                    <Agency>NIAID NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R01 AI114585</GrantID>
+                    <Acronym>AI</Acronym>
+                    <Agency>NIAID NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>T32AI007469</GrantID>
+                    <Acronym>AI</Acronym>
+                    <Agency>NIAID NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D052061">Research Support, N.I.H., Extramural</PublicationType>
+                <PublicationType UI="D016454">Review</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Curr Allergy Asthma Rep</MedlineTA>
+            <NlmUniqueID>101096440</NlmUniqueID>
+            <ISSNLinking>1529-7322</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D000485">Allergens</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D016207">Cytokines</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D000485">Allergens</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000276">immunology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D001249">Asthma</DescriptorName>
+                <QualifierName MajorTopicYN="Y" UI="Q000276">immunology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D016207">Cytokines</DescriptorName>
+                <QualifierName MajorTopicYN="Y" UI="Q000276">immunology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D006801">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D007113">Immunity, Innate</DescriptorName>
+                <QualifierName MajorTopicYN="Y" UI="Q000276">immunology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D008214">Lymphocytes</DescriptorName>
+                <QualifierName MajorTopicYN="Y" UI="Q000276">immunology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D012137">Respiratory System</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000276">immunology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D065631">Rhinitis, Allergic</DescriptorName>
+                <QualifierName MajorTopicYN="Y" UI="Q000276">immunology</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Airway</Keyword>
+            <Keyword MajorTopicYN="N">Allergy</Keyword>
+            <Keyword MajorTopicYN="N">Asthma</Keyword>
+            <Keyword MajorTopicYN="N">Group 2 innate lymphoid cells</Keyword>
+            <Keyword MajorTopicYN="N">ILC2</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2016</Year>
+                <Month>1</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2016</Year>
+                <Month>1</Month>
+                <Day>10</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2016</Year>
+                <Month>4</Month>
+                <Day>19</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="doi">10.1007/s11882-015-0581-6</ArticleId>
+            <ArticleId IdType="pii">10.1007/s11882-015-0581-6</ArticleId>
+            <ArticleId IdType="pubmed">26746844</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">26716600</PMID>
+        <DateCreated>
+            <Year>2015</Year>
+            <Month>12</Month>
+            <Day>30</Day>
+        </DateCreated>
+        <DateRevised>
+            <Year>2015</Year>
+            <Month>12</Month>
+            <Day>31</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1099-0496</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2015</Year>
+                        <Month>Dec</Month>
+                        <Day>30</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Pediatric pulmonology</Title>
+                <ISOAbbreviation>Pediatr. Pulmonol.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Airway hyperreactivity is frequent in non-asthmatic children with sickle cell disease.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn/>
+            </Pagination>
+            <ELocationID EIdType="doi">10.1002/ppul.23374</ELocationID>
+            <Abstract>
+                <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Asthma is associated with poorer outcomes in sickle cell disease (SCD). Whether AHR can exist in SCD as a distinct entity, separate and independent of asthma, is unknown.</AbstractText>
+                <AbstractText Label="AIMS" NlmCategory="OBJECTIVE">Our goal was to elucidate the prevalence of AHR, as measured by a methacholine challenge test (MCT), in children with SCD who did not have concomitant asthma or any recent history of acute chest syndrome (ACS). To determine if AHR was associated with asthma-like symptoms, we compared the results of the MCT to a validated asthma questionnaire. We also examined if a correlation between AHR and inflammatory markers exists.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">AHR was identified with a positive MCT defined as a provocation concentration (PC20 ) &lt; 4 mg/ml. The children and/or their parents completed the ISAAC (International Study of Asthma and Allergies in Children) questionnaire. We obtained blood, urine, and exhaled breath condensate samples. We measured cysteinyl leukotriene levels in urine and exhaled breath condensate via enzyme immunoassay.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Twenty-nine of forty children (72.5%) had a positive MCT. Nine (31.0%) also reported asthma-like symptoms on questionnaire. Inflammatory markers did not correlate with AHR. Among MCT positive subjects, those on hydroxyurea had significantly less severe AHR as quantified by PC20 (P = 0.014).</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">In children with SCD, there is a high prevalence of AHR that is not associated with asthma-like symptoms. AHR may be a distinct entity in children with SCD, existing in the absence of concomitant asthma. Hydroxyurea therapy might lessen the severity of AHR in affected individuals. Pediatr Pulmonol. 2015;9999:1-9. © 2015 Wiley Periodicals, Inc.</AbstractText>
+                <CopyrightInformation>© 2015 Wiley Periodicals, Inc.</CopyrightInformation>
+            </Abstract>
+            <AuthorList>
+                <Author>
+                    <LastName>Shilo</LastName>
+                    <ForeName>Natalie R</ForeName>
+                    <Initials>NR</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Respiratory Medicine, Department of Pediatrics, The Montreal Children's Hospital, McGill University Health Centre, Montreal, QC, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Alawadi</LastName>
+                    <ForeName>Aceel</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Respiratory Medicine, Department of Pediatrics, The Montreal Children's Hospital, McGill University Health Centre, Montreal, QC, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Allard-Coutu</LastName>
+                    <ForeName>Alexandra</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Respiratory Medicine, Department of Pediatrics, The Montreal Children's Hospital, McGill University Health Centre, Montreal, QC, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Robitaille</LastName>
+                    <ForeName>Nancy</ForeName>
+                    <Initials>N</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Hematology-Oncology, Department of Pediatrics, CHU Sainte-Justine, Montreal, QC, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Pastore</LastName>
+                    <ForeName>Yves</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Hematology-Oncology, Department of Pediatrics, CHU Sainte-Justine, Montreal, QC, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Bérubé</LastName>
+                    <ForeName>Denis</ForeName>
+                    <Initials>D</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Pulmonology, Department of Pediatrics, CHU Sainte-Justine, Montreal, QC, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Jacob</LastName>
+                    <ForeName>Sheila V</ForeName>
+                    <Initials>SV</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Pulmonology, Department of Pediatrics, CHU Sainte-Justine, Montreal, QC, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Abish</LastName>
+                    <ForeName>Sharon</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Hematology-Oncology, Department of Pediatrics, The Montreal Children's Hospital, McGill University Health Centre, Montreal, QC, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Dauletbaev</LastName>
+                    <ForeName>Nurlan</ForeName>
+                    <Initials>N</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Respiratory Medicine, Department of Pediatrics, The Montreal Children's Hospital, McGill University Health Centre, Montreal, QC, Canada.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Research Institute, McGill University Health Centre, Montreal, QC, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Lands</LastName>
+                    <ForeName>Larry C</ForeName>
+                    <Initials>LC</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Respiratory Medicine, Department of Pediatrics, The Montreal Children's Hospital, McGill University Health Centre, Montreal, QC, Canada.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Research Institute, McGill University Health Centre, Montreal, QC, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>ENG</Language>
+            <PublicationTypeList>
+                <PublicationType UI="">JOURNAL ARTICLE</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2015</Year>
+                <Month>12</Month>
+                <Day>30</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <MedlineTA>Pediatr Pulmonol</MedlineTA>
+            <NlmUniqueID>8510590</NlmUniqueID>
+            <ISSNLinking>1099-0496</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">acute chest syndrome</Keyword>
+            <Keyword MajorTopicYN="N">cysteinyl leukotrienes</Keyword>
+            <Keyword MajorTopicYN="N">exhaled breath condensate</Keyword>
+            <Keyword MajorTopicYN="N">hydroxyurea</Keyword>
+            <Keyword MajorTopicYN="N">methacholine challenge test</Keyword>
+            <Keyword MajorTopicYN="N">provocation concentration at which FEV1 declines by 20% (PC20)</Keyword>
+            <Keyword MajorTopicYN="N">vaso-occlusive crisis</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2015</Year>
+                <Month>6</Month>
+                <Day>8</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2015</Year>
+                <Month>11</Month>
+                <Day>2</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2015</Year>
+                <Month>12</Month>
+                <Day>15</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2015</Year>
+                <Month>12</Month>
+                <Day>31</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2015</Year>
+                <Month>12</Month>
+                <Day>31</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2015</Year>
+                <Month>12</Month>
+                <Day>31</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="doi">10.1002/ppul.23374</ArticleId>
+            <ArticleId IdType="pubmed">26716600</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+</PubmedArticleSet>
