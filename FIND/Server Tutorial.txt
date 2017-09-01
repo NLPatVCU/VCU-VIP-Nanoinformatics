@@ -1,0 +1,74 @@
+Brief Server Tutorial
+---------------------
+
+Server Requirements - Perl Core's Dependencies:
+-----------------------------------------------
+This server depends on a CPAN module called XML::Twig. To install this module,
+open a command line window with administrator privileges.
+Run "cpan XML::Twig" (without quotes). It will ask you if you wish to install
+Pretty Print, Split and Join. These modules are not necessary as FiND's Perl Core
+makes no used of them. Installing them is solely up to you.
+
+Other Dependencies:
+use strict;
+use warnings;
+use autodie;
+use Path::Class;
+use XML::Twig;		<= Install with instructions above via cpan
+use Text::Unidecode;    <= Install with instructions above via cpan
+use LWP::Simple;
+use Cwd;
+use IO::Select;
+use IO::Socket::INET;
+use threads;
+use threads::shared;
+use Scalar::Util qw(looks_like_number);
+use DBI:
+use DBD::mysql;
+use Data::Dumper;
+
+Modules written by myself depend on these standard or cpan modules.
+The rest are modules written by myself which I have included with this document.
+
+
+Running The Server:
+-------------------
+After running the ServerV3.pl, connect with ClientWithUserInput.pl. The Client will the connect to the server.
+
+Now I will simulate Dr. McInnes' EFetch example.
+Server Commands: (without quotes)
+"setrepo pubmed"
+"setformat xml"
+"setusehistory y"
+"setretmax 10"
+"query asthma[mesh]+AND+leukotrienes[mesh]+AND+2009[pdat]"
+"parsedata"
+(**** The server should echo messages back to the client for each step taken ****)
+
+(Note: I have implemented a command called "pubmeddefault" which sets the first four steps but retmax is 20 versus 10 in this example).
+(Note: I have implemented a command called "queryandparsedata _'queryString'_" that combines commands "query" and "parsedata" into one step).
+
+Now the server will have data that's parsed and ready to manipulate whether that be clearing all data, sending data to the client and/or storing data
+within the database.
+
+The command "numofentries" will have the server echo back how many entries it has parsed and are ready for manipulation. You can verify past commands
+and status messages in EUtilitiesLog.txt and Parsed Data in PubMedXMLParserLog.txt files respectively. The DatabaseComLog.txt should only have that its
+connected to the MySQL server at this point.
+
+After data is stored and parsed within the server, you may now call commands such as:
+"get element 0 pmid"
+"get element 4 datecreated"
+"get element 3 authorlist"
+"get element 0 alldata"
+"dbstore element 0"
+"dbretrieve 'query'"
+"dbdelete PMID0:PMID2"
+... etc etc etc.
+
+NOTE: See that "Server Commands.txt" file for further information what can be done and command syntax.
+
+
+The server is not completely fool proof and a lot of redundancy checks aren't implemented. So it will possibly let you do anything you wish without
+rhyme or reason and terminate itself in the event of catastrophic failure. I will implement such checks and exception handling later.
+
+Let me know if you run into any issues. Good luck.

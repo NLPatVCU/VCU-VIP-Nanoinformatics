@@ -1,0 +1,14 @@
+del C:\xampp\htdocs\favicon.ico
+del C:\xampp\htdocs\FIND_admin.html
+del C:\xampp\htdocs\FIND_client.html
+del C:\xampp\htdocs\style1.css
+del C:\xampp\htdocs\jquery.min.js
+del C:\xampp\htdocs\jquery.sidecontent.js
+del C:\xampp\htdocs\loader.gif
+del C:\xampp\cgi-bin\favicon.ico
+del C:\xampp\cgi-bin\results_admin.cgi
+del C:\xampp\cgi-bin\results_client.cgi
+del C:\xampp\cgi-bin\dbdeleteadmin.cgi
+del C:\xampp\cgi-bin\style1.css
+del C:\xampp\cgi-bin\jquery.min.js
+del C:\xampp\cgi-bin\loader.gif

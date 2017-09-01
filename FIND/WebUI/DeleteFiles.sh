@@ -1,0 +1,14 @@
+sudo rm /var/www/html/favicon.ico
+sudo rm /var/www/html/FIND_admin.html
+sudo rm /var/www/html/FIND_client.html
+sudo rm /var/www/html/style1.css
+sudo rm /var/www/html/jquery.min.js
+sudo rm /var/www/html/jquery.sidecontent.js
+sudo rm /var/www/html/loader.gif
+sudo rm /usr/lib/cgi-bin/favicon.ico
+sudo rm /usr/lib/cgi-bin/results_admin.cgi
+sudo rm /usr/lib/cgi-bin/results_client.cgi
+sudo rm /usr/lib/cgi-bin/dbdeleteadmin.cgi
+sudo rm /usr/lib/cgi-bin/style1.css
+sudo rm /usr/lib/cgi-bin/jquery.min.js
+sudo rm /usr/lib/cgi-bin/loader.gif

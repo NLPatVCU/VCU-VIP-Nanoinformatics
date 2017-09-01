@@ -1,0 +1,693 @@
+All string variables return "(null)" if empty and integer variables return "-1" if empty.
+
+Perl Dependencies - (Used in core program as of 12/1/2015):
+-----------------------------------------------------------
+use strict;
+use warnings;
+use autodie;
+use Path::Class;
+use XML::Twig;
+use LWP::Simple;
+use Cwd;
+
+Client-Server Usage:
+use utf8;
+use Text::Unidecode;
+use IO::Select;
+use IO::Socket::INET;
+use threads;
+use threads::shared;
+use Scalar::Util qw(looks_like_number);
+
+Database Communication and Data Manipulation:
+use DBI:
+use DBD::mysql;
+
+Memory Testing (Not In Perl Core Program):
+use Memory::Usage;
+
+
+
+To install dependencies that might not be installed by default.
+Windows commandline example,
+"cpan XML::Twig" <= Without Quotes. Pretty Print, Split and Join are not necessary to install with this.
+"cpan Text::Unidecode"
+
+
+6940 lines of code 02/23/2016
+2291 lines of code 11/21/2015
+
+PubMedXMLParser Tested with over 3200 entries.
+DatabaseCom Tested with over 1000 entries.
+
+PubMed Search Builder Example: http://www.ncbi.nlm.nih.gov/pubmed/advanced
+
+Server Concatenated Data Separators:
+------------------------------------
+<:>
+<=>
+<ls> <= List Separator (List Exclusive Only)
+<sp> <= Space (List Exclusive Only)
+<en> <= End (List Exclusive Only)
+<nd> <= Next Data
+
+
+Search Examples:
+----------------
+cern
+asthma
+heart+attack
+bridget+mcinnes[au]
+word+sense+disambiguation
+asthma[mesh]+AND+leukotrienes[mesh]+AND+2009[pdat]
+asthma[mesh]+AND+leukotrienes[mesh]+AND+2009[pdat]:3000[pdat]
+
+
+
+Progress Notes/Change Log:
+=-=-=-=-=-=-=-=-=-=-=-=-=-
+(04/25/2017)
+- Updated all FiND modules to package specs. ie "using SocketPackage;" to "using Find::SocketPackage;" etc
+- Updated all test scripts to support the above change.
+- EUtilities::ConnectedToInternet() - Fixed website pinging
+
+(01/25/2017)
+- ServerV3 - Typo Fix
+- EUtilities::ConnectedToInternet() - Updated site to ping
+
+(07/05/2016)
+- WebUI Client HTML - Typo Fix
+
+(06/30/2016)
+- SocketPackage - Bug Fix - Text::Unidecode::unidecode Function Output Previously Ignored.
+
+(06/23/2016)
+- EUtilities - DumpEFetchDataToFile - Support For Appending To Previous File Data or Overwriting Previous Data
+
+(06/21/2016)
+- PubMedXMLParser - Bug Fix: "CheckParseRequirements" missing "$self->" from "WriteLog()" function statements.
+
+(04/27/2016)
+- EUtilities - Bug Fix: When Database Had More Than 60 Elements Already In Database And Querying For 60 More Results. EUtilities Changed
+	       		RetMax To 500 If Number Of Elements To Fetch > 120. This Resulted In Long Loading Times To Download Unnecessary Data.
+- DatabaseCom - Bug Fix: InsertDataIntoTable Function Undefined Variable Issue
+- WebUI Admin CGI - Article Link and Repository Link Converted To Open New Page Vs Using Current Page
+- WebUI Client CGI - Article Link and Repository Link Converted To Open New Page Vs Using Current Page
+- WebUI Admin Delete CGI - Article Link and Repository Link Converted To Open New Page Vs Using Current Page
+
+(04/26/2016)
+- EUtilities - Bug Fix: "ConnectedToInternet" Function Now Reports Correctly Using "www.perlmonks.org" As Base URL.
+	     - Added "DumpEFetchDataToFile" Function
+	     - Added "ReadEFetchDataFromFile" Function
+- ServerV3 - Added No Internet Backup Functionality - (Keywords: asthma, asthma+AND+leukotrienes, asthma[mesh]+AND+leukotrienes[mesh],
+							         asthma[mesh]+AND+leukotrienes[mesh]+AND+2009[pdat], cern, heart, heart+attack,
+								 word+sense+disambiguation)
+	     (Note: Server Will Check For Internet Connection With Each Query. If None Is Found, It Will Default To Backup Files For The Listed
+		    Keywords Above. Otherwise It Will Report "No Results Returned From Server" On WebUI Admin CGI Page).
+	   - Added Command "dumpdata" <= See "Server Commands.txt" For Further Details.
+
+(04/25/2016)
+- EUtilities - Added "ConnectedToInternet" Function To Check For Valid Internet Connection
+- SocketPackage - Bug Fix: journalArticleTitle Uninitialized Error
+		- Updated "StoreEntriesIntoDatabase" To Store "publicationauthors" Database Field For "BookArticle"
+		- "BookArticle" Authors Now Stored and Displayed Correctly Via WebUI Client Side 
+
+(04/24/2016)
+- PubEntry - Added "EntryType" variable ie Journal Article, Book Article, etc.
+	   - Added Accessors/Mutators For Above Variable.
+- PubMedXMLParser - Updated To Set PubEntry "EntryType" (Journal Article vs. Book Article)
+- ServerV3 - Moved All "alldata" Server Related Commands To "SocketPackage::GetAllElementData($index)"
+	   - Added Command "get element x booktitle" <= Self-Explanatory
+- SocketPackage - Updated "GetAllElementData" For Differences Between "BookDocument and Journal Article"
+		- Updated "StoreEntriesIntoDatabase" For Differences Between "BookDocument and Journal Article"
+- WebUI Admin CGI - Bug Fix: Citation Removed Last Character If "Affiliation" Was Not Present
+- WebUI Client CGI - Bug Fix: Citation Removed Last Character If "Affiliation" Was Not Present
+- WebUI Admin Delete CGI - Bug Fix: Citation Removed Last Character If "Affiliation" Was Not Present
+
+(04/12/2016)
+- Discovered PubMed "Book Article" Entry via "asthma+AND+2009[pdat]:2010[pdat]" query = PMID: 23785740
+- PubEntry - Added Book Data: ISBN (Accessor and Mutator Methods)
+	   - Added Book Data: Publisher (Accessor and Mutator Methods)
+	   - Added Book Data: BookTitle (Accessor and Mutator Methods)
+	   - Added Book Data: CollectionTitle (Accessor and Mutator Methods)
+	   - Added Book Data: SectionList (Accessor and Mutator Methods)
+- PubMedXMLParser - Added "ParseBookDocument, ParsePublisher, ParsePubDate, ParseCollectionTitle, ParseBook, ParseSections, ParseBookTitle" Sub-Routines
+
+(04/10/2016)
+- DatabaseCom - Bug Fix: Data Checking Resulted In Multiple Commas "'"
+- ServerV3 - Updated To Support Database AuthorList/Abstract Formatting
+- SocketPackage - Updated To Support Database AuthorList/Abstract Formatting (StoreEntriesIntoDatabase/RetrieveDatabaseEntriesByPMID Sub-Routines)
+		- Data Is Now Stored In Database With Identifiers
+- WebUI Client Simulator - Updated To Support Database AuthorList/Abstract Formatting
+- WebUI Client Simulator (Retrieve Database Data Only) - Updated To Support Database AuthorList/Abstract Formatting
+- WebUI Admin CGI - Bug Fix: Pop-Up Authors Window Not Working (Escape Comma Character Needed)
+		  - Tidy Up Code (Pop-Up Window Function)
+		  - Renamed "myFunction" Function to "PopupMsgWindow"
+		  - "Authors" Formatting (Only Display First Two, Then Last Author On Main Page => No Affiliation Displayed)
+		  - "Authors" Formatting On Pop-Up Window (Display Affiliation Below Author And Space Between Authors)
+		  - Removed/Fixed Redundant Code
+		  - Bug Fix: Citation Prints "and" When Only One Author Is In Author List
+		  - Omit Affiliation From Citation: (Source) => http://www.bibme.org/citation-guide/mla/journal-article
+		  - Three Or More Authors Can Be Summized By "et al." After First Author: (Source) http://www.bibme.org/citation-guide/mla/journal-article
+		  - Updated To Support Database AuthorList/Abstract Formatting
+		  - Bug Fix: Pop-Up Window Not Working (Escape Double Quote Character)
+- WebUI Client CGI - Bug Fix: Pop-Up Authors Window Not Working (Escape Comma Character Needed)
+		   - Added "Authors" Pop-Up Window
+		   - Tidy Up Code (Pop-Up Window Function)
+		   - Renamed "myFunction" Function to "PopupMsgWindow"
+		   - Updated To Support Database AuthorList/Abstract Formatting
+		   - Bug Fix: Pop-Up Window Not Working (Escape Double Quote Character)
+- WebUI Admin Delete CGI - Bug Fix: Pop-Up Authors Window Not Working (Escape Comma Character Needed)
+			 - Added "Authors" Pop-Up Window
+			 - Tidy Up Code (Pop-Up Window Function)
+		  	 - Renamed "myFunction" Function to "PopupMsgWindow"
+			 - Updated To Support Database AuthorList/Abstract Formatting
+			 - Bug Fix: Pop-Up Window Not Working (Escape Double Quote Character)
+- Updated Linux CGI Scripts With Above Changes
+
+(04/05/2016)
+- Database Script V3 - Updated 'Abstract' VARCHAR(15000) NULL to 'Abstract' MEDIUMTEXT NULL => Able To Store Up To 16,777,215 Characters vs 15000
+		     - Renamed To "FiND_DB_Updated_V4.sql" Including Recent Changes
+		     - Updated Linux MySQL Scripts
+- WebUI Admin CGI - Tidy Up Script Code Style/Spacing (Not All Code)
+- WebUI Client CGI - Tidy Up Script Code Style/Spacing (Not All Code)
+- WebUI Admin Delete CGI - Tidy Up Script Code Style/Spacing (Not All Code)
+- Updated Linux CGI Scripts
+
+(04/04/2016)
+- DatabaseCom - Added "GetDatabaseEntryCount" Sub-Routine => Returns Number Of Entries Currently In Database By Number Of PMIDs
+	      - Added "IsConnected" Sub-Routine => Returns Values: 0 = Not-Connected, 1 = Connected
+- ServerV3 - Added "dbentrycount" Command => Returns Number Of Entries Currently In Database By Number Of PMIDs
+	   - Prelimiary Error Checking Support Using "DatabaseCom::IsConnected" Sub-Routine
+	   - Bug Fixes: Database Command Operations Error Checking/Status Messages Printed Eventhough No Action Was Performed
+- WebUI Admin Delete CGI - Bug Fix: Script Displayed "Select/De-Select All" Radio Buttons When No Data Was Retrieved
+			 - Updated Text When No Data Is Present
+
+(04/03/2016)
+- WebUI Admin HTML - Removed Duplicate "SideLoader" Javascript Declaration In Page "HEAD"
+		   - Display "loader.gif" While Page Is Loading
+		   - Re-arranged HTML Page Building Sub-Routines To Support Displaying Busy Indicator Prior To Loading Page
+- WebUI Client HTML - Display "loader.gif" While Page Is Loading
+		    - Re-arranged HTML Page Building Sub-Routines To Support Displaying Busy Indicator Prior To Loading Page
+- WebUI Admin CGI - Display "loader.gif" While Page Is Loading
+		  - Re-arranged HTML Page Building Sub-Routines To Support Displaying Busy Indicator Prior To Loading Page
+- WebUI Client CGI - Display "loader.gif" While Page Is Loading
+		   - Re-arranged HTML Page Building Sub-Routines To Support Displaying Busy Indicator Prior To Loading Page
+- WebUI Admin Delete CGI - Display "loader.gif" While Page Is Loading
+		   	 - Re-arranged HTML Page Building Sub-Routines To Support Displaying Busy Indicator Prior To Loading Page
+- WebUI Style1.css - Added ".loader" Style Settings
+- Updated Linux CGI Scripts With Above Changes
+- Updated Windows(BAT)/Linux(SH) Scripts To Support Copying New Dependent Files
+
+(04/02/2016)
+- ServerV3 - Bug Fix: Specifying "pubmeddefault" Without Following RetStart/RetMax Arguments Resulted In Variable Un-Initialized Error
+	   - Added Command "getviewexistingdata"
+	   - Added Command "setviewexistingdata x"
+- SocketPackage - Added "_removeExistingEntries" Variable and Accessor/Mutator Methods
+		- Updated "RemoveExistingDatabaseData" Sub-Routine To Support Above Change. Users Can Now Select If They Wish To See Existing Data.
+		- Bug Fix: "RetrieveDatabaseEntriesByQuery" Sub-Routine Set NumOfResults = 0 If StartIndex + NumOfResults > DatabaseListSize
+			   Correct Algorithm: NumOfResults = DatabaseListSize - StartIndex If StartIndex + NumOfResults > DatabaseListSize.
+		- Bug Fix: "RetrieveDatabaseEntriesByIndex" Sub-Routine Not Fetching Data When StartIndex >= FinalIndex / Incorrect Algorithm Indicies
+		- Bug Fix: "RetrieveDatabaseEntriesByIndex" Sub-Routine Corrected Error Checking
+		- Updated "RetrieveDatabaseEntriesByIndex" Sub-Routine Reports RetMax = 0, When No Entries Found (For Setting WebUI Client $results)
+- WebUI Admin HTML - Updated "Search Fields" Tab Section
+- WebUI Client HTML - Updated "Notes" Tab Section
+- WebUI Admin CGI - Prev/Next Page Only Displayed When Necessary
+		  - Bug Fix: Clicking "Submit To Database" Button Reset Prev/Next Page Index Variable (Went Back To First Page After Clicking)
+		  - Added Link To "WebUI Admin Database Delete CGI" Page
+		  - Added Link To "Back To Home" Page
+- WebUI Client CGI - Prev/Next Page Only Displayed When Necessary
+		   - Removed More Redundant Code
+		   - Added Link To "Back To Home" Page
+- WebUI Admin Delete CGI - Created WebUI Admin Database Deletion Page (dbdeleteadmin.cgi)
+
+(04/01/2016)
+- WebUI Client HTML - Updated "Authors" Tab Information To Resemble "WebUI Admin HTML - Authors" Tab
+- WebUI Admin CGI - Prevent Prev/Next Page From Fetching Pages With No Data : Index < 0 and > Entry Count
+- WebUI Client CGI - Prevent Prev/Next Page From Fetching Pages With No Data : Index < 0 and > Entry Count
+		   - Added "Notes" Sub Section To Explain "SearchType" Options
+
+(03/31/2016)
+- ServerV3 - Removed Redundant Code, Moved "StoreEntriesIntoDatabase, DeleteEntryFromDatabase, RetrieveDatabaseEntriesByIndex, RetrieveDatabaseEntriesByQuery
+	  	  & RetrieveDatabaseEntriesByPMID" Sub-Routines To SocketPackage (Originally intended to be there)
+	   - Updated "get element x alldata" Code To Support "PublishYear"
+	   - Added Command "get element x pubyear"
+	   - Removed Non-needed Modules
+	   - Code Clean-Up
+- SocketPackage - Added "StoreEntriesIntoDatabase, DeleteEntryFromDatabase, RetrieveDatabaseEntriesByIndex, RetrieveDatabaseEntriesByQuery
+	  	  & RetrieveDatabaseEntriesByPMID" Sub-Routines
+		- StoreEntriesIntoDatabase - Now Stores PublicationYear vs. DateCompleted
+		- Bug Fix: RetrieveDatabaseEntriesByQuery Sub-Routine Doubling Found Results In "Contains" Search
+		- Bug Fix: RetrieveDatabaseEntriesByQuery Sub-Routine To Actually Use "startIndex and numOfResults" Variables
+- PubMedXMLParser - Updated ParseJournalPubDate Sub-Routine To Include Tag: MedlineDate
+		  - Added Support For PubEntry::_journalPubYear Variable
+- PubEntry - Added "_journalPubYear" variable, Accessor and Mutator Sub-Routines
+- WebUI Client Simulator - Updated To Support "PublishYear" - Added "@publishYear" Array
+			 - Added "SendCommandRetrieveMessage" Sub-Routine
+			 - Updated To Support New Sub-Routine
+- WebUI Client Simulator (Retrieve Database Data Only) - Updated To Support "PublishYear" - Added "@publishYear" Array
+						       - Added "SendCommandRetrieveMessage" Sub-Routine
+						       - Updated To Support New Sub-Routine
+- WebUI Client HTML - Added Drop-down Box For "SearchTypes" : Contains, Exact
+- WebUI Admin CGI - Updated To Support "PublishYear" - Added "@publishYear" Array
+		  - Updated Citation To Display "PublishYear"
+		  - Added "SendCommandRetrieveMessage" Sub-Routine
+		  - Updated To Support New Sub-Routine
+		  - Added Prev Page/Next Page Button
+		  - Updated Script For "Prev/Next Button" Functionality
+		  - Bug Fix: Script Prints "Data" Eventhough There Is No Data Returned From Server/Prints No Data Returned From Server If No Data
+		  - Bug Fix: "Start Year" Set To "Present" Not Selected Year
+		  - Added "Present" (3000) Year To Start Year Options
+		  - Bug Fix: Script Displayed "Submit To Database/Prev/Next Page" Button When No Data Was Retrieved
+		  - Bug Fix: Script Displayed "Select/De-Select All" Radio Buttons When No Data Was Retrieved
+- WebUI Client CGI - Updated To Support "PublishYear" - Added "@publishYear" Array
+		   - Updated Citation To Display "PublishYear"
+		   - Added "SendCommandRetrieveMessage" Sub-Routine
+		   - Updated To Support New Sub-Routine
+		   - Updated To Support "SearchType" Parameter
+		   - Added Drop-down Box For "SearchTypes" : Contains, Exact
+		   - Added Prev Page/Next Page Button
+		   - Removed "Select All/De-Select All" Radio Button
+		   - Removed "Select All/De-Select All" Script
+		   - Removed "Checkboxes" and Updated To Show Correct Index/Number With "Prev/Next Page"
+		   - Removed Associated "CheckBox" Variables
+		   - Updated Script For "Prev/Next Button" Functionality
+		   - Bug Fix: Set "$results" Value When Generating Page
+		   - Bug Fix: Script Prints "Data" Eventhough There Is No Data Returned From Server/Prints No Data Returned From Server If No Data
+		   - Bug Fix: "Start Year" Set To "Present" Not Selected Year
+		   - Added "Present" (3000) Year To Start Year Options
+		   - Bug Fix: Script Displayed "Prev/Next Page" Button When No Data Was Retrieved
+
+(03/29/2016)
+- ServerV3 - Bug Fix: Updated "SendMessage" To Send Length Message Before Sending Message : <Length>value<\Length>
+- ClientWithUserInput -  Updated "ReceiveMessage" sub-routine To Retrieve Message From Server By "Buffer Length" (Using Above Server Change)
+- WebUI Client Simulator - Same As ClientWithUserInput
+- WebUI Client Simulator (Retrieve Database Data Only) - Same As ClientWithUserInput
+- WebUI Admin HTML - Added "Search Fields" and "Examples" Tabs
+- WebUI Client CGI - Bug Fix: Searching for "All of Above" then changing value and searching again resulted in $searchField being set
+			     to "All" vs "All of Above". Which returned no results.
+		   - Same As ClientWithUserInput
+- WebUI Admin CGI - Bug Fix: Same As Above - Preparation For "searchBy/searchField" searches.
+	   	  - Same As ClientWithUserInput
+
+(03/28/2016)
+- WebUI Admin HTML - Added "for administrators" text
+- WebUI Client HTML - Added "for researchers" text
+- WebUI Admin CGI - Updated How PMIDs Are Concatenated
+
+(03/27/2016)
+- Made Windows WebUI File Install/Delete BAT Scripts
+
+(03/26/2016)
+- ServerV3 - Added Ability To Fetch Database Publications By Publication Years (Start/End Year) => (WebUI Client Side)
+- DatabaseCom - Updated ClearData subroutine to clear "retStart, retMax, prevRetStart, prevRetMax"
+- WebUI Admin CGI - Rewrote Server Subroutines To Support Server Updates. (Not displaying data already within database). 
+		  - Updated To Print Connection Error Message When Server Connection Is Not Established
+		  - Removed Unused "trim($)" subroutine
+		  - Added "Current" Option To Start Year Selection
+		  - Added Current Year To CGI HTML Generation Script For User Selection (2016)
+		  - Re-Organization/Re-Naming Of Script Code/New Functions
+		  - Bug Fix: Re-declaring "my" variable already declared with "my"
+		  - Bug Fix: Accessing array with "@array[index]" (Depreciated) vs "$array[index]" (Correct)
+		  - Renamed "Current" Option to "Present"
+		  - Fixed Typos (strat vs start)
+		  - Code Cleanup
+- WebUI Client CGI - Updated script to reflect above server change. Client WebUI can now search by dates too.
+		   - Updated To Print Connection Error Message When Server Connection Is Not Established
+		   - Removed Unused "trim($)" subroutine
+		   - Added "Current" Option To Start Year Selection
+		   - Added Current Year To CGI HTML Generation Script For User Selection (2016)
+		   - Re-Organization/Re-Naming Of Script Code/New Functions
+		   - Bug Fix: Re-declaring "my" variable already declared with "my"
+		   - Bug Fix: Filter Not Set On CGI HTML Generated Page (Could Result In No Data When Searching For Another Query)
+		   - Renamed "Current" Option to "Present"
+		   - Fixed Typos (strat vs start)
+		   - Code Cleanup
+- WebUI Admin HTML - Renamed "Current" Option to "Present"
+- WebUI Client HTML - Renamed "Current" Option to "Present"
+- Made Linux WebUI File Install/Delete SH Scripts
+
+(03/25/2016)
+- WebUI Admin CGI - Bug Fix: Fixed Searching By Publication Start/End Year (Now Working)
+
+(03/24/2016)
+- ServerV3 - Update RetrieveDatabaseDataByPMID - Return DateCompleted From Database
+- WebUI Admin HTML - Add 2016 Year Selection
+		   - Added "Present" Start Year Option, value "3000" (Selected By Default)
+		   - Selected "1900" End Year By Default
+- WebUI Client HTML - Add 2016 Year Selection
+		    - Added "Present" Start Year Option, value "3000" (Selected By Default)
+		    - Selected "1900" End Year By Default
+- WebUI Admin CGI - Fixed "No. of Results" selected on CGI HTML page generation issue.
+		  - Start/End Year are now used for user typed query
+- WebUI Client CGI - SearchBy (SearchField) variable update. Users can now search by "title, author, abstract and all of the above".
+
+(03/21/2016)
+- PubEntry, EUtilities & PubMedXMLParser modules - Now implement correct way to check and see if array is "defined" (if array has elements)
+- ServerV3 - Bug Fix: RetrieveDatabaseEntriesByQuery sub-routine - Now searches for database entry for each word vs searching database multiple
+		      times for per word in "contains" search. Reduces chance of database entry showing up twice in list.
+	   - Updated RetrieveDatabaseEntriesByQuery sub-routine - More Bug Fixes. Now properly exits the loop if desired results is achieved.
+		     Also, algorithm added database entry to be displayed eventhough it did not contain the search data. This has been remedied.
+- SocketPackage - Updated RemoveExistingDatabaseData sub-routine algorithm and completed more testing. Fixed some bugs.
+- WebUI Admin - Removed hardcoded query and set query to user input. Now what a user types is searched.
+	      - Bug Fix: Removed redundant code that prevented storing of selected PMIDs when in combination with SocketPackage's new method
+		(RemoveExistingDatabaseData).
+!!!!! Tested On Ubuntu v15.10 64-Bit !!!!!!
+
+(03/20/2016)
+- ServerV3, Client-Simple, ClientWithUserInput, WebUI Client Simulator, WebUI Client Simulator - (Retrieve Database Data Only) files
+		- Bug Fix: Removed ( or die "Error: $!n" ) from socket send/recv commands. Errored out in Linux environment for no apparent reason.
+	        - Notes: In order to have some sort of exception handling you can use the following code:
+			"use English qw( no_match_vars );		# Used To Obtain Operating System Name"
+			"print "$OSNAME\n";" <= Prints OS Name: MSWIN32, Linux, Darwin, etc.
+		- Typos fixed.
+		- Updated "dbretrieveentries" command to support "startIndex and numOfResults" for iterating through numerous entries at a time
+		  ie. searching in pages of ten results (0-10, 10-20), etc.
+		- Updated to support SocketPackage update. Works as desired, but needs more testing.
+		- RetrieveDatabaseEntriesByQuery sub-routine reports how many database entries have actually be found versus how much is requested.
+- EUtilities - Warning Fix: No longer checks if array is defined ("defined( @array )") as this is depreciated.
+	     - Warning Fix: sub AppendToEFetchDataArray = Pushing onto array reference vs array. Corrected by de-referencing array first
+			    before pushing data.
+- PubEntry - Warning Fixes: Same As EUtilities ( Checking if array is defined warning fix )
+- Database - Big Fix: Renamed "FiND" to "find". Linux is case sensitive. MySQL script generates database name as "FiND" but Perl script
+		      has database name as "find". This resulted in database connection error not present in Windows OS.
+- Database - Created Linux specific database. Operating System is case-sensitive vs Windows where it is case-insensitive. This resulted in
+	     errors when searching for table names.
+- SocketPackage - Updated RemoveExistingDatabaseData: Now functions as desired, removes parsed data already existing in the database, fetches
+			  and parses data until new data is present. (Dr. McInnes' requested function to not view data already within the database
+			  in WebUI admin search results).
+- WebUI Client Simulator scripts - Updated Parsing algorithm to support RetrieveDatabaseEntriesByQuery sub-routine sending actual number of found
+				   entries using search query by WebUI Client.
+- WebUI Admin - Bug Fixes: New Parsing, Sending and Receiving Sub-routines. All necessary code has been updated to reflect the changes.
+- WebUI Client - Bug Fixes: Apache Server Error/BSOD - Updates to actually retrieve database entry data. See "Server Commands.txt" and 
+		            CGI file for further information pertaining to type of searches that can be done.
+	       - Same updates as WebUI Admin.
+
+
+(03/18/2016)
+- PubMedXMLParser - Added SetPubEntryList function. Preparing for removing existing database entries from parsed results.
+- SocketPackage - Added RemoveExistingDatabaseData function. Removes parsed data element that already exists in database from results and
+		  fetches new data until list is complete with new data only. (Needs testing!)
+
+(03/15/2016)
+- DatabaseCom - Bug Fix: CheckForNullData falsely reported true if data contained "(null)". Now fixed...
+
+(03/10/2016)
+- ServerV3 - ReceiveCommand function, similar to SendCommand function.
+- DatabaseCom - Re-wrote ExecuteQuery Code To "eval" query execution. Prevents terminating the thread and proper database handle rollback
+		functionality.
+	      - Re-Wrote Select functions to utilize "ExecuteQuery" function. Prevents DatabaseCom erroring out and terminating the client
+		thread. (NEEDS MORE TESTING).
+	      - Bug Fix: "Insert" function Calls "Update" function if database entry already exists. Both functions utilize the
+			 CheckDataEntry function which checks for " ' " (apostrophe) character and doubles it in order to prevent
+			 MySQL query syntax errors. This doubled the doubling of the apostrophe, which resulted in syntax errors.
+- WebUI Client Simulator - Added "SendCommand / ReceiveMessage functions", Re-wrote to support newly implemented functions as well as
+	        	   ServerV3 "ReceiveCommand" function.
+- WebUI Client Simulator (Retrieve Database Data Only) - Added "SendCommand / ReceiveMessage functions", Re-wrote to support newly
+							 implemented functions as well as ServerV3 "ReceiveCommand" function.
+- ClientWithUserInput - Added support for ServerV3 change(s).
+- Client-Simple - Added support for ServerV3 change(s).
+
+(03/09/2016)
+- ServerV3 - Bug Fix: AuthorID generated randomly did not always coincide between "publicationauthors" and "authors" tables,
+		      resulting in lingering data upon deletion. Now authorID generated is set when inserting "publicationauthors" data.
+	     TODO: Implement AuthorID Generation
+
+(03/07/2016)
+- ServerV3 - Implemented Searching Database "Exact" Or "Contains". Searching multiple words "word for word" basis (exactly) or
+	     on a "word by word" basis (contains).
+	   - Code-cleanup/Removed redundant code.
+           - Bug Fix: Authors with more than one Affiliation. (Temporary truncation fix - Need proper fix!!!!!)
+	   - Bug Fix: Deleting database entries, only deleted one publicationauthor field when it should've deleted all. This led to
+		      database constraint_key errors. Now corrected!
+
+(03/06/2016)
+- ServerV3 - Implemented RetrieveDatabaseEntries(), search by database stored query.
+	   - Renamed Old RetrieveDatabaseEntries() to RetrieveDatabaseEntriesByIndex().
+	   - Database Entry Data Can Now Be Search For By Command "dbretrieveentries query searchBy" (Search By Title, Author, Abstract)
+           - New Method RetrieveDatabaseEntriesByPMID() <= Main Method Called By RetrieveDatabaseEntriesByIndex() & RetrieveDatabaseEntriesByQuery()
+- EUtilities - Added Method To Retrieve Cleaned Up/Simplified Last Query
+	     - Makes Use Of Newly Added "Publications"."PublicationQuery" Database Field.
+- MySQL Database Script - Changed Affiliation Field Precision To 1000 and Abstract Field Precision To 15000 For All Tables
+
+(03/05/2016)
+- ServerV3 - Huge Bug Fix!!! Tested With Over 10000 Entries And Stable!!!!! <= (Concatenated <EOTEOT> string twice as it
+	     was being truncated in the middle of the string causing an infinite loop client side.)
+	   - Removed Redundant Code
+- WebUI Client Simulator - Removed Reduandant Code To Support ServerV3 updates.
+- EUtilities - Bug Fix: Now FetchQuery() Method Fetches Data In Chunks Of 500 Max Like FetchAllQueryEntries() Method.
+- MySQL Database Script - Added "Publications"."PublicationQuery" Field
+
+(03/04/2016)
+- ServerV3 - Updated sending algorithm to replace "@" with "<at>" and convert it back via WebUI Client Simulator
+	     data parsing algorithms.
+
+(03/01/2016)
+- ServerV3 - Supports Deleting Database Entry (Not all tables supported yet), Supports Fetching Database Entry
+	     Data and Sending To Server via "dbretrieveentries x y" command
+	   - Updated Server to generate AuthorID from 0 to 999999999. (Not the correct way to generate AuthorIDs)
+	   - Bug Fix: String encoding due issues with retrieving database entry data.
+- DatabaseCom - SelectDataFromTable function now fetches all data and returns an array of array references.
+	      - Bug Fix: SelectDataInTable - Issue where inserting data with a precision greater than the max
+	                 character length resulted in string truncation, then selecting original data resulted in
+			 truncated data not being found. Now SelectDataInTable will truncate according to precision
+			 like InsertDataIntoTable method does for efficiency.
+	      - Bug Fix: Calling Database Disconnect Method Twice.
+		Plan for this accordingly.
+	      - Fixed Some Typos
+- TestClient.pl -> Renamed to WebUI Client Simulator
+- WebUI Client Simulator - Updated to issue commands that request storing and deleting database entries.
+			   Storing tested with multiple entries, Deleting with only one. More testing required!
+			 - Updated script to demonstrate issuing "dbretrieveentries x y" command.
+			 - Updated script to parse text after retrieving database entry from database via server.
+- Updated Database module test scripts (driver scripts) to support above Database module change.
+- FiND MySQL Script Update - PublicationAuthors Table "Duplicate PublicationID Issue Fix
+			     (Now allows duplicate PublicationIDs) & Fixed Typos
+- WebUI (ResultsPage1.cgi) - Updated Parsing Code and bug fixes related to parsing data.
+- General Code Clean Up, Commenting & Bug Fixes
+
+(02/28/2016)
+- DatabaseCom Module - Updates To All Functions Which Make Use Of INSERT, SELECT, UPDATE and DELETE MySQL Queries.
+		       Updates DatabaseCom Test Scripts To Support The Above Change.
+		     - Massive updates to all functions to support more precise queries.
+- ServerV3 - More Updates: Database Commands, Support Inserting Data Into Database Table "publishers", "books",
+			   "authors", "publicationauthors" and "publications"		
+- ServerV3 - Moved Database Insertion Algorithm Into Its Own Method "StoreEntriesIntoDatabase"
+
+(02/27/2016)
+- ServerV3 - More Updates: Commands, Sub-Functions & Bug Fixes
+- TestClient.pl - Cleaned up & Commented code
+		  Updated Routine & Bug Fixes
+
+(02/25/2016)
+- ServerV3 - Massive Updates (Again) - More Commands, Bug and Typo Fixes
+- ServerV3 - Server Now Sends <EOTEOT> notifying end of transmission to the client.
+	     Client must loop $socket->recv until it reads "<EOTEOT>" in response.
+	     Example: Client-Simple.pl
+- ClientWithUserInput.pl / Client-Simple.pl - Updated to find "<EOTEOT>" to signal end of server transmission.
+- DatabaseCom - Intelligence Update: InsertDataIntoDatabase subroutine will now look to see if data already exists
+				     and if found, will call UpdateDataInDatabase instead. More updates as well...
+
+(02/23/2016)
+- ServerV3 - Massive Updates (More Commands) and Bug Fixes (Too many to remember and list)
+- Module Bug Fixes and Updates (PubEntry, DatabaseCom, EUtilities)
+- ServerV3 - "killserv" command now works as expected
+- DatabaseCom - Insert Data Function now checks data against connected database for data length/precision issues.
+	        It will concatenate data to one value less than precision max value.
+
+(02/17/2016)
+- PubMedXMLParser Module - Separated ParseDateCreated() and ParseDateCompleted() to separate functions.
+- SocketPackage Module - Added DatabaseCom in module. Each use will have their own instantiation of DatabaseCom.
+- ServerV3.pl - Bug Fixes
+- PubEntry - Updated how AuthorLists are stored. Array of arrayref vs singular array.
+- ServerV3 to support basic PubEntryList commands from client: Fetching PMID, AuthorList, DateCreated & DateCompleted
+
+(02/16/2016)
+- DatabaseCom Updates and bug-fixes
+- Complete Server Re-Write (Twice)
+- ServerV3 updates and bug-fixes
+- FiND database basic manipulation
+- EUtilities module updates - Can now specify RetMax. Limits overhead of fetching all data/parsing all data and fetch/parse in segments.
+- Notes: ServerV1.pl <- Single Threaded IO::Select core
+         ServerV2.pl <- Multi-Threaded = Fork Core
+	 ServerV3.pl <- Multi-Threaded = Threaded Core <= Most complete, current core.
+
+(02/11/2016)
+- DatabaseCom - Updates: Select & Update Data
+- Bug Fixes
+
+(02/10/2016)
+- DatabaseCom - More updates
+- DatabaseCom - Check for MySQL script errors on execution and rollback changes if found.
+- DatabaseCom - SelectDataInTable subroutine (single row only).
+- Bug Fixes
+
+(02/09/2016)
+- PubMedXMLParser Module Bug Fixes
+- Added Date and Time functions to all modules and WriteLog subroutines.
+- Server.pl Listening Connections now > 5 supported via SOMAXCONN.
+- DatabaseCon module updates (Deleting Tables, Checking For Tables, Inserting Data Into Tables).
+- DatabaseCon module bug fixes.
+- Bug Fixes
+
+(02/08/2016)
+- Rewrote ESearchParser and PubEntry modules to support new OOP standards. Fixes previous issue with using module in multiple instances concurrently.
+- Added Method to clear data from PubMedXMLParser and EUtilities
+- More Server script development
+- Code Cleanups
+- Bug Fixes
+- Fixed Typos
+
+(02/07/2016)
+- Implemented Error Checking for PubMedXMLParser, EUtilities modules and Server script.
+- Rewrote DatabaseCom module to support new OOP standards. Fixes previous issue with using module in multiple instances concurrently.
+- More Server script development
+- Code Cleanups
+- Bug Fixes
+- Fixed Typos
+
+(02/06/2016)
+- Implemented Server ability to support multiple Clients (set to five max clients for now)
+- Implemented Instance of EUtilities/PubMedXMLParser for each respective client (prevent issues between users).
+- Code cleanup
+- Bug Fixes
+- Fixed Typos
+- Issue(s): Upon testing and research, "our" declaration is similar to global variables when used in modules.
+	    Therefore all modules need to regress back to $self->{ "variableName" } routines.
+- Adopted new OOP standards resulting in broken modules. Major overhaul/rewrite required.
+- Major EUtilities Re-Write to convert "our" global variables to $self->{ "variableName" }. EUtilities now supports true
+	    Object Oriented Programming Principals. (Fixed previous bug above : Only EUtilities module).
+- Introduction of SocketPackage module based on new OOP module standards.
+- QueryCreation, PubMedXMLParser module re-writes.
+- Note: Rewritten modules still require more testing for functionality. DatabaseCom, ESearchParser and PubEntry still
+        require rewritting to new standards.
+
+(02/01/2016)
+- More Bug Fixes
+- Implemented Basic Client-Server Core ( One Client Per Server )
+- Code cleanup
+
+
+(01/17/2016)
+- More Bug Fixes (DatabaseCom module)
+- Ability to create databases and extract database names from query (sub CreateTable/GetNameFromSQLQuery functions)
+- DatabaseCom function: Deleting all data from specified table
+
+(12/01/2015)
+- Overall Bug Fixes and Project Overhall.
+- Continued Database Communication Implementation (Separate from project core).
+- DatabaseCom - Added Basic MySQL connection/disconnection support.
+	      - Added Searching for existing tables
+	      - Added Query Preparation and Execution Support
+	      - Added Printing All Installed DBI drivers (will be use for exception handling)
+
+(11/24/2015)
+- PubEntry - Added article URL member variable and Accessor/Mutator Functions
+- PubMedXMLParser - Bug Fix: parsedCount variable was in correct, reporting double the parsed entries.
+- EUtilities - Now send array of eFetch data vs concatenated data (resulted in errors when parsing)
+- EUtilitiesTest - Updated to support above
+- PubMedXMLParserTest - Updated to support above change
+- PubMedXMLParser - Bug Fix: PubMedXMLParser can only parse 500 max entries. Results in XML::TWIG error (junk data)
+		  - This is due to how the EUtilities script concatenated data with large datasets, resulting in errors.
+- PubMedXMLParser - Updated to support multiple PubmedArticleSet fields. (Not really necessary)
+- EUtilities - Now prints a log file when requested via argument with eSearch, eSummary, eFetch information when fetching queries.
+- PubMedXMLParser - Updated RemoveXMLVersion to iterate through the entire file and remove all instances of
+		    XML version field and DOCTYPE field. (Not really necessary).
+	Note: The above changes will result in errors when attempting to parse eFetch concatenated data into one file.
+	      Data must be split across multiple files and then parsed. Live parsing works with up to 1550 entries tested thus far.
+	      Used query "asthma[mesh]+AND+leukotrienes[mesh]" for this result.
+
+(11/23/2015)
+- EUtilities: Implemented Parsing datasets larger than 100-ish count in eFetch tool by way of eSearch/eFetch parameters
+- BUG: PubMedXMLParser can only parse 500 max entries. Results in XML::TWIG error (junk data)
+
+(11/21/2015 - 11/22/2015)
+- Program works correctly with querying and parsing small sets of data.
+- String length is limited to memory capacity (virtually massive).
+- Fixed "Wide character error" using '>:encoding(UTF-8)' when printing to file.
+- Fixed multiple Abstract list definitions issue.
+- Implemented printing debug statments (all modules)
+	- Note: Only PubMedXMLParser uses this as of now. Functionality is present
+		in all modules.
+- Implemented writing debug log to file in working directory (PubMedXMLParser module)
+- Implemented ESearchParser module to ascertain information for parsing large datasets
+- Developed test program for retrieving large dataset from PubMed through multiple loops
+	- Result 16mb xml file to parse <-- Program was limited to small datasets prior.
+- DatabaseCom module <-- No functionality as of yet.
+
+(11/15/2015 - 11/20/2015)
+- Basic creation and support for PubEntry, PubMedXMLParser, EUtilities, QueryCreation modules.
+- Created Driver scripts to test modules (Not extensive testing).
+
+(11/14/2015)
+- Basic script/program design started
+- PubEntry module created
+
+
+TODO:
+=====
+##### DatabaseCom #####
+- Implement basic support (communication with database, insert, join, delete, replace functionality)
+- Searching database function
+- Creating database accounts (username, pass)
+
+##### ESearchParser #####
+- Future support for IDList, QueryTranslation, etc.
+
+
+##### QueryCreation #####
+- Design and Implementation
+- Basic Support/Elements/Function Calls
+
+##### PubEntry #####
+- Finish function calls, some are incomplete and noted with "# TODO :" comments
+
+##### EUtilities #####
+Support Fetching Large Datasets with EFetch Utility
+- Query approx. 500 in for loop until data count is complete
+- Example: http://www.ncbi.nlm.nih.gov/books/NBK25498/?report=reader
+	- Application 3, Page 17
+
+#### PubMedXMLParser/PubEntry #####
+More Possible Database Fields
+- AuthorList
+	CollectiveName
+- DataRevised
+	Year
+	Month
+	Day
+- Article PubModel = "Print-Electronic"
+- ELocationID
+- Abstract
+	- AbstractText
+		or
+	- Background
+	- Objective
+	- Methods
+	- Results
+	- Conclusions
+	- CopyrightInformation
+- CollectiveName
+- DataBankList
+	- DataBankName
+	- AccessionNumberList
+		AccessionNumber
+- GrantList
+	-GrantID
+	-Acronym
+	-Agency
+	-Country
+- Multiple CitationSubset Fields
+- CommentsCorrectionsList
+	- CommentsCorrections
+		-RefSource
+		-PMID Version
+-OtherID (Source), ID
+-InvestigatorList
+	Investigator
+		ListName
+		ForeName
+		Initials
+
+example with this information:
+http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=22077236&retmode=xml

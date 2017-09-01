@@ -1,0 +1,124 @@
+General Commands
+----------------
+exit <= Exits the client side connection
+killserv <= Exits the client side connection and terminates the server
+(!!!command broken!!!) getservermessages <= Returns boolean value for server sending messages setting
+(!!!command broken!!!) setservermessages <= Sets boolean value for server sending messages ( true/false )
+		     NOTE: Server will not send messages when set to false, must
+			   send the command and set to true to receive data.
+			   Useful for setting a lot of commands, single line without
+			   wanting the server sending messages about each command back to the client.
+internettest <= Tests For Internet Connection ( 0 = False, 1 = True )
+pubmeddefault <= Default PubMed Settings: Repo=pubmed, UseHistory=Y, Format=XML, RetMax=20
+pubmeddefault x <= Default PubMed Settings As Noted Above, With RetMax = x ( x = integer value )
+pubmeddefault x y <= Default PubMed Settings As Noted Above, With RetStart = x, RetMax = y ( x & y = integer values )
+getrepo <= Returns the current repository set in EUtilities module ( String )
+setrepo <= Sets the current repository in EUtilities module ( String )
+	   NOTE: Only "pubmed" currently support
+getformat <= Returns the EUtilities output format ( String: xml/txt )
+setformat <= Sets the EUtilties output format ( String: xml/txt )
+	     NOTE: Server and Modules depend on this being set to "xml"
+getviewexistingdata <= Returns variable value of SocketPackage::_removeExistingEntries
+setviewexistingdata <= Sets the SocketPackage::_removeExistingEntries variable ( x = Integer Value : 0 = False / 1 = True )
+		       NOTE: Sets whether or not to display data already existing within the database.
+getusehistory <= Returns the EUtilities UseHistory setting ( Char: y/n )
+setusehistory <= Sets the EUtilities UseHistory setting ( Char: y/n )
+	         NOTE: Server depends on this being set to "y"
+setretmax <= Sets number of entries to fetch in EUtilities module ( Int )
+	     NOTE: Value > 0 must be specified (Do not exceed 500)
+getretmax <= Returns number of entries to fetch in EUtilities module ( Int )
+query <= Sets the query to Fetch in EUtilities module and fetches data ( String )
+	 NOTE: Repository, OutputFormat, RetMax & UseHistory must be set prior to calling this command.
+	       The server will respond with "Error Fetching Data via EFetch/Re-Evaluate Syntax"
+	       if all requirements are not met.
+querylast <= Re-runs last query while incrementing current list of data/fetches
+	     new data based on last query.
+	     NOTE: You must first run "query" proceeded by a string query to call this method.
+		   All other requirements for running query remains in effect.
+parsedata <= Instructs PubMedXMLParser module to parse data from EUtilities module
+	     NOTE: All fetched data will be parsed. Use "SetRetMax" to limit the amount
+	           of data parsed. Larger datasets parsed will have a significant impact on speed.
+queryandparsedata <= Combines commands "query" and "parsedata" to expediate the process. ( String )
+numofentries <= Returns number of parsed entries after running "parsedata" command.
+		NOTE: This should resemble "RetMax" value. If the value is 0 after running
+		      "parsedata" command, all requirements were not met to properly fetch
+		      data from EUtilities module.
+cleareutil <= Clears Fetched Data From EUtilities module
+	      NOTE: A good idea to call this prior to exiting client connection. But the server
+		    will automatically do this when cleaning up threaded client connection if forgotten.
+clearparser <= Clears Parsed Data from PubMedXMLParser module
+	      NOTE: Same note as "cleareutil" command.
+dumpdata <= Dumps EFetch data to file "eFetch Data.txt"
+
+
+PubEntry List Commands
+----------------------
+get element X pmid <= Fetches the PMID for the parsed element X  ( X is a integer value, 0 <= x <= RetMax )
+		      Ex: get element 0 pmid : Fetches the first parsed PubMed data entry PMID
+get element X datecreated <= Self-explanatory
+get element X datecompleted <= Self-explanatory
+get element X pubyear <= Self-explanatory
+get element X authorlist <= Self-explanatory (Data Splicing Required)
+get element X pubmodel <= Self-explanatory
+get element X journalissn <= Self-explanatory
+get element X journalissntype <= Self-explanatory
+get element X journalvolume <= Self-explanatory
+get element X journalcitedmedium <= Self-explanatory
+get element X journalissue <= Self-explanatory
+get element X journalpubdate <= Self-explanatory
+get element X journaltitle <= Self-explanatory
+get element X journalisoabbrev <= Self-explanatory
+get element X articletitle <= Self-explanatory
+get element X pagination <= Self-explanatory (Data Splicing Required)
+get element X abstract <= Self-explanatory (Data Splicing Required)
+get element X language <= Self-explanatory
+get element X publicationtype <= Self-explanatory (Data Splicing Required)
+get element X country <= Self-explanatory
+get element X medlineta <= Self-explanatory
+get element X nlmuniqueid <= Self-explanatory
+get element X issnlinking <= Self-explanatory
+get element X chemicallist <= Self-explanatory (Data Splicing Required)
+get element X citationsubset <= Self-explanatory
+get element X meshheadinglist <= Self-explanatory (Data Splicing Required)
+get element X history <= Self-explanatory (Data Splicing Required)
+get element X publicationstatus <= Self-explanatory
+get element X articleidlist <= Self-explanatory (Data Splicing Required)
+get element X articleurl <= Self-explanatory
+get element X alldata <= Returns All Data For Specific Entry (Heavy Data Splicing Required)
+... Commands Not Complete
+
+Note: All strings return "(null)" if empty or it has no data. Integers return "-1". Some
+      returned strings require parsing to receive specific data.
+
+
+Database Commands
+-----------------
+getdbplatform <= Returns Database Platform
+setdbplatform <= Sets Database Platform
+getdbname <= Returns Database Name
+setdbname <= Sets Database Name
+getdbhost <= Returns Database Host
+setdbhost <= Sets Database Host
+getdbuserid <= Returns Database UserID
+setdbuserid <= Sets Database UserID
+setdbpassword <= Sets Database Password
+dbentrycount <= Returns Total Count Of Database Entries By Number Of PMIDs In Database
+dbconnect <= Connects to Specified Database
+dbdisconnect <= Disconnects Current Database Connection Session
+dbstoreentries 12345678:23456789:34567891:45678901 <= Stores Listed PMIDs In The Database (Numerical Values Are Just Examples)
+dbstore element X <= Stores All Entry Information In MySQL Database Fields
+dbretrieveentries x y <= Retrieves Entry Data From Database From Start Index: x to End Index: y
+dbretrieveentries query searchBy "__" startIndex numOfResults  <= Retrieves Entry Data From Database With "Query" Searched By "SearchBy" from "startIndex" to "numOfResults"
+				    				  (SearchBy Types: Journal Title, Article Title, Abstract, Author)
+				    				  (SearchBy Syntax: all, title, abstract, author)
+				    				  ie. You Can Search "asthma" In Journal Title, Article Title, Abstract Content or Author
+				        			  (Naturally Author Will Have No Results, Unless Someone's Name Or Affiliation Has The Word "Asthma")
+								  (All compounded search words must be concatenated by "+" ie. "asthma+leukotrienes" / "heart+attack"
+dbretrieveentries query searchBy searchType startIndex numOfResults <= Same As Above, But New "SearchType" Field Options = ("exact" / "or")
+					       			       "Exact" Searches For The Exact Query Word For Word, "Or" Searches For Each Word Of The
+					       			       Query Separately. By Default If Nothing Is Specified, The Server SearchType = "Or"
+					       			       (SearchType Types: Exact or Contains searches)
+					          		       (SearchType Syntax: exact, contains/or)
+dbdeleteentries 12345653:34566532:23456765 <= Deletes Entries From Database By Specified PMID
+(!!!command broken!!!) dbtruncate tablerows "tableName" <= Truncates All Rows/Fields In Specified Table (Not Working with FiND Database yet)
+... Commands Not Complete
