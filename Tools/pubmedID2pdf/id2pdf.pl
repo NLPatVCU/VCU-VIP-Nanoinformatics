@@ -2,29 +2,53 @@ use strict;
 use URI;
 use Web::Scraper;
 use WWW::Mechanize;
-use Encode;
 use Data::Dumper;
 
 #21294262
 #22276919
 
-# my $pid = "22276919";
-# my @links = get_pdf_links($pid);
-# print join("\n",@links)."\n";
-#
-# my $PDFLink = getPDFLink($links[0]);
-#
-# print $PDFLink."\n";
-#
-# downloadPDF($PDFLink, "pdf/".$pid.".pdf");
+
 
 #this is an issue link
 #my $PDFLink = getPDFLink("http://onlinelibrary.wiley.com/doi/10.1002/smll.201001619/abstract");
 
-my $PDFLink = getPDFLink("https://jnanobiotechnology.biomedcentral.com/articles/10.1186/1477-3155-10-5");
 
-print $PDFLink."\n";
-#downloadPDF($PDFLink, "pdf/test.pdf");
+test();
+
+sub get_test_links(){
+  $| = 1;
+  my $ids = "9581717, 19928178, 18483503, 23305071, 22865601, 15784770, 19738601, 23194376, NOT_FOUND, 23237634, 24024505, 24161383, NOT_FOUND, 20192166, 20795911, 7841152, 23837602, 24684892, 22713230, 24465824, 17302336";
+  my @id_array = split(', ', $ids) ;
+  open(my $fh, '>', "websites.file");
+  foreach my $id (@id_array){
+    eval{
+      print $fh join("\n", get_pdf_links($id))."\n";
+      sleep(.5);
+    } or warn $@
+
+  }
+
+}
+
+sub working_test(){
+    my $pid = "22276919";
+    my @links = get_pdf_links($pid);
+    print join("\n",@links)."\n";
+
+    my $PDFLink = getPDFLink($links[0]);
+
+    print $PDFLink."\n";
+
+    downloadPDF($PDFLink, "pdf/".$pid.".pdf");
+}
+
+sub test(){
+  my $PDFLink = getPDFLink("http://www.tandfonline.com/doi/full/10.3109/17435391003793095");
+
+  print $PDFLink."\n";
+  downloadPDF($PDFLink, "pdf/test.pdf");
+}
+
 #input: pubmed id of article
 #output: array containing links to full page source of article
 sub get_pdf_links(){
@@ -52,11 +76,14 @@ sub getPDFLink(){
   my $mech = WWW::Mechanize->new();
   $mech->get($fullTextURL);
 
-  ##if contains word download, go there.
+
   my $link;
-  if($mech->find_link(text_regex => qr/download/i)){
-    $link = $mech->find_link(text_regex => qr/download/i);
+  if($mech->find_link(text_regex => qr/PDF/)){
+    $link = $mech->find_link(text_regex => qr/PDF/);
   }
+  die "Unable to find PDF on page: ".$fullTextURL if not $link;
+  my $linkURL = $link->url_abs();
+  return $linkURL;
 
 
 
@@ -78,7 +105,7 @@ sub getPDFLink(){
 
 
 
-  my $linkURL = $link->url_abs();
+
 #  $mech->follow_link( url => $link );
 
 }
@@ -91,10 +118,6 @@ sub downloadPDF(){
   my $mech = WWW::Mechanize->new();
   my $filename = $pdfURL;
   $filename =~ s[^.+/][];
-#  $mech->get( $pdfURL, ':content_file' => $filename );
   $mech->get($pdfURL);
   $mech->save_content($location);
-
-  #print "   ", -s $filename, " bytes\n";
-
 }
