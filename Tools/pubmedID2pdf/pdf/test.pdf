@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head><script type="text/javascript" src="/dtagent_ICAp_6000500251013.js" data-dtconfig="rid=RID_-2107741872|rpid=-1252405636|domain=wiley.com|lab=1|reportUrl=dynaTraceMonitor|agentUri=/dtagent_ICAp_6000500251013.js"></script><script type="text/javascript" xml:space="preserve">
+        //<![CDATA[
+        var wol1datalayer = window.wol1datalayer ? wol1datalayer : {};
+                           
+
+wol1datalayer.channel="JOURNALS"
+wol1datalayer.events="event11"
+wol1datalayer.pageName=""
+wol1datalayer.prop1="FULLTEXT"
+wol1datalayer.prop10="Subscription"
+wol1datalayer.prop11="PDF and HTML"
+wol1datalayer.prop12="2478"
+wol1datalayer.prop13="10.1002/(ISSN)1613-6829"
+wol1datalayer.prop14="10.1002/smll.201001619"
+wol1datalayer.prop15="10.1002/smll.v7.3"
+wol1datalayer.prop18="29 DEC 2010"
+wol1datalayer.prop2="READCUBE FULLTEXT_PDF"
+wol1datalayer.prop20=""
+wol1datalayer.prop26="Guest"
+wol1datalayer.prop28="IP Address"
+wol1datalayer.prop3="Small"
+wol1datalayer.prop4="NT00,BE00,CH00,CH91,EE00,EEB0,LS30,MS00,MSG0,NT00,NT40,PH00"
+wol1datalayer.prop5=""
+wol1datalayer.prop6=""
+wol1datalayer.prop7="Advanced Optical Imaging Reveals the Dependence of Particle Geometry on Interactions Between CdSe Quantum Dots and Immune Cells"
+wol1datalayer.prop8="7/3"
+wol1datalayer.prop9="License"
+wol1datalayer.server="onlinelibrary.wiley.com"
+
+var digitalData = window.digitalData ? digitalData : {};
+digitalData.customerIds = ['EAL0002992','P#UVAC','P#VIVA','EAL00000039688','EAL00000045428','VIRGIN118S','EAL00000137692','DBTEMPE766','TEMPMPLICENSE'];
+digitalData.adData = {
+        network_id : '2215',
+        subject_id : 'wly.mat.sci_000078',
+        journal_id : 'small_2296',
+        targeting : {
+            'WOL-Page-Type': 'FULLTEXT',
+            'WOL-Page-Subtype': 'READCUBE FULLTEXT_PDF',
+            'WOL-Subject-Codes': 'NT00,BE00,CH00,CH91,EE00,EEB0,LS30,MS00,MSG0,NT00,NT40,PH00',
+            'WOL-Article-Access-State': 'License',
+            'WOL-Pub-Access-Status': 'Subscription',
+            'WOL-Article-Availability': 'PDF and HTML',
+            'WOL-Journal-DOI': '10.1002/(ISSN)1613-6829',
+            'WOL-Article-Chapter-DOI': '10.1002/smll.201001619',
+            'WOL-Issue-DOI': '10.1002/smll.v7.3',
+            'WOL-User-login-Status': 'Guest',
+            'gs_cat': '', // Grapeshot
+            'ksg': '', // Krux
+            'kuid': '' // Krux
+        }
+}
+
+
+        //]]>
+    </script><script src="//assets.adobedtm.com/6e626c9ec247e474f6b98eb15a79a185cf7e26a5/satelliteLib-38b34bd2454506b758d810fab1db811169006b75.js" xml:space="preserve"></script><!-- START Grapeshot --><script language="javascript" xml:space="preserve"> var gs_channels = "default"; </script><script language="javascript" type="text/javascript" src="http://wiley.grapeshot.co.uk/main/channels.cgi?url=http://onlinelibrary.wiley.com/doi/10.1002/we.400/full" xml:space="preserve">
+    </script><!-- END Grapeshot --><!-- BEGIN Krux Control Tag for "Wiley" --><script class="kxct" data-id="JMOONjNh" data-timing="async" data-version="1.9" type="text/javascript" xml:space="preserve">
+        //<![CDATA[
+            window.Krux||((Krux=function() {Krux.q.push(arguments)}).q=[]);
+            (function() {
+                var k=document.createElement('script');k.type='text/javascript';k.async=true;
+                var m,src=(m=location.href.match(/\bkxsrc=([^&]+)/))&&decodeURIComponent(m[1]);
+                k.src = /^https?:\/\/([a-z0-9_\-\.]+\.)?krxd\.net(:\d{1,5})?\//i.test(src) ? src : src === "disable" ? "" : (location.protocol==="https:"?"https:":"http:")+"//cdn.krxd.net/controltag?confid=JMOONjNh";
+                var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(k,s);
+            }());
+        //]]>
+    </script><!-- END Krux Controltag --><!-- START Krux GPT O&O --><script xml:space="preserve">
+        //<![CDATA[
+        window.Krux||((Krux=function(){Krux.q.push(arguments);}).q=[]);
+        (function() {
+            function retrieve(n) {
+                var m, k='kx'+n;
+                if (window.localStorage) {
+                    return window.localStorage[k] || "";
+                } else if (navigator.cookieEnabled) {
+                    m = document.cookie.match(k+'=([^;]*)');
+                    return (m && unescape(m[1])) || "";
+                } else {
+                    return '';
+                }
+             }
+             Krux.user = retrieve('user');
+             Krux.segments = retrieve('segs') && retrieve('segs').split(',') || [];
+        })();
+        //]]>
+    </script><!-- END Krux GPT O&O --><!-- Start krux code for digitalData object used for ads --><script xml:space="preserve">
+        digitalData.adData.targeting.gs_cat = gs_channels;
+        digitalData.adData.targeting.ksg = Krux.segments;
+        digitalData.adData.targeting.kuid = Krux.user;
+    </script><!-- End krux code for digitalData object used for ads --><meta name="DOI" content="10.1002/smll.201001619" /><meta name="EXTRA" content="" /><meta name="PDF_URL" content="/doi/10.1002/smll.201001619/pdf" /><link rel="stylesheet" type="text/css" href="//media.readcube.com/epdf/preloader.css" /><script type="text/javascript" src="http://onlinelibrarystatic.wiley.com/js/jquery/jquery-1.4.2.js" xml:space="preserve"></script><script src="http://content.readcube.com/wiley/epdf.js" xml:space="preserve"></script><!-- (Optional) Fallback redirect mechanism if loading of the epdf.js script fails --><script xml:space="preserve">
+        /* //<![CDATA[ */
+
+        (function() {
+
+            setTimeout(function() {
+
+                if (!window.readcube) {
+
+                    var pdfMeta;
+
+                    if (document.querySelectorAll) {
+                        pdfMeta = document.querySelectorAll('meta[name="PDF_URL"]')[0].getAttribute('content');
+                    } else {
+                        var metas = document.getElementsByTagName('meta');
+                        for (var i = 0, len = metas.length; i < len; i++) {
+                            if (metas[i].getAttribute('name') == 'PDF_URL') {
+                                pdfMeta = metas[i].getAttribute('content');
+                                break;
+                            }
+                        }
+                    }
+
+                    // Handling 'Back' browser button to go to the article page
+                    if (document.referrer) {
+                        if (window.history && history.replaceState) {
+                            try {
+                                history.replaceState(null, null, document.referrer);
+                            } catch(ex) {}
+                        }
+                    }
+
+                    location.href = pdfMeta;
+                }
+            }, 8000);
+
+            if (document.addEventListener) {
+
+                document.addEventListener('readcube.webviewer.open', function() {
+                    $.ajax({url:"/readcube/log?doi=10.1002%2Fsmll.201001619&event=view_enhanced_pdf&extra=&pdfType=full"});
+                    var _gaq = _gaq || [];
+                    _gaq.push(['_setAccount', 'UA-11972776-2']);
+                    _gaq.push(['_trackPageview']);
+
+                    (function() {
+                        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                    })();
+                });
+                
+                
+                 document.addEventListener('readcube.webviewer.shareview', function() {
+                    $.ajax({url:"/readcube/log?doi=10.1002%2Fsmll.201001619&event=view_restricted_epdf&extra=&pdfType=full"});
+                    var _gaq = _gaq || [];
+                    _gaq.push(['_setAccount', 'UA-11972776-2']);
+                    _gaq.push(['_trackPageview']);
+
+                    (function() {
+                        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                    })();                   
+                });
+                
+                
+                 document.addEventListener('readcube.webviewer.preview', function() {
+                    $.ajax({url:"/readcube/log?doi=10.1002%2Fsmll.201001619&event=view_epdf_paywall&extra=&pdfType=full"});
+                    var _gaq = _gaq || [];
+                    _gaq.push(['_setAccount', 'UA-11972776-2']);
+                    _gaq.push(['_trackPageview']);
+
+                    (function() {
+                        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                    })();                   
+                });
+
+            }
+
+        }());
+
+        /* //]]> */
+    </script></head><body><!-- Automatic Redirection to the traditional PDF for browsers with JavaScript disabled --><noscript><meta http-equiv="Refresh" content="0;URL=/doi/10.1002/smll.201001619/pdf" /></noscript><script type="text/javascript" xml:space="preserve">_satellite.pageBottom();</script></body></html>
