@@ -117,10 +117,23 @@ sub getPDFLink(){
 
 
   my $link;
+
   if($mech->find_link(text_regex => qr/PDF/)){
     $link = $mech->find_link(text_regex => qr/PDF/);
   }
 
+  if($fullTextURL =~ /\Qacademic.oup.com\E/){
+    print $link->url_abs()."\n";
+    $mech->get($link->url_abs());
+    $link = $mech->uri();
+  }
+
+  if(not $link){
+    if($fullTextURL =~ /\Qlinkinghub.elsevier.com\E/){ #https://linkinghub.elsevier.com/retrieve/pii/S0927-7765(10)00087-1 click on
+
+    }
+
+  }
   die "Unable to find PDF on page: ".$fullTextURL if not $link;
   my $linkURL = $link->url_abs();
   return $linkURL;
