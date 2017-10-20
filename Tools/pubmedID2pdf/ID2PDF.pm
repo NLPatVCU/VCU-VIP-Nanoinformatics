@@ -1,5 +1,8 @@
 package ID2PDF;
 
+
+#@author Andriy Mulyar
+
 use strict;
 use warnings;
 use URI;
@@ -49,34 +52,14 @@ sub getPDF(){
     }
   }
 
-  ##Make other attempts
-  # if(not $link){
-  #
-  #   foreach my $l (@links){
-  #     if($l =~ /\Qwww.ncbi.nlm.nih.gov\E/){
-  #       $link = $l;
-  #       $regex = 'PDF';
-  #       last;
-  #     }
-  #     if($l =~ /\Qwww.ncbi.nlm.nih.gov\E/){
-  #       $link = $l;
-  #       $regex = 'PDF';
-  #       last;
-  #     }
-  #
-  #   }
-  #
-  #
-  # }
-
-
-
-
-
   print $link."\n";
 
   if($link){
-    my $pdfURL = $self->getPDFLink($link, $regex);
+    my $pdfURL;
+    eval{
+      my $pdfURL = $self->getPDFLink($link, $regex);
+    }
+    
     $self->downloadPDF($pdfURL, $location);
   }else{
     print "Could not find open source pdf location.";
@@ -96,7 +79,7 @@ sub getLinksToPDF(){
       };
     };
     my $result = $link_scraper->scrape( URI->new("https://www.ncbi.nlm.nih.gov/pubmed/".$pid) );
-    die "No full-paper links were found with PMID: ".$pid if not exists $result->{links};
+    die "No full-paper links were found with PMID: $pid" if not exists $result->{links};
     my @links = ();
 
     for my $link (@{$result->{links}}){
@@ -113,27 +96,71 @@ sub getPDFLink(){
   my $fullTextURL = shift;
   my $regex = shift;
   my $mech = $self->{_mech};
-  $mech->get($fullTextURL);
 
+  $mech->get($fullTextURL);
 
   my $link;
 
-  if($mech->find_link(text_regex => qr/PDF/)){
-    $link = $mech->find_link(text_regex => qr/PDF/);
+
+  ##Begin dx.doi redirect  special case.
+  if(not $link){
+    if($fullTextURL =~ /\Qdx.doi.org\E/){
+      $mech->follow_link(text_regex => qr/PDF/);
+
+      ##Begin ACS Publications special case
+      if($mech->uri() =~ /\Qpubs.acs.org\E/){
+        my $id = $fullTextURL =~ s/(.+)\/(.+\/.+)/$2/r;
+        my $pdfUrl = "http://pubs.acs.org/doi/pdf/$id";
+        return $pdfUrl;
+      }else{
+        $mech->get($fullTextURL);
+      }
+      ##End ACS Publications Special case
+
+
+
+    }
   }
 
-  if($fullTextURL =~ /\Qacademic.oup.com\E/){
-    print $link->url_abs()."\n";
-    $mech->get($link->url_abs());
-    $link = $mech->uri();
+  ##End dx.doi redirect  special case.
+
+
+
+  ##Begin Science Direct special case.
+  if(not $link){
+    if($fullTextURL =~ /\Qlinkinghub.elsevier.com\E/){ #https://linkinghub.elsevier.com/retrieve/pii/S0927-7765(10)00087-1 click on
+      my $id = $fullTextURL =~ s/(.+)\/(.+)/$2/r;
+      $id =~ s/[^SX\d]//g; #parses end of URL to get specific id for ScienceDirect
+      $mech->get("http://www.sciencedirect.com/science/article/pii/$id");
+      $link = $mech->find_link(text_regex => qr/PDF/);
+    }
+  }
+  ##End Science Direct special case.
+
+  if($mech->find_link(text_regex => qr/PDF/)){
+
+    $link = $mech->find_link(text_regex => qr/PDF/);
+
+    if($link->url_abs() =~ /\Qepdf\E/){ # if it contains an epdf, extract it.
+      $mech->get($link);
+      $mech->get($link->url_abs() =~ s/epdf/pdf/r );
+      $link = $mech->find_link(tag => "iframe");
+    }
   }
 
   if(not $link){
-    if($fullTextURL =~ /\Qlinkinghub.elsevier.com\E/){ #https://linkinghub.elsevier.com/retrieve/pii/S0927-7765(10)00087-1 click on
-
+    if($mech->find_link(text_regex => qr/.pdf/)){
+      $link = $mech->find_link(text_regex => qr/.pdf/);
     }
-
   }
+
+
+
+
+
+
+
+
   die "Unable to find PDF on page: ".$fullTextURL if not $link;
   my $linkURL = $link->url_abs();
   return $linkURL;
