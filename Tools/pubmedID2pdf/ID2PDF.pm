@@ -9,7 +9,7 @@ use URI;
 use Web::Scraper;
 use WWW::Mechanize;
 use Data::Dumper;
-
+use LWP::Simple;
 
 sub new {
 
@@ -33,37 +33,43 @@ sub getPDF(){
   my $self = shift;
   my $id = shift;
   my $location = shift;
+
   if(not $location){
-    $location = "pdf/$id.pdf";
-  }
-
-  my @links = $self->getLinksToPDF($id);
-
-  my $link; #holds link to page containing pdf file
-  my $regex;#holds regex to parse page with pdf file
-
-
-  ###Attempt to access free article hosted on pubmed website first
-  foreach my $l (@links){
-    if($l =~ /\Qwww.ncbi.nlm.nih.gov\E/){
-      $link = $l;
-      $regex = 'PDF';
-      last;
-    }
-  }
-
-  print $link."\n";
-
-  if($link){
-    my $pdfURL;
-    eval{
-      my $pdfURL = $self->getPDFLink($link, $regex);
-    }
-    
-    $self->downloadPDF($pdfURL, $location);
+    $location = "$id.pdf";
   }else{
-    print "Could not find open source pdf location.";
+    $location .= "$id.pdf";
   }
+
+  my @links;
+  eval{
+    @links = $self->getLinksToPDF($id);
+  }or return 0;
+
+
+
+  my $downloaded = 0;
+
+  foreach my $link (@links){
+    if($link && not $downloaded){
+      my $pdfURL = "";
+      eval{
+        $pdfURL = $self->getPDFLink($link,$id);
+      };
+
+      if($pdfURL){
+        eval{
+        #  print $pdfURL."\n";
+          $self->downloadPDF($pdfURL, $location);
+          $downloaded = 1;
+        };
+
+      }
+    }
+  }
+
+  return $downloaded;
+
+
 
 }
 
@@ -132,7 +138,8 @@ sub getPDFLink(){
       my $id = $fullTextURL =~ s/(.+)\/(.+)/$2/r;
       $id =~ s/[^SX\d]//g; #parses end of URL to get specific id for ScienceDirect
       $mech->get("http://www.sciencedirect.com/science/article/pii/$id");
-      $link = $mech->find_link(text_regex => qr/PDF/);
+      #$link = $mech->follow_link(text_regex => qr/PDF/);
+      return "DOES NOT WORK";
     }
   }
   ##End Science Direct special case.
@@ -176,11 +183,9 @@ sub downloadPDF(){
   my $location = shift;
 
   my $mech = $self->{_mech};
-  my $filename = $pdfURL;
-  $filename =~ s[^.+/][];
   $mech->get($pdfURL);
-  $mech->save_content($location);
-  print "Created File: $location"."\n";
+  $mech->save_content($location, binary => 1);
+#  print "Created File: $location"."\n";
 }
 
 

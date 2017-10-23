@@ -32,7 +32,6 @@ foreach my $id (@id_array){
       my $pdfLink = $conv->getPDFLink($fullTextLink);
       print "$id : $pdfLink\n";
       $success = 1 if $pdfLink;
-      #sleep(.25);
     }or print "No PDF: $id | $fullTextLink \n"
   }
 }
