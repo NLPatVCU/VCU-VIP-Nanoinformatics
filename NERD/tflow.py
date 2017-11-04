@@ -1,33 +1,53 @@
 import pandas as pd
-import tensorflow as tf
 from sklearn.model_selection import train_test_split
-
+import tensorflow as tf
 import arff2df
 
 
-def input_fn(df_data, num_epochs, shuffle):
-    labels = df_data['class']
-    df_data.drop(['class'], axis=1)
-    return tf.estimator.inputs.pandas_input_fn(
-        x=df_data,
-        y=labels,
-        batch_size=100,
-        num_epochs=num_epochs,
-        shuffle=shuffle,
-        num_threads=1)
+def create_feature_columns(df):
+    headers = list(df)
+    feature_columns = []
+    for header in headers:
+        feature_columns.append(tf.feature_column.numeric_column(header))
+    return feature_columns
 
 
-df = arff2df.arff2dataframe("diabetes.arff")                               # Create pandas df from .arff files
-df['class'] = pd.factorize(df['class'])[0]                                 # Turn the class labels into numerical form
-train_set, test_set = train_test_split(df, test_size=.2, random_state=42)  # Split the data into test and training data
-input = input_fn(train_set, 100, True)                                     # Create input function to tf.estimator()
-feature_columns = [                                                        # List the feature colums of our dataset
-    tf.feature_column.numeric_column("preg")
-]
+df = arff2df.arff2df("nanop.arff")
+df['Entity'] = df['Entity'].map({'Yes': 1, 'No': 0})        # Map the classes to binary digits
+train_set, test_set = train_test_split(df,                  # Split the data into test and training data
+                                       test_size=.4,
+                                       random_state=42)
+testing_labels = test_set['Entity']                         # Labels for the testing set
+training_labels = train_set['Entity']                       # Labels for the training set
+train_set = train_set.drop(["Entity"], axis=1)              # Drop the labels
+test_set = test_set.drop(["Entity"], axis=1)                # Drop the labels
 
-classifier = tf.estimator.DNNClassifier(feature_columns=feature_columns,   # Create our Classifier
-                                            hidden_units=[10, 20, 10],
-                                            n_classes=3,
-                                            model_dir="model")
+feature_columns = create_feature_columns(train_set)         # Create feature columns
 
-classifier.train(input_fn=input, steps=2000)                               # Train the classifier
+dnn_clf = tf.estimator.DNNClassifier(                       # Deep NN Classifier
+    feature_columns=feature_columns,
+    hidden_units=[300, 100],
+    )
+
+train_input_fn = tf.estimator.inputs.pandas_input_fn(       # Train input functions
+    x=train_set,
+    y=training_labels,
+    batch_size=100,
+    num_epochs=None,
+    shuffle=True)
+
+dnn_clf.train(input_fn=train_input_fn, steps=2000)          # Train the classifier
+
+########## Testing ##########
+
+test_input_fn = tf.estimator.inputs.pandas_input_fn(
+    x=test_set,
+    y=testing_labels,
+    num_epochs=1,
+    shuffle=False
+)
+
+ev = dnn_clf.evaluate(input_fn=test_input_fn)
+
+print("\nTest Accuracy: {0:f}\n".format(ev["accuracy"]))
+print("\nLoss: {0:f}\n".format(ev["loss"]))
