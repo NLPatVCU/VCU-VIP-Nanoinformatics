@@ -138,8 +138,12 @@ sub getPDFLink(){
       my $id = $fullTextURL =~ s/(.+)\/(.+)/$2/r;
       $id =~ s/[^SX\d]//g; #parses end of URL to get specific id for ScienceDirect
       $mech->get("http://www.sciencedirect.com/science/article/pii/$id");
-      #$link = $mech->follow_link(text_regex => qr/PDF/);
-      return "DOES NOT WORK";
+      $link = $mech->find_link(text_regex => qr/PDF/);
+      $mech->follow_link(text_regex => qr/PDF/);
+      print $link->url_abs();
+      $mech->save_content("pdf/test.pdf", binary => 1);
+      #https://stackoverflow.com/questions/19455810/automatic-download-from-sciencedirect
+    #  return "DOES NOT WORK";
     }
   }
   ##End Science Direct special case.
