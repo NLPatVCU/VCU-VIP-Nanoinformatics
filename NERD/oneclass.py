@@ -2,7 +2,8 @@ from sklearn import svm
 import arff2df
 import argparse
 from sklearn.externals import joblib
-
+from scipy.io import arff
+from pandas import DataFrame
 
 pars = argparse.ArgumentParser(usage='Creates and evaluates a OneClassSVM in Scikit',
                                formatter_class=argparse.RawTextHelpFormatter,
@@ -15,25 +16,28 @@ pars.add_argument('-tr', '--train',
 pars.add_argument('-l', '--labels',
                   help='Name of the Labels Column')
 
-arguments = pars.parse_args()
-args = vars(arguments)
+def main():
+    arguments = pars.parse_args()
+    args = vars(arguments)
+    labelName = args['labels']
+    data, meta = arff.loadarff(args['train'])
+    training_df = DataFrame(data=data, columns=meta.names())
+    training_labels = convert_labels_to_numeric(training_df, labelName)
+    training_features = training_df.drop([args['labels']], axis=1)
+    clf = create_classifier(training_labels)
+    clf.fit(training_features, y=training_labels)
+    joblib.dump(clf, 'Models/oneclass.pkl')
 
-print("Starting Mapping...")
-training_df = arff2df.arff2df(args['train'])
-training_df[args['labels']] = training_df[args['labels']].map({'Yes': -1, 'No': 1})
-print("Mapping Complete.")
 
-print("Loading Training Data...")
-training_labels = training_df[args['labels']]
-training_features = training_df.drop([args['labels']], axis=1)
-print("Training Data Loaded.")
+def convert_labels_to_numeric(df, labelName):
+    return df[labelName].map({'Yes': -1, 'No': 1})
 
-outliers = training_labels[training_labels == -1]
-nu = float(outliers.shape[0])/float(training_labels.shape[0])
-model = svm.OneClassSVM(nu=nu, kernel='rbf', gamma=0.0005)
 
-print("Begin Training Model...")
-model.fit(training_features)
-print("Model Training Complete.")
+def create_classifier(training_labels):
+    outliers = training_labels[training_labels == -1]
+    nu = float(outliers.shape[0]) / float(training_labels.shape[0])
+    return svm.OneClassSVM(nu=nu, kernel='rbf', gamma=0.0005)
 
-joblib.dump(model, 'Models/oneclass.pkl')
+
+if __name__ == "__main__":
+    main()
