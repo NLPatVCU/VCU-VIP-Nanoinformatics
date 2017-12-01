@@ -1,9 +1,9 @@
 from sklearn.model_selection import train_test_split
 import tensorflow as tf
 import numpy as np
-import arff2df
+import NERD.arff2df
 
-df = arff2df.arff2df("nanop.arff")
+df = NERD.arff2df.arff2df("nanop.arff")
 df['Entity'] = df['Entity'].map({'Yes': 1, 'No': 0})        # Map the classes to binary digits
 train_set, test_set = train_test_split(df,                  # Split the data into test and training data
                                        test_size=.4,
