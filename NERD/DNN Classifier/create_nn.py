@@ -20,7 +20,7 @@ feature_columns = [tf.feature_column.numeric_column("x", shape=[7])]  # All the 
 dnn_clf = tf.estimator.DNNClassifier(                       # Deep NN Classifier
     feature_columns=feature_columns,
     hidden_units=[300, 100],
-    model_dir = 'nn_model'
+    model_dir = 'Neural Net Model'
     )
 
 train_input_fn = tf.estimator.inputs.numpy_input_fn(       # Train input functions
