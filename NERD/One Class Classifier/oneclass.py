@@ -29,10 +29,21 @@ def main():
 
 
 def convert_labels_to_numeric(df, labelName):
+    '''
+    Method to Convert the Yes and No Columns to -1 and 1 numerical values
+    :param df: Dataframe
+    :param labelName: Name of the Entity Label
+    :return: DataFrame with updated Labels
+    '''
     return df[labelName].map({'Yes': -1, 'No': 1})
 
 
 def create_classifier(training_labels):
+    '''
+    Method to create the one class classifier
+    :param training_labels: all of the labels for training
+    :return: One Class Classifier
+    '''
     outliers = training_labels[training_labels == -1]
     nu = float(outliers.shape[0]) / float(training_labels.shape[0])
     return svm.OneClassSVM(nu=nu, kernel='rbf', gamma=0.0005)
