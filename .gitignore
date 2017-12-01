@@ -2,3 +2,8 @@
 *.pyc
 *.arff
 nn_model/
+*.pkl
+
+*.xml
+
+*.iml
