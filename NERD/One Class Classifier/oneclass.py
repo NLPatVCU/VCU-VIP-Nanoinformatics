@@ -1,5 +1,4 @@
 from sklearn import svm
-import arff2df
 import argparse
 from sklearn.externals import joblib
 from scipy.io import arff
@@ -26,7 +25,7 @@ def main():
     training_features = training_df.drop([args['labels']], axis=1)
     clf = create_classifier(training_labels)
     clf.fit(training_features, y=training_labels)
-    joblib.dump(clf, 'Models/oneclass.pkl')
+    joblib.dump(clf, '../Models/oneclass.pkl')
 
 
 def convert_labels_to_numeric(df, labelName):

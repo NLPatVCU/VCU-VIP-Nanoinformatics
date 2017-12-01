@@ -42,7 +42,7 @@ def main():
 
 
 def load_classifier():
-    return joblib.load('Models/oneclass.pkl')
+    return joblib.load('../Models/oneclass.pkl')
 
 
 def print_metrics(targs, preds):
