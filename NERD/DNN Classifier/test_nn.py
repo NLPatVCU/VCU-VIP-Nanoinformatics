@@ -22,7 +22,7 @@ feature_columns = [tf.feature_column.numeric_column("x", shape=[7])]  # List the
 classifier = tf.estimator.DNNClassifier(                              # Load Classifier
     feature_columns=feature_columns,
     hidden_units=[300,100],
-    model_dir='Neural Net Model'
+    model_dir='Neural_Net_Model'
 )
 
 df = arff2df.arff2df("nanop.arff")
