@@ -1,7 +1,7 @@
 import matplotlib as mpl
 import numpy as np
 from sklearn.model_selection import train_test_split
-mpl.use('TkAgg')
+#mpl.use('TkAgg')
 import matplotlib.pyplot as plt
 from sklearn import svm
 import arff2df
@@ -10,7 +10,7 @@ import pandas as pd
 import seaborn as sn
 
 ''' Start by reading in the arff file, turning it into a dataframe, and mapping the classes to -1 and 1'''
-df = arff2df.arff2df("nanop.arff")
+df = arff2df.arff2df("nanoparticle_nonsparse.arff")
 df['Entity'] = df['Entity'].map({'Yes': -1, 'No': 1})
 train_set, test_set = train_test_split(df,                  # Split the data into test and training data
                                        test_size=.2,
@@ -30,7 +30,7 @@ y_train = np.array(training_labels.values, np.int32)
 
 outliers = training_labels[training_labels == -1]               # Obtain the outliers
 nu = float(outliers.shape[0])/float(training_labels.shape[0])   # Compute our nu
-model = svm.OneClassSVM(nu=nu, kernel='rbf', gamma=0.00005)     # Create the One-Class Classifier
+model = svm.OneClassSVM(nu=nu, kernel='rbf', gamma=0.0005)     # Create the One-Class Classifier
 model.fit(train_set)                                            # Train the model
 
 preds = model.predict(test_set)     # Predictions
