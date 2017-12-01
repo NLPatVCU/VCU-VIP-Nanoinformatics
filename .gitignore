@@ -3,3 +3,7 @@
 *.arff
 nn_model/
 *.pkl
+
+*.xml
+
+*.iml
