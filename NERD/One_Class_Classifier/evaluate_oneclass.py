@@ -36,7 +36,7 @@ def main():
 
     cfMat = create_conf_mat(targs, preds)
 
-    print '\nConfusion Matrix\n\n{}'.format(cfMat)
+    print('\nConfusion Matrix\n\n{}'.format(cfMat))
     print_metrics(targs, preds)
     plot_conf_mat(targs, preds)
 

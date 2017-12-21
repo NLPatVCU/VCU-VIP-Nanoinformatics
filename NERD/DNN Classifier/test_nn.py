@@ -57,7 +57,7 @@ def main():
     print("******************** CONFUSION MATRIX ********************\n")
     print(cm)
     print("\n******************** CONFUSION MATRIX STATS ********************\n")
-    print cm.print_stats()
+    print(cm.print_stats())
     df_confusion = pd.crosstab(y_test, predicted_classes, rownames=['Actual'], colnames=['Predicted'], margins=True)
     plot_confusion_matrix(df_confusion)
     plt.show()
