@@ -76,6 +76,9 @@ sub getPDF(){
 
 #input: pubmed id of article
 #output: array containing links to full page source of article
+
+#attempts to download PDF from given PID and runs through several special cases
+#associated with common journals
 sub getLinksToPDF(){
     my $self = shift;
     my $pid = shift;
@@ -134,7 +137,7 @@ sub getPDFLink(){
 
   ##Begin Science Direct special case.
   if(not $link){
-    if($fullTextURL =~ /\Qlinkinghub.elsevier.com\E/){ #https://linkinghub.elsevier.com/retrieve/pii/S0927-7765(10)00087-1 click on
+    if($fullTextURL =~ /\Qlinkinghub.elsevier.com\E/){ #https://linkinghub.elsevier.com/retrieve/pii/S0927-7765(10)00087-1
       my $id = $fullTextURL =~ s/(.+)\/(.+)/$2/r;
       $id =~ s/[^SX\d]//g; #parses end of URL to get specific id for ScienceDirect
       $mech->get("http://www.sciencedirect.com/science/article/pii/$id");
