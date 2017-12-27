@@ -40,9 +40,8 @@ def main():
     print_metrics(targs, preds)
     plot_conf_mat(targs, preds)
 
-
 def load_classifier():
-    return joblib.load('../Models/oneclass.pkl')
+    return joblib.load('../Models/testmodel_oneclass.pkl')
 
 
 def print_metrics(targs, preds):

@@ -21,8 +21,13 @@ def main():
     labelName = args['labels']
     data, meta = arff.loadarff(args['train'])
     training_df = DataFrame(data=data, columns=meta.names())
+    print("here")
+
+
     training_labels = convert_labels_to_numeric(training_df, labelName)
     training_features = training_df.drop([args['labels']], axis=1)
+
+
     clf = create_classifier(training_labels)
     clf.fit(training_features, y=training_labels)
     joblib.dump(clf, '../Models/oneclass.pkl')
