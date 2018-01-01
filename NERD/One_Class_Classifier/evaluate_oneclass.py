@@ -1,6 +1,4 @@
 import matplotlib as mpl
-from scipy.io import arff
-from pandas import DataFrame
 import pandas as pd
 from sklearn.externals import joblib
 from sklearn import metrics
@@ -8,11 +6,11 @@ import argparse
 mpl.use('TkAgg')
 import matplotlib.pyplot as plt
 import seaborn as sn
+from Tools import arff_converter
 
 pars = argparse.ArgumentParser(usage='Creates and evaluates a OneClassSVM in Scikit',
                                formatter_class=argparse.RawTextHelpFormatter,
-                               description='''Creates and evaluates a OneClassSVM in Scikit''',
-                               version='0.1')
+                               description='''Creates and evaluates a OneClassSVM in Scikit''')
 
 pars.add_argument('-te', '--test',
                   help='Testing ARFF file')
@@ -25,13 +23,11 @@ def main():
     arguments = pars.parse_args()
     args = vars(arguments)
     labelName = args['labels']
-    data, meta = arff.loadarff(args['test'])
-    testing_df = DataFrame(data=data, columns=meta.names())
+    testing_df = arff_converter.arff2df(args['test'])
     testing_labels = convert_labels_to_numeric(testing_df, labelName)
-    testing_features = testing_df.drop([labelName], axis=1)
-
+    X_test = testing_df.drop([labelName], axis=1)
     clf = load_classifier()
-    preds = clf.predict(testing_features)
+    preds = clf.predict(X_test)
     targs = testing_labels
 
     cfMat = create_conf_mat(targs, preds)
@@ -47,13 +43,7 @@ def load_classifier():
 
 def print_metrics(targs, preds):
     print('\nMetrics\n')
-    print("accuracy: ", metrics.accuracy_score(targs, preds))
-    print("precision: ", metrics.precision_score(targs, preds))
-    print("recall: ", metrics.recall_score(targs, preds))
-    print("f1: ", metrics.f1_score(targs, preds))
-    print("Geometric Mean", metrics.fowlkes_mallows_score(targs, preds))
-    print("area under curve (auc): ", metrics.roc_auc_score(targs, preds))
-
+    print(metrics.classification_report(targs, preds))
 
 def create_conf_mat(targs, preds):
     return pd.crosstab(targs, preds, rownames=['Actual'], colnames=['Predicted'], margins=True)

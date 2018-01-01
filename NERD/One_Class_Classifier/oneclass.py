@@ -1,13 +1,11 @@
 from sklearn import svm
 import argparse
 from sklearn.externals import joblib
-from scipy.io import arff
-from pandas import DataFrame
+from Tools import arff_converter
 
 pars = argparse.ArgumentParser(usage='Creates and evaluates a OneClassSVM in Scikit',
                                formatter_class=argparse.RawTextHelpFormatter,
-                               description='''Creates and evaluates a OneClassSVM in Scikit''',
-                               version='0.1')
+                               description='''Creates and evaluates a OneClassSVM in Scikit''')
 
 pars.add_argument('-tr', '--train',
                   help='Traing ARFF file')
@@ -19,12 +17,11 @@ def main():
     arguments = pars.parse_args()
     args = vars(arguments)
     labelName = args['labels']
-    data, meta = arff.loadarff(args['train'])
-    training_df = DataFrame(data=data, columns=meta.names())
-    training_labels = convert_labels_to_numeric(training_df, labelName)
-    training_features = training_df.drop([args['labels']], axis=1)
-    clf = create_classifier(training_labels)
-    clf.fit(training_features, y=training_labels)
+    training_df = arff_converter.arff2df(args['train'])
+    y_train = convert_labels_to_numeric(training_df, labelName)
+    X_train = training_df.drop([args['labels']], axis=1)
+    clf = create_classifier(y_train)
+    clf.fit(X_train, y_train)
     joblib.dump(clf, '../Models/oneclass.pkl')
 
 
