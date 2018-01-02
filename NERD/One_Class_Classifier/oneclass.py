@@ -32,7 +32,7 @@ def convert_labels_to_numeric(df, labelName):
     :param labelName: Name of the Entity Label
     :return: DataFrame with updated Labels
     '''
-    return df[labelName].map({'Yes': -1, 'No': 1})
+    return df[labelName].map({'Yes': 1, 'No': -1}) #Assign 1 to minority class to use built in eval metrics
 
 
 def create_classifier(training_labels):

@@ -58,7 +58,7 @@ def plot_conf_mat(targs, preds):
 
 
 def convert_labels_to_numeric(df, labelName):
-    return df[labelName].map({'Yes': -1, 'No': 1})
+    return df[labelName].map({'Yes': 1, 'No': -1}) #Assign 1 to minority class to use built in eval metrics
 
 
 if __name__ == "__main__":
