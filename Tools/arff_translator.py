@@ -2,10 +2,9 @@ import re, sys, fileinput, glob
 from os.path import join
 
 '''
-Quick script to get the arff files in the correct format for the coverter just pass the directory with the arff files
-as as argument
+Quick script to modify arff files in the correct format for the converter.
+Pass the directory with the arff files as as argument add it will modify all arff files in that directory.
 '''
-
 
 path = path = join(sys.argv[1],"*")
 files = glob.glob(path)
