@@ -1,10 +1,11 @@
+<<<<<<< HEAD
 import matplotlib as mpl
 from Tools import arff_converter
 import pandas as pd
 from sklearn.externals import joblib
 from sklearn import metrics
 import argparse
-mpl.use('TkAgg')
+
 import matplotlib.pyplot as plt
 import seaborn as sn
 
@@ -29,3 +30,4 @@ df_cm = pd.DataFrame(cf)
 plt.figure(figsize=(8, 5))
 sn.heatmap(df_cm, annot=True, cmap='Blues', fmt='g')
 plt.show()
+
