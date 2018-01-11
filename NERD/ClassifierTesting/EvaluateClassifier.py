@@ -1,10 +1,8 @@
-<<<<<<< HEAD
-import matplotlib as mpl
+
 from Tools import arff_converter
 import pandas as pd
 from sklearn.externals import joblib
 from sklearn import metrics
-import argparse
 
 import matplotlib.pyplot as plt
 import seaborn as sn

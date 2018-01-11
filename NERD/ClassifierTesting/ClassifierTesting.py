@@ -1,5 +1,4 @@
 from sklearn import svm
-import argparse
 from sklearn.externals import joblib
 from Tools import arff_converter
 
