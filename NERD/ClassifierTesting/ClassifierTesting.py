@@ -1,16 +1,10 @@
 from sklearn import svm
-import argparse
 from sklearn.externals import joblib
 from Tools import arff_converter
 
-# Get the Command Line Arguements
-pars = argparse.ArgumentParser()
-pars.add_argument('-tr', '--train', help='Traing ARFF file')
-arguments = pars.parse_args()
-args = vars(arguments)
 
 # Obtain the Dataset
-dataset = arff_converter.arff2df(args['train'])
+dataset = arff_converter.arff2df("../ARFF_Files/nanoparticle_ARFF/_o/_train/nanoparticle_train-1.arff")
 X = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, -1].map({'Yes': -1, 'No': 1}).values
 
@@ -21,6 +15,6 @@ clf = svm.OneClassSVM(nu=nu, kernel='rbf', gamma=0.0005)
 clf.fit(X, y)
 
 # Save the classifier
-joblib.dump(clf, '../Models/oneclass.pkl')
+joblib.dump(clf, '../Models/testmodel_oneclass.pkl')
 
 
