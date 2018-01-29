@@ -1,7 +1,7 @@
 from sklearn import svm
 import argparse
 from sklearn.externals import joblib
-from Tools import arff_converter
+from Tools.FileConverters import arff_converter
 
 # Get the Command Line Arguements
 pars = argparse.ArgumentParser()

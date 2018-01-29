@@ -1,5 +1,5 @@
 import matplotlib as mpl
-from Tools import arff_converter
+from Tools.FileConverters import arff_converter
 import pandas as pd
 from sklearn.externals import joblib
 from sklearn import metrics
