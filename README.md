@@ -6,15 +6,15 @@ This is a project by VCU Natural Language Processing Lab in collaboration with V
 
 The project is broken down into the following components:
 
-### FIND 
+### [FIND](https://github.com/bmcinnes/VCU-VIP-Nanoinformatics/tree/master/FIND) 
 
 This is where all the Front-End and code related to the database/Website will go.
 
-### NERD 
+### [NERD](https://github.com/bmcinnes/VCU-VIP-Nanoinformatics/tree/master/NERD) 
 
 This is the attempt to create a Named Entity Recognizer for Nano-related things.
 
-### Document Classification
+### [Document Classification](https://github.com/bmcinnes/VCU-VIP-Nanoinformatics/tree/master/NERD)
 
 This is an attempt to create a Document Classification system for Nano-related scientific papers.
 
