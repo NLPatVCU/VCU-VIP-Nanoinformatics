@@ -7,5 +7,5 @@ nn_model/
 *.xml
 
 *.iml
-Comp/
-News/
+*.txt
+*.ann
