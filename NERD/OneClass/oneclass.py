@@ -1,7 +1,7 @@
 from sklearn import svm
 import argparse
 from sklearn.externals import joblib
-from Tools.FileConverters import arff_converter
+from Tools.FileConverters import Arff2Dataframe
 
 # Get the Command Line Arguements
 pars = argparse.ArgumentParser()
@@ -10,7 +10,7 @@ arguments = pars.parse_args()
 args = vars(arguments)
 
 # Obtain the Dataset
-dataset = arff_converter.arff2df(args['train'])
+dataset = Arff2Dataframe.arff2df(args['train'])
 X = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, -1].map({'Yes': -1, 'No': 1}).values
 

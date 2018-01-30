@@ -3,10 +3,9 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.svm import SVC
 from sklearn.pipeline import Pipeline
 from sklearn.model_selection import cross_validate
-from Tools.TextTools import build_data_frame, clean_text
 import pandas as pd
 from sklearn.metrics import f1_score, precision_score, recall_score, make_scorer
-
+import Tools
 
 def shuffle(documents):
     return documents.reindex(np.random.permutation(documents.index))
@@ -20,6 +19,7 @@ documents = pd.concat(documents_array)
 documents = shuffle(documents)
 documents['text'] = documents['text'].map(lambda x: clean_text(x))
 
+NUMBER_OF_FOLDS = 10
 X = documents.iloc[:, 1].values
 y = documents.iloc[:, 0].values
 
@@ -33,5 +33,20 @@ scoreers = {
         "precision_scores": make_scorer(precision_score, average='weighted'),
         "recall_scores": make_scorer(recall_score, average='weighted'),
     }
-scores = cross_validate(pipeline, X, y, cv=10,scoring=scoreers, n_jobs=-1,)
-print(scores)
+scores = cross_validate(pipeline, X, y, cv=NUMBER_OF_FOLDS,scoring=scoreers, n_jobs=-1,)
+
+f1_scores = scores['test_f1_scores']
+precision_scores = scores['test_precision_scores']
+recall_scores = scores['test_recall_scores']
+
+for x in range(NUMBER_OF_FOLDS):
+    print("Fold number: ", x)
+    print("Precision: ", precision_scores[x])
+    print("Recall: ", recall_scores[x])
+    print("F1 Score: ", f1_scores[x])
+    print("\n")
+
+print("Averages Across Folds")
+print("Precision: ", np.mean(np.array(precision_scores)))
+print("Recall: ", np.mean(np.array(recall_scores)))
+print("F1 Score: ", np.mean(np.array(f1_scores)))

@@ -19,7 +19,7 @@ def getDocumentsFrom(mapping_df):
     return pd.concat(documents_array)
 
 
-mapping_df = pd.read_csv('mapping.csv')
+mapping_df = pd.read_csv('Data/mapping.csv')
 documents = getDocumentsFrom(mapping_df)
 documents = shuffle(documents)
 documents['text'] = documents['text'].map(lambda x: clean_text(x))

@@ -31,7 +31,6 @@ def clean_text(text):
     sentences = text.split(",")
     sentences = [word_tokenize(s) for s in sentences]
     sentences = remove_stop_words(sentences)
-    sentences = lemmatize(sentences)
     sentences = collapse(sentences)
     return sentences
 
