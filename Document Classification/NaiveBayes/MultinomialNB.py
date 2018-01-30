@@ -1,60 +1,57 @@
 import numpy as np
-from sklearn.metrics import confusion_matrix, classification_report, accuracy_score
 from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.model_selection import KFold
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.pipeline import Pipeline
-import Tools.TextTools as TextTools
+from sklearn.model_selection import cross_validate
+from Tools.TextTools import build_data_frame, clean_text
 import pandas as pd
+from sklearn.metrics import f1_score, precision_score, recall_score, make_scorer
 
 
-def shuffle(documents):
-    return documents.reindex(np.random.permutation(documents.index))
+def shuffle(docs):
+    return docs.reindex(np.random.permutation(docs.index))
 
 
-# Load the Data
+def getDocumentsFrom(mapping_df):
+    documents_array = []
+    for index, row in mapping_df.iterrows():
+        documents_array.append(build_data_frame(row["Directory"], row['Label']))
+    return pd.concat(documents_array)
+
+
 mapping_df = pd.read_csv('mapping.csv')
-documents_array = []
-for index, row in mapping_df.iterrows():
-    documents_array.append(TextTools.build_data_frame(row["Directory"], row['Label']))
-documents = pd.concat(documents_array)
+documents = getDocumentsFrom(mapping_df)
 documents = shuffle(documents)
+documents['text'] = documents['text'].map(lambda x: clean_text(x))
 
-
-# Clean the Data
-documents['text'] = documents['text'].map(lambda x: TextTools.clean_text(x))
-
+NUMBER_OF_FOLDS = 10
 X = documents.iloc[:, 1].values
 y = documents.iloc[:, 0].values
 
-# Create Data Pipeline
 pipeline = Pipeline([
     ('vectorizer', CountVectorizer(ngram_range=(1, 2))),
     ('classifier', MultinomialNB())
 ])
 
-# Make Predictions
-k_fold = KFold(n_splits=3)
-confusion = np.zeros(shape=(4,4))
-accuracy = 0
-for train_index, test_index in k_fold.split(X):
+scoreers = {
+        "f1_scores": make_scorer(f1_score, average='weighted'),
+        "precision_scores": make_scorer(precision_score, average='weighted'),
+        "recall_scores": make_scorer(recall_score, average='weighted'),
+    }
+scores = cross_validate(pipeline, X, y, cv=NUMBER_OF_FOLDS,scoring=scoreers, n_jobs=-1, return_train_score=False)
 
-    train_text, test_text = X[train_index],  X[test_index]
-    train_y, test_y = y[train_index], y[test_index]
+f1_scores = scores['test_f1_scores']
+precision_scores = scores['test_precision_scores']
+recall_scores = scores['test_recall_scores']
 
-    pipeline.fit(train_text, train_y)
-    predictions = pipeline.predict(test_text)
+for x in range(NUMBER_OF_FOLDS):
+    print("Fold number: ", x)
+    print("Precision: ", precision_scores[x])
+    print("Recall: ", recall_scores[x])
+    print("F1 Score: ", f1_scores[x])
+    print("\n")
 
-    y_actu = pd.Series(test_y, name='Actual')
-    y_pred = pd.Series(predictions, name='Predicted')
-    df_confusion = pd.crosstab(y_actu, y_pred)
-    print(df_confusion)
-
-    confusion += confusion_matrix(test_y, predictions)
-    accuracy += accuracy_score(test_y, predictions)
-    print(classification_report(test_y, predictions))
-    print("Accuracy: ", accuracy_score(test_y, predictions))
-
-print('Confusion matrix:')
-print(confusion)
-print("Accuracy: ", accuracy/3)
+print("Averages Across Folds")
+print("Precision: ", np.mean(np.array(precision_scores)))
+print("Recall: ", np.mean(np.array(recall_scores)))
+print("F1 Score: ", np.mean(np.array(f1_scores)))
