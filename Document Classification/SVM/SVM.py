@@ -12,7 +12,7 @@ def shuffle(documents):
     return documents.reindex(np.random.permutation(documents.index))
 
 
-mapping_df = pd.read_csv('mapping.csv')
+mapping_df = pd.read_csv('Data/mapping.csv')
 documents_array = []
 for index, row in mapping_df.iterrows():
     documents_array.append(build_data_frame(row["Directory"], row['Label']))
