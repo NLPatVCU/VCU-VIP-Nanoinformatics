@@ -18,7 +18,7 @@ X = dataset.iloc[:, :-1].values
 y_test = dataset.iloc[:, -1].map({'Yes': -1, 'No': 1}).values
 
 # Load the classifier and make predictions
-dtree = joblib.load('../Models/decisiontree/%s%s/decisiontree%s_%s.pkl' % (args['test'].split("/")[-1].split("_")[0],args['test'].split("/")[-3],args['test'].split("/")[-3], args['test'].split("/")[-1].replace('test','train')))
+dtree = joblib.load('../Models/randomforest/%s%s/randomforest%s_%s.pkl' % (args['test'].split("/")[-1].split("_")[0],args['test'].split("/")[-3],args['test'].split("/")[-3], args['test'].split("/")[-1].replace('test','train')))
 y_predicted = dtree.predict(X)
 #
 # dot_data = tree.export_graphviz(dtree, out_file=None,

@@ -1,5 +1,5 @@
 import argparse
-from sklearn import tree
+from sklearn import ensemble
 from sklearn.externals import joblib
 from Tools import arff_converter
 
@@ -19,13 +19,13 @@ y = dataset.iloc[:, -1].map({'Yes': -1, 'No': 1}).values
 
 
 # Create and fit the classifier
-dtree = tree.DecisionTreeClassifier();
+dtree = ensemble.RandomForestClassifier(random_state=0)
 
 dtree.fit(X,y);
 
 
 
 # Save the classifier
-joblib.dump(dtree, '../Models/decisiontree/decisiontree%s_%s.pkl' % (args['train'].split("/")[-3], args['train'].split("/")[-1]))
+joblib.dump(dtree, '../Models/randomforest/randomforest%s_%s.pkl' % (args['train'].split("/")[-3], args['train'].split("/")[-1]))
 
 
