@@ -24,7 +24,7 @@ for dirpath, dirnames, files in os.walk(topdir):
                 sentences = [re.sub('\s+', ' ', s).strip() for s in sentences] # Remove the Uneeded Spacing
                 sentences = [s.lower() for s in sentences] # Lowercase everything
                 sentences = [" ".join(w for w in wordpunct_tokenize(s) if w in words) for s in sentences] # Remove garbage (May be naieve)
-                sentences = [' '.join([w for w in s.split() if len(w)>1]) for s in sentences] # Remove single characters
+                sentences = [' '.join([w for w in s.split() if len(w) > 1]) for s in sentences] # Remove single characters
                 sentences = list(filter(None, sentences))  # Remove sentences with nothing in them
                 data['sentences'] = sentences
                 json.dump(data, file, indent=4)
