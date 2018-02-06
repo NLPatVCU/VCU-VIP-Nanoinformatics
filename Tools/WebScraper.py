@@ -3,14 +3,25 @@ import json
 from pandas import read_csv
 import os
 from bs4 import BeautifulSoup, SoupStrainer
+import argparse
+
+parser = argparse.ArgumentParser(description='Tool to Web Scrape the ACS website and parse papers into JSON format. '
+                                             'If you would like text format or JSONL use the provided converters.'
+                                             'Just provide a CSV that contains the title of a document and '
+                                             'the link to the full HTML of the paper.')
+parser.add_argument('--csv', help='CSV that should contain (Title,Link) to all pages that you wish to be scraped.')
+parser.add_argument('--outputdir', help="Output Directory that you would like the files to be written to.")
+
+arguments = parser.parse_args()
+outputDirectory = arguments.outputdir
 
 
 def main():
 
-    titleLinks = read_csv('ScraperCSV.csv')
+    titleLinks = read_csv(arguments.csv)
     for index, row in titleLinks.iterrows():
         page_in_json = JSONize(row['Link'])
-        writeJSON(row["Title"], page_in_json, "DataFilesAsJson")
+        writeJSON(row["Title"], page_in_json, outputDirectory)
 
 
 def writeJSON(Title, page_json, directory):
@@ -52,7 +63,11 @@ def JSONize(webpage):
 
     article_sections = html.find_all("div", class_='NLM_sec')
     for section in article_sections:
-        sectionTitle = section.find('h2').get_text()
+        sectionTitle = section.find('h2')
+        if sectionTitle:
+            sectionTitle = section.find('h2').get_text()
+        else:
+            sectionTitle = "NO SECTION HEADER PROVIDED"
         paragraphs = section.find_all("div", class_="NLM_p")
         for i, paragraph in enumerate(paragraphs):
             document.append({"text": paragraph.get_text(), "meta": {"section": sectionTitle,"paragraph": i}})
