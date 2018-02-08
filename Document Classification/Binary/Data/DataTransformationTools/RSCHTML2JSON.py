@@ -1,12 +1,12 @@
 from chemdataextractor.scrape import Selector
 from chemdataextractor.scrape.pub.rsc import RscHtmlDocument
-from chemdataextractor import Document
 import json
 import os
-from bs4 import BeautifulSoup, SoupStrainer
+from bs4 import BeautifulSoup
+import re
 
-
-inputDirectory = "../HTML/ACSHTML"
+inputDirectory = "../HTML/RSCHTML"
+outputDirectory = "../JSON"
 papers = []
 for dirpath, dirnames, files in os.walk(inputDirectory):
     for name in files:
@@ -24,7 +24,8 @@ for dirpath, dirnames, files in os.walk(inputDirectory):
             file_json['volume'] = scrape.volume
             file_json['issue'] = scrape.issue
             file_json['abstract_location'] = scrape.html_url
-            file_json['abstract'] = abstract
+            file_json['abstract'] = re.sub("\n","",abstract)
             papers.append(file_json)
-    print(json.dumps(papers, indent=4, separators=(',',":")))
-
+        complete_path = os.path.join(outputDirectory, "RSC.json")
+        with open(complete_path, "w") as jsonfile:
+            jsonfile.write(json.dumps(papers, indent=4, separators=(',',":")))
