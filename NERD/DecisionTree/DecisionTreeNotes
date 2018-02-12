@@ -1,8 +1,0 @@
-ActiveIngredient:
-o_
-Precision: 0.971429
-Recall: 0.431746
-Accuracy: 0.990231
-[[  136   179]
- [    4 18413]]
- Notes: High precision due to small number of no unique mentions
