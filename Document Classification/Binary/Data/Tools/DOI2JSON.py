@@ -1,16 +1,24 @@
-import os
-from urllib.parse import urlparse
-from selenium import webdriver
-import re
 import json
+import re
+from urllib.parse import urlparse
+
 from bs4 import BeautifulSoup
+from selenium import webdriver
+
+"""Program that coverts a file that is full of links to papers into parsed JSON 
+
+The conversion is done with a web scraper. There are web scrapers built for both the ACS
+and the RSC websites.
+
+"""
 
 
 def main():
 
     driver = createDriver()
+    inputFile = "asc.dois"
 
-    with open("asc.dois") as file:
+    with open(inputFile) as file:
         content = file.read()
         content = content.split("\n")
         content = [re.split(r"\s:\s", x) for x in content if x]
@@ -28,11 +36,11 @@ def main():
 
             if URL == "pubs.rsc.org":
                 parsedHTML = RSCHTMLParser.parse(source)
+                JSONContent.append(parsedHTML)
 
             elif URL == 'pubs.acs.org':
                 parsedHTML = ASCHTMLParser.parse(source)
-
-            JSONContent.append(parsedHTML)
+                JSONContent.append(parsedHTML)
 
         with open("../JSON/DOIData.json", "w") as f:
             f.write(json.dumps(JSONContent, indent=4, separators=(',', ":")))
@@ -76,7 +84,8 @@ class RSCHTMLParser:
     @staticmethod
     def parse(html):
         htmlSoup = BeautifulSoup(html, "html.parser")
-        abstract = htmlSoup.find("div", class_ ='capsule__text').getText()
+        abstract = htmlSoup.find("div", class_ ='capsule__text')
+        abstract = abstract.getText() if abstract else "No Abstract Provided"
         doi = htmlSoup.find("meta",  attrs={'name': 'DC.Identifier'})["content"]
         title = htmlSoup.find("meta",  attrs={'name': 'DC.title'})
         title = title['content'] if title else "No Title Provided"
