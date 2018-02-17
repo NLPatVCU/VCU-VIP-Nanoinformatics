@@ -1,8 +1,7 @@
 from flask import Flask
 from flask_restplus import Resource, Api
 from flask_restplus import reqparse
-from nltk import pos_tag
-from nltk.tokenize import word_tokenize
+from API.wsd import wsd
 
 app = Flask(__name__)
 app.config['SWAGGER_UI_DOC_EXPANSION'] = 'list'
@@ -18,7 +17,7 @@ class HelloWorld(Resource):
     def get(self):
         args = parser.parse_args()
         inputString = args['inputString']
-        return pos_tag(word_tokenize(inputString))
+        return wsd(inputString)
 
 
 if __name__ == '__main__':
