@@ -1,10 +1,19 @@
 # VCU Vertically Integrated Projects (VIP) Team on Nanoinformatics 
 
-#### Background: 
+### Background: 
 
 There is a critical need to automatically extract and synthesize knowledge and trends in nanotechnology research from an exponentially increasing body of literature. New engineered nanomaterials (ENMs), such as nanomedicines, are continuously being discovered and Natural Language Processing (NLP) approaches can semi‐automate the cataloging of ENMs and their unique physico‐chemical properties. The VCU Nanoinformatics Team applies NLP approaches to automatically aggregate studies on ENMs.
 
-## Getting Started
+### Goals:
+
+The team is looking for interested sophomore, junior, and senior undergraduate Computer Science, Chemical and Life Science Engineering, and Biomedical Engineering students with a strong desire to participate in the creation of machine learning technologies.
+
+### Projects:
+
+Developing links to appropriate literature repositories Developing techniques for author identification, document summarization, and document classification Development of a quality control framework and user interface Conducting user usability analysis
+
+
+## Current Projects
 
 The project is broken down into the following components:
 
