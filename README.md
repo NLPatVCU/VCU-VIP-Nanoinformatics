@@ -1,4 +1,4 @@
-# VCU Nanoinformatics Team 
+# VCU Vertically Integrated Projects (VIP) Team on Nanoinformatics 
 
 #### Background: 
 
