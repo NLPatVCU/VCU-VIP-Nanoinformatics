@@ -31,7 +31,7 @@ This is the attempt to create a Named Entity Recognizer for Nano-related things.
 
 This is an attempt to create a Document Classification system for Nano-related scientific papers.
 
-### Tools
+### [Tools](https://github.com/bmcinnes/VCU-VIP-Nanoinformatics/tree/master/Tools)
 
 Tools is used for common NLP tools such as coverters and many text processing steps.
 
