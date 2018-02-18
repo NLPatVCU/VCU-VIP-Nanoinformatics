@@ -1,4 +1,4 @@
-# VCU Nanoinformatics 
+# VCU Nanoinformatics Team 
 
 #### Background: 
 
@@ -21,15 +21,15 @@ The project is broken down into the following components:
 
 ### [FIND](https://github.com/bmcinnes/VCU-VIP-Nanoinformatics/tree/master/FIND) 
 
-This is where all the Front-End and code related to the database/Website will go.
+Framework for Intelligent Nanoparticle Discovery (FIND): Front-End and code related to the database/Website. 
 
 ### [NERD](https://github.com/bmcinnes/VCU-VIP-Nanoinformatics/tree/master/NERD) 
 
-This is the attempt to create a Named Entity Recognizer for Nano-related things.
+Named Entity Recognition and Discovery (NERD): Framework to automatically extract nanoparticle synthesis, characteristics and biological effect information from the literature. 
 
-### [Document Classification](https://github.com/bmcinnes/VCU-VIP-Nanoinformatics/tree/master/NERD)
+### [NanoDC](https://github.com/bmcinnes/VCU-VIP-Nanoinformatics/tree/master/NanoDC)
 
-This is an attempt to create a Document Classification system for Nano-related scientific papers.
+Nano Document Classification (NanoDC): Framework to automatically identify Nano-related scientific papers.
 
 ### [Tools](https://github.com/bmcinnes/VCU-VIP-Nanoinformatics/tree/master/Tools)
 
